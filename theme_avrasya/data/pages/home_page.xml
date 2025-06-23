@@ -803,7 +803,7 @@
               </div>
             </section>
 
-            <t t-call="theme_avrasya.avrasya_testimonials_snippet" />
+            <!-- <t t-call="theme_avrasya.avrasya_testimonials_snippet" /> -->
 
             <t t-call="theme_avrasya.avrasya_faqs_snippet" />
 

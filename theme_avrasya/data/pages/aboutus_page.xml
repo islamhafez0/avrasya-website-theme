@@ -574,7 +574,7 @@
               </div>
             </section>
 
-            <section
+            <!-- <section
               class="s_carousel_wrapper"
               data-vxml="001"
               data-snippet="s_carousel"
@@ -867,7 +867,7 @@
                   </a>
                 </div>
               </div>
-            </section>
+            </section> -->
 
             <t t-call="theme_avrasya.avrasya_custom_newsletter_form" />
           </div>
