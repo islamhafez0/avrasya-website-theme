@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <template id="avrasya_custom_contact_form">
+      <div class="s_website_form">
+        <form
+          action="/website/form/"
+          method="post"
+          enctype="multipart/form-data"
+          data-mark="*"
+          data-pre-fill="true"
+          data-model_name="crm.lead"
+          class="o_mark_required"
+        >
+          <input
+            type="hidden"
+            name="csrf_token"
+            t-att-value="request.csrf_token()"
+          />
+          <div class="s_website_form_rows row s_col_no_bgcolor">
+            <div
+              data-name="Field"
+              class="s_website_form_field mb-3 col-12 s_website_form_custom s_website_form_required"
+              data-type="char"
+            >
+              <div class="row flex-column s_col_no_resize s_col_no_bgcolor">
+                <label
+                  class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                  style="width: 200px"
+                  for="oszisw3t7ufr"
+                  ><span class="s_website_form_label_content"
+                    >Full Name</span
+                  ></label
+                >
+                <div class="col-sm">
+                  <input
+                    class="form-control s_website_form_input"
+                    type="text"
+                    name="name"
+                    required="1"
+                    placeholder=""
+                    id="oszisw3t7ufr"
+                    data-fill-with="name"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="d-flex flex-column flex-lg-row gap-3 mb-3">
+              <div
+                data-name="Field"
+                class="s_website_form_field mb-3 mb-lg-0 col-12 s_website_form_custom s_website_form_required _flex_1"
+                data-type="tel"
+              >
+                <div
+                  class="d-flex flex-column s_col_no_resize s_col_no_bgcolor"
+                >
+                  <label
+                    class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                    style="width: 200px"
+                    for="oxqac9px4i6o"
+                    ><span class="s_website_form_label_content">Phone</span
+                    ><span class="s_website_form_mark"> *</span></label
+                  >
+                  <div class="col-sm">
+                    <input
+                      class="form-control s_website_form_input"
+                      type="tel"
+                      required="1"
+                      name="phone"
+                      placeholder=""
+                      id="oxqac9px4i6o"
+                      data-fill-with="phone"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div
+                data-name="Field"
+                class="s_website_form_field mb-3 mb-lg-0 s_website_form_required _flex_1"
+                data-type="email"
+              >
+                <div
+                  class="d-flex flex-column s_col_no_resize s_col_no_bgcolor"
+                >
+                  <label
+                    class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                    style="width: 200px"
+                    for="osk96i3zhl0c"
+                    ><span class="s_website_form_label_content"
+                      >Email</span
+                    ></label
+                  >
+                  <div class="col-sm">
+                    <input
+                      class="form-control s_website_form_input"
+                      type="email"
+                      name="email_from"
+                      required="1"
+                      placeholder=""
+                      id="osk96i3zhl0c"
+                      data-fill-with="email"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              data-name="Field"
+              class="s_website_form_field mb-3 s_website_form_custom s_website_form_required"
+              data-type="char"
+            >
+              <div class="row flex-column s_col_no_resize s_col_no_bgcolor">
+                <label
+                  class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                  style="width: 200px"
+                  for="on8u3oqmu22n"
+                  ><span class="s_website_form_label_content">Company Name</span
+                  ><span class="s_website_form_mark"> *</span></label
+                >
+                <div class="col-sm">
+                  <input
+                    class="form-control s_website_form_input"
+                    type="text"
+                    required="1"
+                    name="partner_name"
+                    placeholder=""
+                    id="on8u3oqmu22n"
+                    data-fill-with="commercial_company_name"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="d-flex flex-column flex-lg-row align-items-lg-center gap-3 mb-3"
+            >
+              <div
+                data-name="Field"
+                class="_flex_1 s_website_form_field mb-3 mb-lg-0 col-12 s_website_form_model_required"
+                data-type="many2one"
+              >
+                <div
+                  class="d-flex flex-column s_col_no_resize s_col_no_bgcolor s_website_form_required"
+                >
+                  <label
+                    class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                    style="width: 200px"
+                    for="country_id"
+                  >
+                    <span class="s_website_form_label_content">Country</span>
+                    <span class="s_website_form_mark">*</span>
+                  </label>
+                  <div class="col-sm">
+                    <t
+                      t-set="country_ids"
+                      t-value="request.env['res.country'].sudo().search([])"
+                    />
+
+                    <select
+                      class="form-select s_website_form_input"
+                      name="country_id"
+                      id="country_id"
+                      required="1"
+                    >
+                      <t t-foreach="country_ids" t-as="country">
+                        <option
+                          t-att-value="country.id"
+                          t-att-selected="country.code == 'QA' and 'selected' or None"
+                          t-out="country.name"
+                        />
+                      </t>
+                    </select>
+                  </div>
+                </div>
+              </div>
+
+              <div
+                data-name="Field"
+                class="_flex_1 s_website_form_field mb-3 mb-lg-0 col-12 s_website_form_custom"
+                data-type="many2one"
+              >
+                <div
+                  class="d-flex flex-column s_col_no_resize s_col_no_bgcolor"
+                >
+                  <label
+                    class="fw-bold mb-2 col-sm-auto s_website_form_label s_website_form_required"
+                    style="width: 200px"
+                    for="oo2sflo61woh"
+                    ><span class="s_website_form_label_content"
+                      >Partnership Details</span
+                    ><span class="s_website_form_mark"> *</span></label
+                  >
+                  <div class="col-sm">
+                    <select
+                      class="form-select s_website_form_input"
+                      name="partnership_details"
+                      required="1"
+                      id="oo2sflo61woh"
+                    >
+                      <option
+                        value="Global Trade Facilitation"
+                        selected="selected"
+                      >
+                        Global Trade Facilitation
+                      </option>
+                      <option value="Strategic Investments">
+                        Strategic Investments
+                      </option>
+                      <option value="Supply Chain Optimization">
+                        Supply Chain Optimization
+                      </option>
+                      <option value="Market Entry Strategies">
+                        Market Entry Strategies
+                      </option>
+                    </select>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div
+              data-name="Field"
+              class="s_website_form_field mb-3 col-12 s_website_form_custom s_website_form_required"
+              data-type="text"
+            >
+              <div class="row flex-column s_col_no_resize s_col_no_bgcolor">
+                <label
+                  class="fw-bold mb-2 col-sm-auto s_website_form_label"
+                  style="width: 200px"
+                  for="o6fqhhp80hdq"
+                  ><span class="s_website_form_label_content"
+                    >Message</span
+                  ></label
+                >
+                <div class="col-sm">
+                  <textarea
+                    class="form-control no-resize s_website_form_input"
+                    name="description"
+                    placeholder=""
+                    required="1"
+                    id="o6fqhhp80hdq"
+                    rows="3"
+                  />
+                </div>
+              </div>
+            </div>
+            <div
+              data-name="Field"
+              class="s_website_form_field mb-3 col-12 s_website_form_custom s_website_form_required"
+              data-type="boolean"
+            >
+              <div class="row s_col_no_resize s_col_no_bgcolor">
+                <label
+                  class="sr-only col-sm-auto s_website_form_label"
+                  style="width: 200px"
+                  for="otvqbsz24388"
+                >
+                  <span class="s_website_form_label_content"></span>
+                </label>
+                <div class="col-sm d-flex gap-3">
+                  <div class="form-check">
+                    <input
+                      type="checkbox"
+                      value="Yes"
+                      class="s_website_form_input form-check-input"
+                      name="privacy_check"
+                      required="1"
+                      id="otvqbsz24388"
+                      data-fill-with="undefined"
+                    />
+                  </div>
+                  <div
+                    class="s_website_form_field_description small form-text text-primary fw-bold"
+                  >
+                    By checking this box, I agree to the privacy policy
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="mb-0 py-2 col-12 s_website_form_submit"
+              data-name="Submit Button"
+            >
+              <div style="width: 200px" class="s_website_form_label" />
+
+              <button
+                type="submit"
+                class="w-100 btn btn-primary s_website_form_send"
+              >
+                Submit
+              </button>
+              <span id="s_website_form_result" />
+            </div>
+          </div>
+        </form>
+      </div>
+    </template>
+  </data>
+</odoo>

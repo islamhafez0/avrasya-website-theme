@@ -1,0 +1,615 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record id="market_entry_strategies_service_page" model="website.page">
+      <field name="name">Market Entry Strategies</field>
+      <field name="is_published">True</field>
+      <field name="url">/market-entry-strategies</field>
+      <field name="track">False</field>
+      <field name="type">qweb</field>
+      <field name="key"
+        >theme_avrasya.market_entry_strategies_service_page</field
+      >
+      <field name="is_homepage">False</field>
+      <field name="arch" type="xml">
+        <t name="Market Entry Strategies" priority="21">
+          <t t-call="website.layout">
+            <div id="wrap" class="oe_structure">
+              <div class="main__content__area service_area">
+                <section class="pt80 pb80 service_area-hero">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-lg-7">
+                        <h1 class="h2 mb24">
+                          Market Entry Strategies Development
+                        </h1>
+                        <p class="mb32 pe-lg-5">
+                          We help strengthen your investments through our
+                          well-thought-out market entry strategies. Through our
+                          integrated solutions and experienced experts, we
+                          enable you to explore promising global opportunities
+                          and achieve maximum returns on your investments.
+                        </p>
+                        <div class="d-flex flex-column flex-md-row gap-4">
+                          <a
+                            href="/contactus"
+                            class="btn btn-secondary py-3 px-5"
+                            >Request a consultation</a
+                          >
+                          <a
+                            href="#discover_our_services"
+                            class="btn btn-outline-primary py-3 px-5"
+                            >Discover Our Services</a
+                          >
+                        </div>
+                        <div class="d-flex align-items-start gap-2 mt32">
+                          <svg
+                            width="48"
+                            height="48"
+                            viewBox="0 0 48 48"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M13.8201 11L18.4201 15.58L15.5801 18.42L11.0001 13.82L6.42008 18.42L3.58008 15.58L8.18008 11L3.58008 6.42002L6.42008 3.58002L11.0001 8.18002L15.5801 3.58002L18.4201 6.42002M44.4201 32.42L41.5801 29.58L37.0001 34.18L32.4201 29.58L29.5801 32.42L34.1801 37L29.5801 41.58L32.4201 44.42L37.0001 39.82L41.5801 44.42L44.4201 41.58L39.8201 37M40.8001 13.66L34.3601 22L31.2001 19.46L33.5401 16.46C30.5554 17.0663 27.7712 18.4135 25.4436 20.3777C23.1159 22.3418 21.3197 24.8598 20.2201 27.7C21.9609 28.9554 23.1957 30.7914 23.702 32.8771C24.2082 34.9627 23.9524 37.1606 22.9808 39.0743C22.0092 40.988 20.3857 42.4915 18.4032 43.3135C16.4207 44.1356 14.2096 44.2221 12.1689 43.5575C10.1282 42.8929 8.39219 41.5209 7.27398 39.6891C6.15578 37.8572 5.72901 35.686 6.07067 33.5672C6.41233 31.4483 7.49993 29.5213 9.13727 28.1338C10.7746 26.7462 12.8539 25.9895 15.0001 26C15.5241 26.0021 16.0466 26.0557 16.5601 26.16C17.9457 22.7213 20.1582 19.6774 23.0014 17.2982C25.8447 14.9189 29.2309 13.2777 32.8601 12.52L30.0001 10.36L32.5401 7.20002M20.0001 35C20.0001 34.0111 19.7068 33.0444 19.1574 32.2222C18.608 31.3999 17.8271 30.7591 16.9135 30.3806C15.9999 30.0022 14.9945 29.9032 14.0246 30.0961C13.0547 30.289 12.1638 30.7652 11.4645 31.4645C10.7653 32.1637 10.2891 33.0547 10.0962 34.0246C9.90323 34.9945 10.0022 35.9998 10.3807 36.9134C10.7591 37.8271 11.4 38.608 12.2222 39.1574C13.0445 39.7068 14.0112 40 15.0001 40C16.3262 40 17.5979 39.4732 18.5356 38.5356C19.4733 37.5979 20.0001 36.3261 20.0001 35Z"
+                              fill="#09294F"
+                            />
+                          </svg>
+                          <p class="_flex_1 m-0 pe-lg-5">
+                            Supported by specialized expertise, we provide
+                            distinguished services that help you explore
+                            suitable expansion opportunities, and lead you to
+                            achieve the highest returns and enhance your global
+                            growth with creativity.
+                          </p>
+                        </div>
+                      </div>
+                      <div class="col-lg-5 mt-4 mt-lg-0">
+                        <img
+                          src="/theme_avrasya/static/src/images/market-entry-strategies/market-entry-strategies-hero.png"
+                          alt="Market Entry Strategies Development"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section
+                  class="pt80 pb80 section__service-highlight"
+                  id="discover_our_services"
+                >
+                  <div class="container">
+                    <div>
+                      <h3 class="mb16 h5">
+                        Why should you expand your business into new markets?
+                      </h3>
+                      <p class="m-0">
+                        Expanding your business is an effective strategic step
+                        that boosts your global competitive position, and allows
+                        you to reach a larger client base. It also enables you
+                        to diversify and grow your revenue fully integrated and
+                        place your business in an ideal position to achieve the
+                        sustainable success you are striving for.
+                      </p>
+                    </div>
+                    <div class="row mt32">
+                      <div class="col-lg-7">
+                        <h3 class="h5 mb16">
+                          What are the key challenges you might face when
+                          expanding into new markets?
+                        </h3>
+                        <ul class="m-0 p-0 d-flex flex-wrap gap-3">
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1 font-medium">
+                                Local competition in new markets.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1 font-medium">
+                                Legal and regulatory challenges.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1 font-medium">
+                                Developing an efficient supply chain.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1 font-medium">
+                                Finding suitable local partners.
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1 font-medium">
+                                Differences in customer preferences.
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                        <div class="pe-lg-5">
+                          <h4 class="h5 mb16 mt32">
+                            How does Avrasya help you develop effective
+                            strategies to compete in new markets?
+                          </h4>
+                          <ul class="m-0 p-0 d-flex flex-column gap-3">
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                  We help you effectively study and analyze
+                                  local competitors in new markets to develop
+                                  effective competitive advantages that help you
+                                  overcome them.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                  We closely analyze customer needs in new
+                                  markets and helps you develop and customize
+                                  your products and services to align with these
+                                  needs comprehensively.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                  We provide legal and regulatory consulting to
+                                  help you understand new markets' legal
+                                  requirements and risks and ensure your
+                                  compliance effectively.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                  We help you optimize your logistics operations
+                                  in new markets, to enhance your growth
+                                  efficiently.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                  We empower you to identify and assess suitable
+                                  local partners and boost your ability to
+                                  manage relationships with them effectively.
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="col-lg-5 mt-4 mt-lg-0 service_img_wrapper">
+                        <img
+                          src="/theme_avrasya/static/src/images/market-entry-strategies/service_highlight_img.png"
+                          alt="Why should you expand your business into new markets?"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="pt80 pb80 services__shape-bg">
+                  <div class="container">
+                    <div class="text-center">
+                      <h4 class="mb32">Our Services</h4>
+                    </div>
+                    <div
+                      class="row justify-content-center"
+                      style="row-gap: 48px"
+                    >
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">Market Analysis</h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We develop effective studies that help you
+                            understand the dynamics of new markets efficiently.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We assess market size and identify competition and
+                            growth opportunities in an integrated manner.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We analyze customer behaviour and market trends to
+                            ensure your products and services meet their needs.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Risk Evaluation and Expansion Plans
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We help you identify operational, financial, and
+                            commercial risks in new markets.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We develop comprehensive strategies to reduce
+                            potential challenges and ensure a smooth entry into
+                            the new market.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We enable you to achieve the desired legal and
+                            regulatory compliance for effective expansion into
+                            new markets.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Pricing and Distribution Strategies
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We help you determine the optimal pricing model for
+                            each market based on an integrated analysis of costs
+                            and competition.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We develop integrated distribution strategies that
+                            align with your business needs.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We support your logistics operations and improve
+                            efficiency to ensure your products and services are
+                            effectively available in new markets.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Building Effective Partnerships
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We help you find reliable local partners and
+                            distributors to strengthen your ability to grow in
+                            new markets.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We enable you to negotiate effectively on contracts
+                            and commercial agreements to maximize benefits.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We enhance your ability to manage relationships with
+                            local suppliers comprehensively to ensure achieving
+                            the desired growth.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start text-md-center mb16">
+                          Advanced Marketing Strategies
+                        </h5>
+                        <ul
+                          class="m-0 p-0 bullted__list has_checkmark text-center align-items-lg-center"
+                        >
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                          >
+                            We develop creative and customized marketing
+                            campaigns that align with the new market’s culture
+                            and expectations.
+                          </li>
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                          >
+                            We design diverse plans which depend on traditional
+                            and digital channels to ensure you reach new clients
+                            effectively.
+                          </li>
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                          >
+                            We help you build an effective brand identity that
+                            strengthens your competitive position in new
+                            markets.
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <section class="pt80 pb80" style="background-color: #09294f05">
+                  <div class="container">
+                    <h4 class="text-center mb40">Why Choose Our Services?</h4>
+                    <div class="row" style="row-gap: 1.5rem">
+                      <div
+                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                      >
+                        <h5>
+                          We provide precise analysis and develop effective
+                          strategies to maximize your success in new markets.
+                        </h5>
+                      </div>
+                      <div
+                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                      >
+                        <h5>
+                          We provide integrated support through all stages, from
+                          planning to execution, to ensure effective and
+                          sustainable expansion.
+                        </h5>
+                      </div>
+                      <div
+                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                      >
+                        <h5>
+                          We develop customized solutions that align with your
+                          business nature, customer needs, and competition in
+                          each market.
+                        </h5>
+                      </div>
+                      <div
+                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                      >
+                        <h5>
+                          We reduce risks and ensure comprehensive compliance
+                          with local regulations in new markets.
+                        </h5>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+
+                <t t-call="theme_avrasya.avrasya_custom_info_map" />
+              </div>
+            </div>
+          </t>
+        </t>
+      </field>
+    </record>
+  </data>
+</odoo>

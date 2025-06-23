@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+  <t t-name="theme_avrasya.testimonials">
+    <div class="row mt56">
+      <t t-if="state.loading">
+        <t t-foreach="[1, 2, 3]" t-as="skeleton" t-key="skeleton">
+          <div class="col-lg-4 mb-4">
+            <div class="h-100 bg-white rounded-md pt32 pb32 px-4">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                  <div
+                    class="rounded-circle bg-light"
+                    style="
+                      width: 60px;
+                      height: 60px;
+                      animation: pulse 1.5s infinite;
+                    "
+                  ></div>
+                  <div>
+                    <div
+                      class="bg-light mb8"
+                      style="
+                        width: 120px;
+                        height: 20px;
+                        animation: pulse 1.5s infinite;
+                      "
+                    ></div>
+                    <div
+                      class="bg-light"
+                      style="
+                        width: 80px;
+                        height: 16px;
+                        animation: pulse 1.5s infinite;
+                      "
+                    ></div>
+                  </div>
+                </div>
+                <div
+                  class="bg-light"
+                  style="
+                    width: 17px;
+                    height: 14px;
+                    animation: pulse 1.5s infinite;
+                  "
+                ></div>
+              </div>
+              <div class="mt24">
+                <div
+                  class="bg-light mb-2"
+                  style="
+                    width: 100%;
+                    height: 16px;
+                    animation: pulse 1.5s infinite;
+                  "
+                ></div>
+                <div
+                  class="bg-light mb-2"
+                  style="
+                    width: 80%;
+                    height: 16px;
+                    animation: pulse 1.5s infinite;
+                  "
+                ></div>
+                <div
+                  class="bg-light"
+                  style="
+                    width: 60%;
+                    height: 16px;
+                    animation: pulse 1.5s infinite;
+                  "
+                ></div>
+              </div>
+            </div>
+          </div>
+        </t>
+      </t>
+
+      <t t-elif="state.error">
+        <div class="col-12">
+          <div
+            class="alert alert-danger d-flex align-items-center justify-content-between"
+          >
+            <span><t t-esc="state.error" /></span>
+            <button class="btn btn-primary btn-sm" t-on-click="retryFetch">
+              Try Again
+            </button>
+          </div>
+        </div>
+      </t>
+
+      <t t-else="">
+        <t t-if="state.testimonials.length === 0">
+          <div class="col-12 text-center">
+            <p class="text-muted">No testimonials available.</p>
+          </div>
+        </t>
+        <t
+          t-foreach="state.testimonials"
+          t-as="testimonial"
+          t-key="testimonial.id"
+        >
+          <div class="col-lg-4 mb-4">
+            <div class="h-100 bg-white rounded-md pt32 pb32 px-4 text-primary">
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex align-items-center gap-3">
+                  <t t-if="testimonial.img_url">
+                    <img
+                      t-att-src="'/web/image/testimonials.model/' + testimonial.id + '/img_url'"
+                      alt="Testimonial Image"
+                      class="rounded-circle"
+                      style="
+                        width: 56px;
+                        height: 56px;
+                        object-fit: cover;
+                        border: 1px solid #09294f1f;
+                      "
+                    />
+                  </t>
+                  <div>
+                    <p class="h5 mb8">
+                      <t t-esc="testimonial.display_name" />
+                    </p>
+                    <p class="m-0 display-6" style="color: #000033f2">
+                      <t t-esc="testimonial.job_title" />
+                    </p>
+                  </div>
+                </div>
+                <svg
+                  width="17"
+                  height="14"
+                  viewBox="0 0 17 14"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M9.64 6.92V13.592H16.36V9.176C16.36 7.512 16.072 5.992 15.496 4.616C14.92 3.24 13.944 1.864 12.568 0.487998L10.072 2.408C10.84 3.272 11.448 4.056 11.896 4.76C12.312 5.464 12.584 6.184 12.712 6.92H9.64ZM0.375999 6.92V13.592H7.096V9.176C7.096 7.512 6.808 5.992 6.232 4.616C5.656 3.24 4.68 1.864 3.304 0.487998L0.808 2.408C1.576 3.272 2.184 4.056 2.632 4.76C3.048 5.464 3.32 6.184 3.448 6.92H0.375999Z"
+                    fill="#09294F"
+                  />
+                </svg>
+              </div>
+              <p class="mt24 mb-0" style="color: #000033f2">
+                <t t-esc="testimonial.description" />
+              </p>
+            </div>
+          </div>
+        </t>
+      </t>
+    </div>
+  </t>
+</templates>

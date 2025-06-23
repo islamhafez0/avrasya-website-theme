@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record id="avrasya_services_page" model="website.page">
+      <field name="name">Services</field>
+      <field name="is_published">True</field>
+      <field name="url">/services</field>
+      <field name="track">False</field>
+      <field name="type">qweb</field>
+      <field name="key">theme_avrasya.avrasya_services_page</field>
+      <field name="is_homepage">False</field>
+      <field name="arch" type="xml">
+        <t name="Services Page" priority="21">
+          <t t-call="website.layout">
+            <div id="wrap" class="oe_structure">
+              <div class="main__content__area services">
+                <section class="hero__services pb32">
+                  <div class="container-xxl">
+                    <div
+                      class="row justify-content-md-center flex-column-reverse flex-md-row gap-5 gap-md-0"
+                    >
+                      <div class="col-md-6 col-lg-4" style="min-height: 400px">
+                        <div class="services owl-carousel owl-theme">
+                          <div>
+                            <img
+                              src="/theme_avrasya/static/src/images/services/hero__1.png"
+                              alt="Our Services Image 1"
+                              class="w-100 object-cover aspect-square"
+                              loading="eager"
+                              fetchpriority="high"
+                            />
+                          </div>
+                          <div>
+                            <img
+                              src="/theme_avrasya/static/src/images/services/hero__2.png"
+                              alt="Our Services Image 2"
+                              class="w-100 object-cover aspect-square"
+                              loading="eager"
+                              fetchpriority="high"
+                            />
+                          </div>
+                          <div>
+                            <img
+                              src="/theme_avrasya/static/src/images/services/hero__3.png"
+                              alt="Our Services Image 3"
+                              class="w-100 object-cover aspect-square"
+                              loading="eager"
+                              fetchpriority="high"
+                            />
+                          </div>
+                          <div>
+                            <img
+                              src="/theme_avrasya/static/src/images/services/hero__4.png"
+                              alt="Our Services Image 4"
+                              class="w-100 object-cover aspect-square"
+                              loading="eager"
+                              fetchpriority="high"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="col-md-8 col-lg-6 pt56 text-center text-lg-start"
+                      >
+                        <h1 class="h2 mb16">Avrasya Services</h1>
+                        <p class="mb32">
+                          Our advanced solutions help businesses achieve
+                          sustainable performance, operational efficiency, and
+                          exceptional growth.
+                        </p>
+                        <a
+                          href="#dicover_our_services"
+                          class="btn btn-primary py-3 px-4"
+                        >
+                          Discover Our Services
+                        </a>
+                      </div>
+                    </div>
+                    <div class="row mt32 row-gap-4">
+                      <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="d-flex align-items-start gap-2 pe-xl-4">
+                          <img
+                            src="/theme_avrasya/static/src/images/services/facilitate__international_trade.svg"
+                            alt="We facilitate your international trade"
+                          />
+                          <div>
+                            <strong>
+                              We facilitate your international trade
+                            </strong>
+                            <p class="mt4 mb-0">
+                              To enhance your ability to grow effectively in the
+                              business world.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="d-flex align-items-start gap-2 pe-xl-4">
+                          <img
+                            src="/theme_avrasya/static/src/images/services/market_strategy.svg"
+                            alt="We develop market entry strategies"
+                          />
+                          <div>
+                            <strong>
+                              We develop market entry strategies
+                            </strong>
+                            <p class="mt4 mb-0">
+                              To lead you to explore and exploit the best
+                              opportunities smoothly.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="d-flex align-items-start gap-2 pe-xl-4">
+                          <img
+                            src="/theme_avrasya/static/src/images/services/supply_chain.svg"
+                            alt="We improve supply chains"
+                          />
+                          <div>
+                            <strong> We improve supply chains </strong>
+                            <p class="mt4 mb-0">
+                              To maximize the efficiency and quality of your
+                              international resource flow.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-sm-6 col-md-4 col-xl-3">
+                        <div class="d-flex align-items-start gap-2 pe-xl-4">
+                          <img
+                            src="/theme_avrasya/static/src/images/services/strategic_investments.svg"
+                            alt="We enhance the efficiency of strategic investments"
+                          />
+                          <div>
+                            <strong>
+                              We enhance the efficiency of strategic investments
+                            </strong>
+                            <p class="mt4 mb-0">
+                              To maximize the efficiency and quality of your
+                              international resource flow.
+                            </p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="pt80 pb80">
+                  <div class="container" id="dicover_our_services">
+                    <div class="row justify-content-between">
+                      <div class="col-md-6 col-lg-5 mb-4 mb-lg-0">
+                        <img
+                          src="/theme_avrasya/static/src/images/services/facilitate__international_trade_lg.png"
+                          alt="Facilitating International Trade"
+                        />
+                      </div>
+                      <div class="col-md-6 col-lg-6">
+                        <h2 class="h4">Facilitating International Trade</h2>
+                        <p>
+                          We simplify international operations and streamline
+                          cross-border trade to help you reduce complications
+                          you may face, improve operational efficiency, and
+                          ensure your business runs on time and within budget.
+                        </p>
+                        <ul class="m-0 p-0 mt16 mb24">
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1">Logistics management</p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1">
+                                Logistics insurance services
+                              </p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1">
+                                Customs clearance services
+                              </p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1">
+                                Commercial document preparation services
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0 _flex_1">
+                                Trade compliance and risk management
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                        <a
+                          href="/facilitating-global-trade"
+                          class="d-flex align-items-center gap-2 fw-bold"
+                        >
+                          Explore more details
+                          <svg
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
+                              stroke="#09294F"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="pt80 pb80 services__shape-bg">
+                  <div class="container">
+                    <div class="text-center mb32">
+                      <h3 class="h4 mb16">Supply Chain Optimization</h3>
+                      <p class="m-0 mx-auto" style="max-width: 900px">
+                        We enhance your supply chain through our integrated
+                        solutions that help simplify your operations, reduce
+                        costs, and achieve the highest level of efficiency to
+                        ensure you gain a competitive edge in the market.
+                      </p>
+                    </div>
+                    <ul
+                      class="m-0 p-0 mb24 d-flex flex-wrap align-items-center justify-content-md-center"
+                      style="column-gap: 3rem; row-gap: 1rem"
+                    >
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Supply chain performance analysis and development
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Automation and facilitation of logistics processes
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Integration of the latest technological solutions
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Supplier network optimization
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Enhancing the sustainability of supply chains
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                    <a
+                      href="/supply-chain-optimization"
+                      class="d-flex align-items-center justify-content-md-center gap-2 fw-bold"
+                    >
+                      Explore more details
+                      <svg
+                        width="15"
+                        height="15"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
+                          stroke="#09294F"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </section>
+                <section class="pt80 pb80">
+                  <div class="container">
+                    <div class="row justify-content-between">
+                      <div class="col-lg-6">
+                        <div class="mb48">
+                          <h3 class="h4 mb24">
+                            Market Entry Strategies Development
+                          </h3>
+                          <p class="m-0">
+                            We help strengthen your investments through our
+                            well-thought-out market entry strategies. Our
+                            integrated solutions and expert team help you find
+                            and capitalize on global opportunities for maximum
+                            investment returns.
+                          </p>
+                        </div>
+                        <ul
+                          class="m-0 p-0 mb32 d-flex flex-wrap"
+                          style="column-gap: 1rem"
+                        >
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0">Market analysis</p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0">
+                                Risk assessment and expansion planning
+                              </p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0">
+                                Pricing and distribution strategies
+                              </p>
+                            </div>
+                          </li>
+                          <li class="mb-4">
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0">
+                                Building partnerships and business alliances
+                              </p>
+                            </div>
+                          </li>
+                          <li>
+                            <div class="d-flex align-items-center gap-2 mb-2">
+                              <svg
+                                width="17"
+                                height="17"
+                                viewBox="0 0 17 17"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <g clip-path="url(#clip0_16_3125)">
+                                  <path
+                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                    fill="#FFA807"
+                                  />
+                                </g>
+                                <defs>
+                                  <clipPath id="clip0_16_3125">
+                                    <rect width="17" height="17" fill="white" />
+                                  </clipPath>
+                                </defs>
+                              </svg>
+                              <p class="h6 m-0">
+                                Marketing and promotional strategies
+                              </p>
+                            </div>
+                          </li>
+                        </ul>
+                        <a
+                          href="/market-entry-strategies"
+                          class="d-flex align-items-center gap-2 fw-bold"
+                        >
+                          Explore more details
+                          <svg
+                            width="15"
+                            height="15"
+                            viewBox="0 0 15 15"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
+                              stroke="#09294F"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                      <div class="col-lg-5 mt-4 mt-lg-0">
+                        <img
+                          src="/theme_avrasya/static/src/images/services/market_strategy_lg.png"
+                          alt="Market Entry Strategies Development"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <section class="pt80 pb80 services__shape-bg">
+                  <div class="container">
+                    <div class="text-center mb32">
+                      <h3 class="h4 mb16">Strategic Investment Solutions</h3>
+                      <p class="m-0 mx-auto" style="max-width: 940px">
+                        We improve your strategic investment efficiency and
+                        provide continuous support to ensure you achieve the
+                        best returns through our comprehensive services and
+                        solutions, which will enable you to expand your business
+                        globally in an integrated manner.
+                      </p>
+                    </div>
+                    <ul
+                      class="m-0 p-0 mb24 d-flex flex-wrap align-items-center justify-content-md-center mx-auto"
+                      style="column-gap: 3rem; row-gap: 1rem; max-width: 1055px"
+                    >
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Investment trend analysis and decision-making
+                            support
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Developing effective investment strategies
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Investment risk assessment and management
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Effective portfolio management
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0 font-medium _flex_1">
+                            Investment innovation consulting
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                    <a
+                      href="/strategic-investments"
+                      class="d-flex align-items-center justify-content-md-center gap-2 fw-bold"
+                    >
+                      Explore more details
+                      <svg
+                        width="15"
+                        height="15"
+                        viewBox="0 0 15 15"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
+                          stroke="#09294F"
+                          stroke-width="2"
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                        />
+                      </svg>
+                    </a>
+                  </div>
+                </section>
+                <t t-call="theme_avrasya.avrasya_faqs_snippet" />
+                <t t-call="theme_avrasya.avrasya_custom_info_map" />
+              </div>
+            </div>
+          </t>
+        </t>
+      </field>
+    </record>
+  </data>
+</odoo>

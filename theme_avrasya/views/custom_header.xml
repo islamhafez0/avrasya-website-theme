@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template
+    id="custom__header__inherit"
+    inherit_id="website.template_header_sales_two"
+  >
+    <xpath expr="//t[@t-call='portal.user_dropdown']" position="after">
+      <t t-call="website.placeholder_header_call_to_action" />
+    </xpath>
+
+    <xpath
+      expr="//t[@t-call='website.placeholder_header_call_to_action']"
+      position="before"
+    >
+      <ul class="me-4 d-flex gap-4">
+        <li>
+          <a href="#faqs">FAQs</a>
+        </li>
+        <li>
+          <a href="#success_partners">Our Cliens</a>
+        </li>
+      </ul>
+    </xpath>
+
+    <!-- User Dropdown -->
+    <xpath expr="//t[@t-call='portal.user_dropdown']" position="replace" />
+
+    <!-- Remove extra CTA -->
+    <xpath expr="//ul[@class='navbar-nav']" position="replace" />
+
+    <!-- Search Bar Removal -->
+    <xpath
+      expr="//t[@t-call='website.placeholder_header_search_box']"
+      position="replace"
+    />
+
+    <!-- Remove Website Sale Top Message -->
+
+    <!-- Place The Search Form After the Brand -->
+    <xpath
+      expr="//t[@t-call='website.placeholder_header_brand']"
+      position="after"
+    >
+      <t
+        t-call="website.placeholder_header_search_box"
+        t-nocache="The searchbox should not cache previous searches."
+      >
+        <t
+          t-set="_input_classes"
+          t-valuef="rounded-start-pill ps-3 text-bg-light"
+        />
+        <t
+          t-set="_submit_classes"
+          t-valuef="rounded-end-pill p-3 bg-o-color-3 lh-1"
+        />
+      </t>
+    </xpath>
+
+    <xpath
+      expr="//t[@t-call='portal.placeholder_user_sign_in']"
+      position="replace"
+    />
+
+    <xpath
+      expr="(//div[contains(@class, 'container') and contains(@class, 'd-flex')])[1]"
+      position="attributes"
+    >
+      <attribute name="class" remove="py-1" add="py-3 bg-white" separator=" " />
+    </xpath>
+
+    <xpath
+      expr="//div[contains(@class, 'border-top') and contains(@class, 'o_border_contrast')]"
+      position="attributes"
+    >
+      <attribute name="class" add="py-2 bg-white" separator=" " />
+    </xpath>
+    <xpath
+      expr="//ul[contains(@class, 'o_grid_header_3_cols')]"
+      position="replace"
+    >
+      <div class="container">
+        <ul class="d-flex justify-content-between align-items-center m-0 p-0">
+          <div class="d-flex align-items-center gap-5">
+            <!-- Sign In -->
+            <t t-call="portal.placeholder_user_sign_in">
+              <t t-set="_link_class" t-valuef="btn btn-outline-secondary" />
+            </t>
+            <!-- User Dropdown -->
+            <t t-call="portal.user_dropdown">
+              <t t-set="_user_name" t-value="true" />
+              <t t-set="_icon" t-value="true" />
+              <t t-set="_icon_class" t-valuef="fa-stack" />
+              <t t-set="_item_class" t-valuef="dropdown" />
+              <t
+                t-set="_link_class"
+                t-valuef="d-flex align-items-center border-0 fw-bold text-reset o_navlink_background_hover p-0"
+              />
+              <t
+                t-set="_icon_wrap_class"
+                t-value="'position-relative me-2 rounded-circle border bg-o-color-3'"
+              />
+              <t t-set="_dropdown_menu_class" t-valuef="dropdown-menu-end" />
+            </t>
+            <!-- Social Media -->
+            <li
+              class="o_header_sales_two_social_links_placeholder"
+              t-if="is_view_active('website.header_social_links') == False"
+            />
+            <t t-call="website.placeholder_header_social_links">
+              <t
+                t-set="_div_class"
+                t-valuef="d-flex align-items-center justify-content-end h-100"
+              />
+            </t>
+          </div>
+          <div>
+            <t t-call="website.placeholder_header_language_selector">
+              <t
+                t-set="_div_classes"
+                t-valuef="d-flex align-items-center h-100 p-0"
+              />
+              <t
+                t-set="_btn_class"
+                t-valuef="btn-sm btn-outline-secondary border-0"
+              />
+            </t>
+          </div>
+        </ul>
+      </div>
+    </xpath>
+  </template>
+</odoo>

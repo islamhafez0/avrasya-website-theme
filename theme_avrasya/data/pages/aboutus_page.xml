@@ -1,0 +1,878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template
+      name="Avrasya About Us Template"
+      id="avrasya_aboutus_page"
+      inherit_id="multiple_websites_models.aboutus_page_template"
+      active="True"
+    >
+      <xpath expr="//div[@id='wrap']" position="replace">
+        <div role="main" id="wrap" class="oe_structure oe_empty">
+          <div class="main__content__area about">
+            <section class="pt40 pb56 position-relative">
+              <div class="container">
+                <div class="text-center">
+                  <h1 class="h2 mb12">About Us</h1>
+                  <p class="mb-0 mx-auto" style="max-width: 830px">
+                    Since its establishment, Avrasya has focused on innovation
+                    in developing international trade, logistics services, and
+                    business solutions to help various clients achieve
+                    sustainable growth in their businesses in an integrated way.
+                  </p>
+                </div>
+                <div class="d-none d-lg-block">
+                  <div class="row mt56 justify-content-center">
+                    <div class="col-lg-3">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/hero__img-1.png"
+                        alt="About Us Image"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
+                    </div>
+                    <div class="col-lg-3 mt-lg-5">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/hero__img-2.png"
+                        alt="About Us Image"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
+                    </div>
+                    <div class="col-lg-3">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/hero__img-3.png"
+                        alt="About Us Image"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="d-lg-none mt-4">
+                <img
+                  src="/theme_avrasya/static/src/images/about/hero__img-mobile.png"
+                  alt="About Us Image"
+                  loading="eager"
+                  decoding="async"
+                  fetchpriority="high"
+                  class="w-100"
+                />
+              </div>
+              <img
+                src="/theme_avrasya/static/src/images/about/about-shape.png"
+                alt="Decorative Shape"
+                class="position-absolute left-0 w-100"
+                style="top: -60px !important; z-index: -1"
+              />
+            </section>
+
+            <section class="pt80 pb80">
+              <div class="container">
+                <div class="row flex-column-reverse flex-lg-row">
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                    <h3 class="h4 mb40">Our Core Values</h3>
+                    <ul class="m-0 p-0 d-flex flex-column">
+                      <li class="mb-5">
+                        <div class="d-flex align-items-center gap-2 mb16">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h5 m-0">Our Vision</p>
+                        </div>
+                        <p class="m-0">
+                          Avrasya aspires to be the leading reference in
+                          international trade and logistics services through
+                          excellence in service delivery and the enhancement of
+                          business growth potential.At Avrasya, we aim to
+                          develop the best solutions that empower our clients to
+                          expand confidently and successfully in global markets.
+                        </p>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb16">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h5 m-0">Our Goal</p>
+                        </div>
+                        <p class="m-0">
+                          To build long-term partnerships with our clients based
+                          on trust and transparency and provide them with the
+                          required innovation through our creative solutions
+                          that contribute to enabling them to achieve their
+                          business objectives in the best way possible.
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="col-lg-6 d-none d-lg-block">
+                    <div class="mb-4 d-flex justify-content-end">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/values-1.png"
+                        alt="Our Core Values"
+                      />
+                    </div>
+                    <div class="mb-4 ms-lg-2">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/values-2.png"
+                        alt="Our Core Values"
+                      />
+                    </div>
+                    <div class="mb-4">
+                      <img
+                        src="/theme_avrasya/static/src/images/about/values-3.png"
+                        alt="Our Core Values"
+                      />
+                    </div>
+                  </div>
+                  <div class="col-12 d-lg-none mb-2">
+                    <img
+                      src="/theme_avrasya/static/src/images/about/values-mobile.png"
+                      alt="Our Core Values"
+                      class="w-100"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section class="mt80 mb80">
+              <div class="container">
+                <div>
+                  <h3 class="h4 mb32">The key factors of Our Success</h3>
+                  <p>
+                    To bear the flag of sustainability and innovation in
+                    international trade and logistics services, we adhere to a
+                    set of core values that guarantee the excellence of our
+                    services and guide our path to success:
+                  </p>
+                </div>
+                <div
+                  class="grid-cols-mobile-1 mt32 d-grid justify-content-lg-center gap-2 gap-lg-5 mx-auto"
+                  style="
+                    grid-template-columns: repeat(auto-fit, minmax(0, 249px));
+                    max-width: 1080px;
+                  "
+                >
+                  <div>
+                    <h4 class="mt32 mb16 h5 two-line-heading">
+                      Integrity and Transparency
+                    </h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We are committed to honesty and clarity in our dealings to
+                      develop sustainable relationships based on trust with all
+                      our clients and partners.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="mt32 mb16 h5 two-line-heading">Quality</h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We ensure that we provide high-quality solutions that
+                      adhere to the highest standards to guarantee the delivery
+                      of the best services that meet our client's needs and
+                      ensure their sustainable success.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="mt32 mb16 h5 two-line-heading">
+                      Professionalism
+                    </h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We deliver our services efficiently and pay attention to
+                      the minor details to ensure the development and
+                      implementation of solutions at the highest level of
+                      professionalism.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="mt32 mt-lg-0 mb16 h5 two-line-heading">
+                      Effective Collaboration
+                    </h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We believe in exchanging expertise and forming strategic
+                      partnerships with the best experts to achieve optimal
+                      results, enhance our client's success, and ensure
+                      sustainable growth.
+                    </p>
+                  </div>
+                  <div>
+                    <h4 class="mt32 mb16 h5 two-line-heading">
+                      Sustainability
+                    </h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We are committed to providing Eco-friendly solutions that
+                      contribute to sustainable growth while preserving
+                      resources for future generations.
+                    </p>
+                  </div>
+
+                  <div>
+                    <h4 class="mt32 mb16 h5 two-line-heading">Flexibility</h4>
+                    <p class="m-0" style="max-width: 270px">
+                      We believe in the importance of adapting to emerging
+                      challenges, so we’re always focused on adjusting our
+                      strategies to ensure our client’s success in the
+                      ever-changing business environment.
+                    </p>
+                  </div>
+                </div>
+                <div class="mt40">
+                  <img
+                    src="/theme_avrasya/static/src/images/about/key-factors.png"
+                    alt="The key factors of Our Success"
+                  />
+                </div>
+              </div>
+            </section>
+
+            <section class="pt184 pb184 our__history">
+              <div class="container">
+                <div>
+                  <h4 class="h2 mb80 text-white">Our History</h4>
+                </div>
+                <div class="row" style="row-gap: 24px">
+                  <div class="col-md-6 col-lg-4 col-xl-3 text-white">
+                    <div class="d-flex align-items-center gap-2 mb16">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_16_3125)">
+                          <path
+                            d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                            fill="#FFA807"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_16_3125">
+                            <rect width="17" height="17" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p class="h5 m-0 text-white">2000</p>
+                    </div>
+                    <p class="m-0 pe-4">
+                      The founding year of Avrasya, which began its journey
+                      toward becoming the leading provider of innovative
+                      solutions for numerous companies seeking growth in the
+                      global trade field.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3 text-white">
+                    <div class="d-flex align-items-center gap-2 mb16">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_16_3125)">
+                          <path
+                            d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                            fill="#FFA807"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_16_3125">
+                            <rect width="17" height="17" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p class="h5 m-0 text-white">2001-2010</p>
+                    </div>
+                    <p class="m-0 pe-4">
+                      This period represents the expansion era of Avrasya, as we
+                      were able to enter new markets and introduce innovative
+                      services and solutions to enhance our position as a
+                      strategic partner in the international trade sector.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3 text-white">
+                    <div class="d-flex align-items-center gap-2 mb16">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_16_3125)">
+                          <path
+                            d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                            fill="#FFA807"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_16_3125">
+                            <rect width="17" height="17" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p class="h5 m-0 text-white">2010-2020</p>
+                    </div>
+                    <p class="m-0 pe-4">
+                      During this time, Avrasya focused on enhancing sustainable
+                      growth by adopting the latest technologies and developing
+                      comprehensive solutions in logistics and export services.
+                    </p>
+                  </div>
+                  <div class="col-md-6 col-lg-4 col-xl-3 text-white">
+                    <div class="d-flex align-items-center gap-2 mb16">
+                      <svg
+                        width="17"
+                        height="17"
+                        viewBox="0 0 17 17"
+                        fill="none"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <g clip-path="url(#clip0_16_3125)">
+                          <path
+                            d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                            fill="#FFA807"
+                          />
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_16_3125">
+                            <rect width="17" height="17" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                      <p class="h5 m-0 text-white">2020-present</p>
+                    </div>
+                    <p class="m-0 pe-4">
+                      Since 2020, Avrasya has strengthened its leadership by
+                      adopting innovation in international trade and logistics
+                      services, focusing on providing flexible solutions to
+                      support the growth of its clients in global markets.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <t t-call="theme_avrasya.template_avrasya_in_numbers">
+              <t t-set="has_bg" t-value="True" />
+            </t>
+
+            <section class="pt80 pb80">
+              <div class="container">
+                <div
+                  class="row align-items-center flex-column-reverse flex-lg-row"
+                >
+                  <div class="col-lg-7 pe-lg-5 mt-4 mt-lg-0">
+                    <h3 class="h4">Why Avrasya?</h3>
+                    <ul class="m-0 p-0 d-flex flex-column mt32">
+                      <li class="mb-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0">We follow the best standards:</p>
+                        </div>
+                        <p class="m-0" style="max-width: 660px">
+                          We help our clients develop their businesses locally
+                          and internationally in an integrated way that aligns
+                          with the top global sustainability standards.
+                        </p>
+                      </li>
+                      <li class="mb-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0">We are globally present</p>
+                        </div>
+                        <p class="m-0" style="max-width: 660px">
+                          We provide our services in 26 countries, which allows
+                          us to possess the necessary experience to help our
+                          clients develop their investments and explore
+                          international success opportunities efficiently.
+                        </p>
+                      </li>
+                      <li class="mb-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0">
+                            We bring the highest level of innovation
+                          </p>
+                        </div>
+                        <p class="m-0" style="max-width: 660px">
+                          We adopt the latest technologies and innovative
+                          methods to help our clients keep up with the rapid
+                          developments in today’s business world.
+                        </p>
+                      </li>
+                      <li class="mb-4">
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0">
+                            Our clients are always at the heart of everything
+                            we’re doing
+                          </p>
+                        </div>
+                        <p class="m-0" style="max-width: 660px">
+                          We customize our diverse solutions to meet our
+                          client’s different needs and ensure we enhance their
+                          ability to make the most out of our services.
+                        </p>
+                      </li>
+                      <li>
+                        <div class="d-flex align-items-center gap-2 mb-2">
+                          <svg
+                            width="17"
+                            height="17"
+                            viewBox="0 0 17 17"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <g clip-path="url(#clip0_16_3125)">
+                              <path
+                                d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                fill="#FFA807"
+                              />
+                            </g>
+                            <defs>
+                              <clipPath id="clip0_16_3125">
+                                <rect width="17" height="17" fill="white" />
+                              </clipPath>
+                            </defs>
+                          </svg>
+                          <p class="h6 m-0">
+                            We enhance the ability to make effective decisions
+                          </p>
+                        </div>
+                        <p class="m-0" style="max-width: 660px">
+                          By providing the right tools, knowledge, and support
+                          to help our clients make informed decisions that
+                          contribute to growing their businesses efficiently.
+                        </p>
+                      </li>
+                    </ul>
+                    <a
+                      href="/contactus"
+                      class="btn btn-secondary mt-5 fw-bold py-3 px-4"
+                    >
+                      Request a consultation
+                    </a>
+                  </div>
+                  <div class="col-lg-5">
+                    <img
+                      src="/theme_avrasya/static/src/images/about/why__avrasya.png"
+                      alt="Why Avrasya?"
+                    />
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <section
+              class="s_carousel_wrapper"
+              data-vxml="001"
+              data-snippet="s_carousel"
+              data-name="Carousel"
+            >
+              <div
+                class="s_carousel s_carousel_default carousel slide oe_img_bg o_bg_img_center pt160 pb160"
+                data-bs-interval="10000"
+                id="myCarousel1749980111686"
+                style="
+                  background-image: url('/theme_avrasya/static/src/images/about/taqat__bg.png');
+                "
+                data-mimetype="image/webp"
+                data-original-id="483"
+                data-original-src="/web/image/483-289306e1/babycare_vector.webp"
+                data-mimetype-before-conversion="image/webp"
+                data-resize-width="224"
+              >
+                <ol class="carousel-indicators o_we_no_overlay">
+                  <li
+                    data-bs-target="#myCarousel1749980111686"
+                    class="active"
+                    data-bs-slide-to="0"
+                    aria-current="true"
+                  />
+                  <li
+                    data-bs-target="#myCarousel1749980111686"
+                    data-bs-slide-to="1"
+                  />
+                </ol>
+
+                <div class="carousel-inner">
+                  <div
+                    class="carousel-item pb96 o_colored_level active"
+                    style="background-image: none"
+                    data-name="Slide"
+                  >
+                    <div class="oe_unremovable container">
+                      <div
+                        class="row align-items-center justify-content-around text-white"
+                      >
+                        <div class="col-md-5 p-lg-4">
+                          <div>
+                            <div class="h1 text-white m-0">“</div>
+                            <p class="m-0 h3 text-white">
+                              Lorem ipsum dolor sit amet, consectetur adipisci
+                              elit, sed eiusmod tempor incidunt ut labore et
+                              dolore magna aliqua.
+                            </p>
+                            <div class="h1 text-white text-end m-0">“</div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                          <div
+                            class="bg-white px-4 py-5 rounded mx-auto"
+                            style="max-width: 360px"
+                          >
+                            <img
+                              src="/theme_avrasya/static/src/images/about/taqat__logo.png"
+                              class="img-fluid mb-3"
+                              alt="Company logo"
+                            />
+                          </div>
+                          <h5 class="fw-bold h4 mt32 mb16 text-white px-3">
+                            Taqat Trading Business Solutions
+                          </h5>
+                          <div
+                            class="d-flex align-items-center justify-content-center gap-2 fs-4"
+                          >
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div
+                    class="carousel-item pb96 o_colored_level"
+                    style="background-image: none"
+                    data-name="Slide"
+                  >
+                    <div class="oe_unremovable container">
+                      <div
+                        class="row align-items-center justify-content-around text-white"
+                      >
+                        <div class="col-md-5 p-lg-4">
+                          <div>
+                            <div class="h1 text-white m-0">“</div>
+                            <p class="m-0 h3 text-white">
+                              Lorem ipsum dolor sit amet, consectetur adipisci
+                              elit, sed eiusmod tempor incidunt ut labore et
+                              dolore magna aliqua.
+                            </p>
+                            <div class="h1 text-white text-end m-0">“</div>
+                          </div>
+                        </div>
+                        <div class="col-md-4 text-center">
+                          <div
+                            class="bg-white px-4 py-5 rounded mx-auto"
+                            style="max-width: 360px"
+                          >
+                            <img
+                              src="/theme_avrasya/static/src/images/about/taqat__logo.png"
+                              class="img-fluid mb-3"
+                              alt="Company logo"
+                            />
+                          </div>
+                          <h5 class="fw-bold h4 mt32 mb16 text-white px-3">
+                            Taqat Trading Business Solutions
+                          </h5>
+                          <div
+                            class="d-flex align-items-center justify-content-center gap-2 fs-4"
+                          >
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                            <svg
+                              width="21"
+                              height="20"
+                              viewBox="0 0 21 20"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <path
+                                d="M8.47407 1.85855C9.07253 0.0154133 11.6801 0.0154171 12.2785 1.85856L13.2928 4.98239C13.5605 5.80664 14.3285 6.36475 15.1951 6.36475H18.4803C20.4175 6.36475 21.2232 8.84327 19.6565 9.98239L16.9962 11.9165C16.2957 12.4258 16.0026 13.3281 16.2701 14.1518L17.2856 17.2795C17.884 19.1224 15.7745 20.6542 14.2073 19.5148L11.5524 17.5846C10.8512 17.0748 9.90141 17.0748 9.2002 17.5846L6.54532 19.5148C4.97816 20.6542 2.86861 19.1224 3.46698 17.2795L4.48253 14.1518C4.74999 13.3281 4.45688 12.4258 3.75639 11.9165L1.09617 9.98239C-0.470611 8.84327 0.335161 6.36475 2.27227 6.36475H5.55754C6.42414 6.36475 7.19215 5.80663 7.45978 4.98239L8.47407 1.85855Z"
+                                fill="#EFC61C"
+                              />
+                            </svg>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="testimonials__controls">
+                  <a
+                    class="carousel-control-next o_not_editable o_we_no_overlay mx-2"
+                    role="img"
+                    aria-label="Next"
+                    title="Next"
+                    href="#myCarousel1749980111686"
+                    data-bs-slide="next"
+                    type="button"
+                  >
+                    <svg
+                      width="11"
+                      height="18"
+                      viewBox="0 0 11 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M9.41797 17L1.41797 9L9.41797 1"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="visually-hidden">Previous</span>
+                  </a>
+                  <a
+                    class="carousel-control-prev o_not_editable o_we_no_overlay mx-2"
+                    role="img"
+                    aria-label="Previous"
+                    title="Previous"
+                    href="#myCarousel1749980111686"
+                    data-bs-slide="prev"
+                    type="button"
+                  >
+                    <svg
+                      width="11"
+                      height="18"
+                      viewBox="0 0 11 18"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1.41797 1L9.41797 9L1.41797 17"
+                        stroke="white"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <span class="visually-hidden">Next</span>
+                  </a>
+                </div>
+              </div>
+            </section>
+
+            <t t-call="theme_avrasya.avrasya_custom_newsletter_form" />
+          </div>
+        </div>
+      </xpath>
+    </template>
+  </data>
+</odoo>

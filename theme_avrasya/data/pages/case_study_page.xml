@@ -1,0 +1,926 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <record id="avrasya_case_study_page" model="website.page">
+      <field name="name">Case Study</field>
+      <field name="is_published">True</field>
+      <field name="url">/case-study</field>
+      <field name="track">False</field>
+      <field name="type">qweb</field>
+      <field name="key">theme_avrasya.avrasya_case_study_page</field>
+      <field name="is_homepage">False</field>
+      <field name="arch" type="xml">
+        <t name="Case Study" priority="21">
+          <t t-call="website.layout">
+            <div id="wrap" class="oe_structure">
+              <div class="main__content__area case__study">
+                <section class="pt48 pb48 case_study_shape-bg">
+                  <div class="container">
+                    <div class="text-center mx-auto" style="max-width: 900px">
+                      <h1 class="h2 mb16">Our Success Stories</h1>
+                      <p>
+                        From its start, Avrasya has aided clients in conquering
+                        expansion hurdles, leading to better logistics and
+                        comprehensive strategic investments.
+                      </p>
+                      <p class="m-0">
+                        Through our innovative solutions, we were able to help
+                        our clients achieve their business goals successfully
+                        and effectively.
+                      </p>
+                      <a
+                        href="/contactus"
+                        class="btn btn-secondary mt24 font-medium"
+                        style="padding: 18px 72px"
+                      >
+                        Contact Us
+                      </a>
+                    </div>
+                    <div
+                      class="mt32 d-grid justify-content-center auto-grid-400 justify-content-center"
+                      style="gap: 10px"
+                    >
+                      <div style="background-color: #ccc">
+                        <img
+                          src="/theme_avrasya/static/src/images/case-study/emdad.png"
+                          alt="Emdad"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
+                        />
+                      </div>
+                      <div style="background-color: #ccc">
+                        <img
+                          src="/theme_avrasya/static/src/images/case-study/edamah.png"
+                          alt="Edamah"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
+                        />
+                      </div>
+                      <div style="background-color: #ccc">
+                        <img
+                          src="/theme_avrasya/static/src/images/case-study/tawridat.png"
+                          alt="Tawridat"
+                          loading="eager"
+                          decoding="async"
+                          fetchpriority="high"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </section>
+                <div class="pt80" aria-label="Our Key Clients">
+                  <div class="text-center">
+                    <h2 class="h4 mb16">Our Key Clients</h2>
+                  </div>
+
+                  <section class="pb80">
+                    <div class="container">
+                      <div>
+                        <h3 class="text-center">Emdad</h3>
+                        <div class="row mt32">
+                          <div class="col-lg-4">
+                            <div
+                              class="rounded-md h-100 card__shadow bg-white p-5"
+                            >
+                              <div
+                                class="text-center pb32"
+                                style="border-bottom: 1px solid #f0f0f0"
+                              >
+                                <img
+                                  src="/theme_avrasya/static/src/images/case-study/emdad_logo.png"
+                                  alt="Emdad"
+                                />
+                              </div>
+                              <p class="m-0 py-3">
+                                Avrasya gave Emdad new ways to improve its
+                                logistics, expand its work, and better help
+                                communities in need.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-lg-8">
+                            <img
+                              src="/theme_avrasya/static/src/images/case-study/emdad-highlight_img.png"
+                              alt="Emdad"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="mt24 pt96 pb96 pl64 pr64 rounded-sm bulleted__list-with-bg"
+                          style="
+                            background: url(/theme_avrasya/static/src/images/home/emdad-services__bg.png)
+                              no-repeat center center / cover;
+                          "
+                        >
+                          <h4 class="_title text-white mb16 h5">
+                            Services provided to Emdad:
+                          </h4>
+                          <ul
+                            class="m-0 p-0 ps-4 text-white mt8 d-flex flex-column gap-1"
+                          >
+                            <li>
+                              Successful strategies for faster and more
+                              effective distribution of supplies.
+                            </li>
+                            <li>
+                              Comprehensive risk analysis and management related
+                              to providing relief to communities.
+                            </li>
+                            <li>
+                              Building strategic partnerships with local and
+                              international humanitarian organizations.
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 class="mt32 mb24">Results:</h4>
+                          <ul class="m-0 p-0 d-flex flex-wrap gap-3">
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Improved speed of relief supply distribution.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Reduced logistical costs for relief
+                                  operations.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Effective geographic coverage to meet the
+                                  needs of more affected individuals.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Reduced operational risks and ensured
+                                  compliance with relief supply operations.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Innovative coordination with humanitarian
+                                  organizations.
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="pb80">
+                    <div class="container">
+                      <div>
+                        <h3 class="text-center">Tawridat</h3>
+                        <div class="row mt32">
+                          <div class="col-lg-8">
+                            <img
+                              src="/theme_avrasya/static/src/images/case-study/tawridat-highlight_img.png"
+                              alt="Tawridat"
+                              class="w-100 h-100 object-cover rounded-md"
+                            />
+                          </div>
+                          <div class="col-lg-4">
+                            <div
+                              class="rounded-md h-100 card__shadow bg-white py-5 px-4"
+                            >
+                              <div
+                                class="text-center pb32"
+                                style="border-bottom: 1px solid #f0f0f0"
+                              >
+                                <img
+                                  src="/theme_avrasya/static/src/images/case-study/tawridat-logo.png"
+                                  alt="Tawridat"
+                                />
+                              </div>
+                              <p class="m-0 pt16">
+                                Avrasya provided integrated consulting to help
+                                Tawridat diversify its portfolio of solutions,
+                                enhance its ability to use the latest
+                                technologies and build effective relationships
+                                in the supply chain sector. Through our
+                                partnership with Tawridat, we enhanced its
+                                strategic relations in the Middle East, Turkey,
+                                Asia, and Africa to improve the efficiency of
+                                its services.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="mt24 pt96 pb96 pl64 pr64 rounded-sm bulleted__list-with-bg"
+                          style="
+                            background: url(/theme_avrasya/static/src/images/home/emdad-services__bg.png)
+                              no-repeat center center / cover;
+                          "
+                        >
+                          <h4 class="_title text-white mb16 h5">
+                            Services Provided to Tawridat:
+                          </h4>
+                          <ul
+                            class="m-0 p-0 ps-4 text-white mt8 d-flex flex-column gap-1"
+                          >
+                            <li>
+                              Developing logistics and distribution operations.
+                            </li>
+                            <li>
+                              Effective consultations to increase the diversity
+                              of it’s solutions and services.
+                            </li>
+                            <li>
+                              Supporting its international expansion into new
+                              markets in the Middle East, Asia, and Africa.
+                            </li>
+                            <li>
+                              Boosting its ability to comply with local and
+                              international regulations.
+                            </li>
+                            <li>
+                              Improving Tawridat team’s capabilities and skills.
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 class="mt32 mb24">Results:</h4>
+                          <ul class="m-0 p-0 d-flex flex-column gap-3">
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Enhanced Tawridat's ability to provide
+                                  services and products quickly across diverse
+                                  markets.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Expanded the scope of Tawridat’s operations
+                                  and increased their service delivery
+                                  efficiency.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Improved the skills of Tawridat team, and
+                                  enhanced their ability to use modern
+                                  technology and handle the needs of different
+                                  markets.
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="pb80">
+                    <div class="container">
+                      <div>
+                        <h3 class="text-center">Afriqat</h3>
+                        <div class="row mt32">
+                          <div class="col-lg-4">
+                            <div
+                              class="rounded-md h-100 card__shadow bg-white py-5 px-4"
+                            >
+                              <div
+                                class="text-center pb32"
+                                style="border-bottom: 1px solid #f0f0f0"
+                              >
+                                <img
+                                  src="/theme_avrasya/static/src/images/case-study/afriqat-logo.png"
+                                  alt="Afriqat"
+                                />
+                              </div>
+                              <p class="m-0 pt16">
+                                To help its clients achieve optimal investments
+                                in Africa, Avrasya provided Afriqat with
+                                strategic solutions to identify investment
+                                opportunities on the African continent. We also
+                                helped Afriqat enhance the efficiency of its
+                                logistics services innovatively by using the
+                                latest technologies to ensure the desired
+                                creativity in diversifying Afriqat services
+                                effectively.
+                              </p>
+                            </div>
+                          </div>
+                          <div class="col-lg-8">
+                            <img
+                              src="/theme_avrasya/static/src/images/case-study/afriqat-highlight_img.png"
+                              alt="Afriqat"
+                              class="w-100 h-100 object-cover rounded-md"
+                            />
+                          </div>
+                        </div>
+                        <div
+                          class="mt24 pt96 pb96 pl64 pr64 rounded-sm bulleted__list-with-bg"
+                          style="
+                            background: url(/theme_avrasya/static/src/images/home/emdad-services__bg.png)
+                              no-repeat center center / cover;
+                          "
+                        >
+                          <h4 class="_title text-white mb16 h5">
+                            Services Provided to Afriqat:
+                          </h4>
+                          <ul
+                            class="m-0 p-0 ps-4 text-white mt8 d-flex flex-column gap-1"
+                          >
+                            <li>
+                              Customized consultations to explore investment
+                              opportunities and achieve effective expansion in
+                              African markets.
+                            </li>
+                            <li>
+                              Innovative solutions to develop Afriqat's
+                              logistics service network.
+                            </li>
+                            <li>
+                              Market and investment risk analysis in African
+                              markets.
+                            </li>
+                            <li>
+                              Developing customs simplification services and
+                              facilitating cross-border trade in Africa.
+                            </li>
+                            <li>
+                              Business data analysis to guide the strategic
+                              decision-making process effectively.
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 class="mt32 mb24">Results:</h4>
+                          <ul class="m-0 p-0 d-flex flex-column gap-3">
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  We developed Afriqat's ability to identify the
+                                  most sustainable areas in Africa.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  We enhanced the smooth flow of goods and
+                                  services across Africa and improved logistics
+                                  services efficiently.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  We developed Afriqat's ability to design
+                                  effective strategies and marketing campaigns
+                                  for clients.
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section class="pb80">
+                    <div class="container">
+                      <div>
+                        <h3 class="text-center">OKSOUQ</h3>
+                        <div class="row mt32">
+                          <div class="col-lg-8">
+                            <img
+                              src="/theme_avrasya/static/src/images/case-study/oksouq-highlight_img.png"
+                              alt="OKSOUQ"
+                              class="w-100 h-100 object-cover rounded-md"
+                            />
+                          </div>
+                          <div class="col-lg-4">
+                            <div
+                              class="rounded-md h-100 card__shadow bg-white py-5 px-4"
+                            >
+                              <div
+                                class="text-center pb32"
+                                style="border-bottom: 1px solid #f0f0f0"
+                              >
+                                <img
+                                  src="/theme_avrasya/static/src/images/case-study/oksouq-logo.png"
+                                  alt="OKSOUQ"
+                                />
+                              </div>
+                              <p class="m-0 pt16">
+                                Avrasya provided OKSOUQ, a leading e-commerce
+                                platform, with a series of effective strategic
+                                consultations and solutions to enhance their
+                                user experience, improve the efficiency of
+                                logistics operations, design innovative
+                                marketing strategies to increase customer
+                                engagement and encourage them to use the
+                                platform effectively.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="mt24 pt96 pb96 pl64 pr64 rounded-sm bulleted__list-with-bg"
+                          style="
+                            background: url(/theme_avrasya/static/src/images/home/emdad-services__bg.png)
+                              no-repeat center center / cover;
+                          "
+                        >
+                          <h4 class="_title text-white mb16 h5">
+                            Services Provided to OKSOUQ:
+                          </h4>
+                          <ul
+                            class="m-0 p-0 ps-4 text-white mt8 d-flex flex-column gap-1"
+                          >
+                            <li>
+                              Developing and simplifying the user interface and
+                              browsing experience of the OKSOUQ platform.
+                            </li>
+                            <li>
+                              Boosting the efficiency of logistics operations
+                              for the platform.
+                            </li>
+                            <li>
+                              Improving shipment tracking mechanisms and
+                              expanding the shipping network.
+                            </li>
+                            <li>
+                              Developing innovative marketing strategies which
+                              target the OKSOUQ audience effectively.
+                            </li>
+                            <li>
+                              Analyzing customer data, buying behaviours, and
+                              results of marketing campaigns for OKSOUQ.
+                            </li>
+                          </ul>
+                        </div>
+                        <div>
+                          <h4 class="mt32 mb24">Results:</h4>
+                          <ul class="m-0 p-0 d-flex flex-wrap gap-3">
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Developed a smoother shopping experience.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Enhanced the speed of product delivery to
+                                  customers.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Developed effective marketing strategies
+                                  aligned with customer preferences and actual
+                                  needs.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Enhanced product quality to improve supply
+                                  chain efficiency.
+                                </p>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="d-flex align-items-center gap-2 mb-2">
+                                <svg
+                                  width="17"
+                                  height="17"
+                                  viewBox="0 0 17 17"
+                                  fill="none"
+                                  xmlns="http://www.w3.org/2000/svg"
+                                >
+                                  <g clip-path="url(#clip0_16_3125)">
+                                    <path
+                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                      fill="#FFA807"
+                                    />
+                                  </g>
+                                  <defs>
+                                    <clipPath id="clip0_16_3125">
+                                      <rect
+                                        width="17"
+                                        height="17"
+                                        fill="white"
+                                      />
+                                    </clipPath>
+                                  </defs>
+                                </svg>
+                                <p class="h6 m-0 _flex_1 font-medium">
+                                  Developed effective marketing strategies
+                                  aligned with customer preferences and actual
+                                  needs.
+                                </p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+
+                  <section
+                    class="pt80 pb80"
+                    aria-label="Become Our Partner Now!"
+                  >
+                    <div class="container">
+                      <div class="row justify-content-between">
+                        <div class="col-lg-4">
+                          <h3 class="h4 mb16 pe-lg-5">
+                            Partnership Application Form
+                          </h3>
+                          <p class="m-0">
+                            The form should include enough information to
+                            understand the potential partner's needs:
+                          </p>
+                        </div>
+                        <div class="col-lg-7">
+                          <t
+                            t-call="theme_avrasya.avrasya_custom_contact_form"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                </div>
+              </div>
+            </div>
+          </t>
+        </t>
+      </field>
+    </record>
+  </data>
+</odoo>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <template id="avrasya_custom_newsletter_form">
+      <section class="pt80 pb80" aria-label="Stay Updated with Our Latest News">
+        <div class="container">
+          <div class="text-center mb56 mx-auto" style="max-width: 424px">
+            <h3 class="h4 mb16">Stay Updated with Our Latest News</h3>
+            <p class="m-0 mx-auto" style="max-width: 870px">
+              Subscribe to our newsletter now… enter your email address to
+              receive our latest updates!
+            </p>
+          </div>
+          <section
+            class="s_newsletter_block s_newsletter_list o_colored_level"
+            data-list-id="1"
+            data-snippet="s_newsletter_block"
+            data-name="Newsletter Block"
+            style="background-image: none"
+          >
+            <div
+              class="s_newsletter_subscribe_form s_newsletter_list js_subscribe mx-auto"
+              data-vxml="001"
+              data-list-id="0"
+              data-name="Newsletter Form"
+              data-snippet="s_newsletter_subscribe_form"
+              style="max-width: 727px"
+            >
+              <div class="input-group">
+                <div
+                  class="d-flex flex-column flex-md-row align-items-center gap-4 w-100"
+                >
+                  <input
+                    type="email"
+                    name="email"
+                    class="js_subscribe_value form-control py-3 !rounded-md"
+                    placeholder="your email..."
+                  />
+                  <a
+                    role="button"
+                    href="#"
+                    class="js_subscribe_btn o_submit btn btn-primary btn-lg py-3 px-4 !rounded-md w-100 w-md-auto"
+                    data-bs-original-title=""
+                    title=""
+                    >Subscribe</a
+                  >
+                  <a
+                    role="button"
+                    href="#"
+                    class="btn btn-info js_subscribed_btn d-none o_submit o_default_snippet_text py-3 px-4 !rounded-md w-100 w-md-auto"
+                    disabled="disabled"
+                    >Thanks</a
+                  >
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>

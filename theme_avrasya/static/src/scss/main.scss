@@ -1,0 +1,231 @@
+.main__content__area.home {
+  .home__hero {
+    background: url(../images/home/hero__bg.png) no-repeat center center / cover;
+  }
+}
+.main__content__area.about {
+  .our__history {
+    background: url(../images/about/our__history.png) no-repeat center center /
+      cover;
+  }
+  .avrasya_in_numbers.is_has_bg {
+    background: url(../images/global/avrasya_in_numbers_bg.png) no-repeat center
+      center / cover;
+  }
+  .testimonials__controls {
+    position: absolute;
+    bottom: 8rem;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    a {
+      background-color: transparent;
+      border-radius: 10px;
+      width: 56px;
+      height: 56px;
+      border: 2px solid #ffff;
+      outline: none;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}
+
+.main__content__area.services {
+  .hero__services {
+    background: url(../images/about/about-shape.png) no-repeat center center /
+      cover;
+    .mobile__image-wrapper {
+      @media (max-width: 767px) {
+        max-height: 213px;
+        overflow: hidden;
+        img {
+          height: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.services__shape-bg {
+  background: url(../images/services/services__shape-bg.png) no-repeat center
+    center / cover;
+}
+.main__content__area.service_area {
+  .service_area-hero {
+    background: url(../images/about/about-shape.png) no-repeat center center /
+      cover;
+  }
+  @media (max-width: 767px) {
+    .section__service-highlight {
+      .service_img_wrapper {
+        img {
+          max-height: 328px;
+          width: 100%;
+          border-radius: 64px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}
+
+.main__content__area.case__study {
+  .case_study_shape-bg {
+    background: url(../images/about/about-shape.png) no-repeat center center /
+      cover;
+  }
+}
+
+.main__content__area.contactus {
+  .hero {
+    background: url(../images/global/contact_us-bg.png) no-repeat center center /
+      cover;
+  }
+  .contact__form {
+    max-width: 1120px;
+    margin: 0 auto;
+    margin-top: -85px;
+    .s_website_form {
+      max-width: 620px;
+      margin: 0 auto;
+    }
+  }
+}
+
+@keyframes pulse {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bullted__list {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  li {
+    position: relative;
+    padding-left: 28px;
+    font-size: 18px;
+    line-height: 26px;
+    &::before {
+      content: "";
+      position: absolute;
+      left: 7px;
+      top: 7px;
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background-color: #09294f;
+    }
+  }
+  &.has_checkmark {
+    gap: 16px;
+    li {
+      &::before {
+        content: "✅";
+        position: absolute;
+        left: 0;
+        top: 0;
+        font-size: 18px;
+        width: auto;
+        height: auto;
+        background-color: transparent;
+        border-radius: 0;
+      }
+    }
+  }
+  &:not(.has_checkmark) {
+    li {
+      font-size: 20px;
+    }
+  }
+  &.bullet_centered {
+    li {
+      &::before {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+}
+
+.bullets__shape {
+  width: 100px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  column-gap: 10px;
+  row-gap: 23px;
+  position: absolute;
+  top: 8px;
+  left: 5px;
+  z-index: -1;
+  opacity: 0.3;
+  span {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background-color: #00003333;
+  }
+  &.at_bottom {
+    bottom: 8px !important;
+    right: 5px !important;
+    top: unset;
+    left: unset;
+  }
+}
+
+.avrasya__in__numbers-percentage {
+  @media (max-width: 767px) {
+    min-width: 101px;
+  }
+}
+
+.bulleted__list-with-bg {
+  padding-right: 64px;
+  padding-left: 64px;
+  ._title {
+    position: relative;
+    padding-left: 18px;
+    &::before {
+      content: "";
+      position: absolute;
+      top: 8px;
+      left: 0;
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background-color: #fff;
+    }
+  }
+  ul {
+    li {
+      position: relative;
+      padding-left: 18px;
+      &::before {
+        content: "";
+        position: absolute;
+        top: 8px;
+        left: 0;
+        width: 4px;
+        height: 4px;
+        border-radius: 50%;
+        background-color: #fff;
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    padding-left: 18px;
+    padding-right: 18px;
+  }
+}

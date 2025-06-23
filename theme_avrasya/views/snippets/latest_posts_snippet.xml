@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="avrasya_latest_posts_snippet" name="Avrasya Latest Posts">
+    <section class="pt80 pb80 js_snippet_component" aria-label="Check Our Blog">
+      <div class="container">
+        <div class="text-center mb40">
+          <h3 class="h4 mb16">Check Our Blog</h3>
+          <p class="m-0 mx-auto" style="max-width: 870px">
+            Our blog provides a variety of articles and in-depth analyses
+            focusing on the latest trends in international trade and logistics
+            services to help you enhance your strategic decisions and expand
+            your business horizons.
+          </p>
+        </div>
+        <div class="css_non_editable_mode_hidden mt-4">
+          <div class="alert alert-danger" role="alert">
+            A Dynamic content can't be edited from here!
+          </div>
+        </div>
+        <div t-ignore="True">
+          <owl-component name="theme_avrasya.LatestPosts" />
+        </div>
+      </div>
+    </section> </template
+></odoo>

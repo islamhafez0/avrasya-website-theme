@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+  <t t-name="theme_avrasya.LatestPosts">
+    <div class="row">
+      <t t-if="!state.loading and !state.error">
+        <t t-foreach="state.latest_blogs" t-as="post" t-key="post.id">
+          <div class="col-md-6 col-lg-4 col-xl-3">
+            <div class="item o_not_editable rounded-md card__shadow">
+              <article class="mb-4 mb-lg-0">
+                <div
+                  style="max-height: 218px"
+                  class="mb-4 mb-md-0 overflow-hidden"
+                >
+                  <img
+                    t-att-src="post.coverUrl"
+                    class="img-fluid w-100 object-cover rounded-md"
+                    t-att-alt="post.name"
+                    loading="lazy"
+                    height="218"
+                    style="
+                      height: 218px;
+                      object-fit: cover;
+                      border-bottom-left-radius: 0;
+                      border-bottom-right-radius: 0;
+                    "
+                  />
+                </div>
+                <div class="p-4">
+                  <div
+                    class="text-muted d-flex flex-column justify-content-between h-100"
+                  >
+                    <div>
+                      <h3 class="h6 mb12" style="min-height: calc(2 * 28.8px)">
+                        <t t-esc="post.name" />
+                      </h3>
+                      <div
+                        class="d-flex align-items-center justify-content-between"
+                      >
+                        <span t-esc="post.formattedDate" />
+                        <svg
+                          width="4"
+                          height="5"
+                          viewBox="0 0 4 5"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <rect
+                            y="0.5"
+                            width="4"
+                            height="4"
+                            rx="2"
+                            fill="#3D3E3F"
+                          />
+                        </svg>
+                        <span class="text-truncate" style="max-width: 80px">
+                          <t t-esc="post.author_name" />
+                        </span>
+                      </div>
+                    </div>
+                    <div>
+                      <a
+                        t-att-href="post.website_url"
+                        class="btn text-primary d-flex align-items-center fw-bold p-0 mt-4 d-block w-fit gap-3"
+                      >
+                        More
+                        <svg
+                          width="7"
+                          height="29"
+                          viewBox="0 0 7 29"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            d="M1 9L5.26762 14.3182L1 19.6364"
+                            stroke="#09294F"
+                            stroke-width="2"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                          />
+                        </svg>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </t>
+      </t>
+    </div>
+  </t>
+</templates>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <template
+    id="custom_avrasya_footer"
+    inherit_id="website.layout"
+    name="Avrasya Footer"
+  >
+    <xpath expr="//footer" position="replace">
+      <footer class="footer__custom pt80 bg-primary">
+        <div class="container">
+          <div class="mb80" style="max-width: 287px">
+            <img
+              src="/theme_avrasya/static/src/images/global/avrasya__logo-white.png"
+              alt="Avrasya"
+              class="w-100 h-100"
+            />
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-9">
+              <ul
+                class="footer__list d-flex align-items-center list-unstyled mb56 gap-3 gap-lg-5 flex-wrap"
+              >
+                <li>
+                  <a href="/" class="text-white">Home</a>
+                </li>
+                <li>
+                  <a href="/aboutus" class="text-white">About Us</a>
+                </li>
+                <li>
+                  <a href="/services" class="text-white">Services</a>
+                </li>
+                <li>
+                  <a href="/case-study" class="text-white">Case Study</a>
+                </li>
+                <li>
+                  <a href="/blog" class="text-white">Blog</a>
+                </li>
+              </ul>
+              <h2 class="h5 fw-bold text-white mb-4">Contact Us</h2>
+              <li class="d-flex flex-column mb-2 fw-normal">
+                <p class="text-white">Office Number</p>
+                <a
+                  t-if="website.company_id.phone"
+                  t-att-href="'tel: %s' %website.company_id.phone"
+                  class="text-white"
+                >
+                  <span class="bi bi-phone me-1" />
+                  <span t-field="website.company_id.phone" />
+                </a>
+              </li>
+              <li class="d-flex flex-column fw-normal mb32">
+                <p class="text-white">Mobile Number</p>
+                <a
+                  t-if="website.company_id.mobile"
+                  t-att-href="'tel: %s' %website.company_id.mobile"
+                  class="text-white"
+                >
+                  <span class="bi bi-phone me-1" />
+                  <span t-field="website.company_id.mobile" />
+                </a>
+              </li>
+            </div>
+            <div class="col-lg-3">
+              <div
+                t-attf-class="mb-4 mb-lg-0 d-flex align-items-center #{_div_class} s_social_media o_not_editable oe_unmovable oe_unremovable gap-2"
+              >
+                <a
+                  t-if="website.company_id.social_facebook"
+                  t-att-href="website.company_id.social_facebook"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-facebook-square" />
+                </a>
+                <a
+                  t-if="website.company_id.social_twitter"
+                  t-att-href="website.company_id.social_twitter"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-twitter" />
+                </a>
+                <a
+                  t-if="website.company_id.social_linkedin"
+                  t-att-href="website.company_id.social_linkedin"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-linkedin" />
+                </a>
+                <a
+                  t-if="website.company_id.social_youtube"
+                  t-att-href="website.company_id.social_youtube"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-youtube-play" />
+                </a>
+                <a
+                  t-if="website.company_id.social_github"
+                  t-att-href="website.company_id.social_github"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-github" />
+                </a>
+                <a
+                  t-if="website.company_id.social_instagram"
+                  t-att-href="website.company_id.social_instagram"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-instagram" />
+                </a>
+                <a
+                  t-if="website.company_id.social_tiktok"
+                  t-att-href="website.company_id.social_tiktok"
+                  t-attf-class="mx-2 btn p-0 text-white {{ _link_class }}"
+                  target="_blank"
+                >
+                  <span class="display-2-fs fa fa-tiktok" />
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="pt40 pb40 copyright">
+            <p class="text-white m-0 fw-light">
+              © <t t-esc="datetime.datetime.now().year" /> All Rights Reserved
+            </p>
+          </div>
+        </div>
+      </footer>
+    </xpath>
+  </template>
+</odoo>

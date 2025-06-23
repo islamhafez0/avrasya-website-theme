@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<templates xml:space="preserve">
+  <t t-name="theme_avrasya.faqs">
+    <div class="accordion accordion-flush m-0 px-0" id="accordionFlushTwo">
+      <t t-foreach="state.faqs" t-as="faq" t-key="faq_index">
+        <div
+          class="accordion-item px-3 px-lg-5 py-2 bg-semi-transparent-white border-0 !rounded-md mb-3"
+        >
+          <h2
+            class="accordion-header"
+            t-attf-id="flush-heading-{{ faq_index }}"
+          >
+            <button
+              t-attf-class="accordion-button shadow-none fw-bold  fs-3 {{
+                faq_index == 0 ? '' : 'collapsed'
+              }} px-0 m-0"
+              type="button"
+              style="color: #3c3969; border: none !important"
+              data-bs-toggle="collapse"
+              t-attf-data-bs-target="#flush-collapse-{{ faq_index }}"
+              t-att-aria-expanded="faq_index == 0 ? 'true'  : 'false'"
+              t-attf-aria-controls="flush-collapse-{{ faq_index }}"
+            >
+              <span class="h6" t-out="faq.title" />
+            </button>
+          </h2>
+          <div
+            t-attf-id="flush-collapse-{{ faq_index }}"
+            t-attf-class="accordion-collapse collapse {{
+              faq_index == 0 ? 'show' : ''
+            }}"
+            t-attf-aria-labelledby="flush-heading-{{ faq_index }}"
+            data-bs-parent="#accordionFlushTwo"
+          >
+            <div
+              class="accordion-body p-0 pb40 mt8"
+              style="max-width: 990px; white-space: pre-wrap"
+            >
+              <t t-esc="faq.description" />
+            </div>
+          </div>
+        </div>
+      </t>
+    </div>
+  </t>
+</templates>

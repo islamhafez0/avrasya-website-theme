@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="avrasya_faqs_snippet" name="Avrasya FAQs">
+    <section
+      class="pt80 pb80 js_snippet_component"
+      aria-label="Frequently asked questions"
+      id="faqs"
+    >
+      <div class="container">
+        <div class="mb32">
+          <h3 class="h4 mb24">Frequently asked questions</h3>
+          <p class="mb8">
+            • A list of the most common questions customers ask about each
+            service.
+          </p>
+          <p class="mb8">
+            • Simplified answers to help customers make the right decision.
+          </p>
+        </div>
+        <div class="css_non_editable_mode_hidden mt-4">
+          <div class="alert alert-danger" role="alert">
+            A Dynamic content can't be edited from here!
+          </div>
+        </div>
+        <div t-ignore="True">
+          <owl-component name="theme_avrasya.faqs" />
+        </div>
+      </div>
+    </section> </template
+></odoo>

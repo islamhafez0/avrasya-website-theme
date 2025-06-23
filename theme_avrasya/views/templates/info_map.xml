@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <template id="avrasya_custom_info_map">
+      <section
+        class="pt80 pb80 position-relative"
+        style="background-color: #09294f05"
+      >
+        <div class="container">
+          <div class="text-center mb56 mx-auto" style="max-width: 760px">
+            <h3 class="h4 mb16">
+              Make Your Business Sustainable with Avrasya! Get a free
+              consultation… Contact us now!
+            </h3>
+            <p class="m-0 mx-auto">
+              We're always excited to connect with you! If you want to inquire
+              about our services or have any feedback you'd like to share with
+              us, feel free to contact us now through the following channels:
+            </p>
+          </div>
+          <div class="row justify-content-between">
+            <div class="col-lg-4">
+              <t t-if="website.company_id">
+                <div class="mb64">
+                  <div class="d-flex align-items-center gap-2 mb16">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M23.5424 22.2091C22.2936 23.458 19.682 26.0695 17.885 27.8665C16.8436 28.9079 15.1568 28.9085 14.1154 27.8671C12.3497 26.1014 9.78871 23.5404 8.45745 22.2091C4.29185 18.0435 4.29185 11.2898 8.45745 7.12419C12.623 2.9586 19.3768 2.9586 23.5424 7.12419C27.708 11.2898 27.708 18.0435 23.5424 22.2091Z"
+                        stroke="#09294F"
+                        stroke-width="2.66667"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M19.9999 14.6667C19.9999 16.8758 18.2091 18.6667 15.9999 18.6667C13.7908 18.6667 11.9999 16.8758 11.9999 14.6667C11.9999 12.4575 13.7908 10.6667 15.9999 10.6667C18.2091 10.6667 19.9999 12.4575 19.9999 14.6667Z"
+                        stroke="#09294F"
+                        stroke-width="2.66667"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <h5 class="m-0">Address</h5>
+                  </div>
+                  <address t-if="website.company_id">
+                    <t t-esc="website.company_id.street" /><br />
+                    <t t-if="website.company_id.street2"
+                      ><t t-esc="website.company_id.street2" /><br
+                    /></t>
+                    <t t-if="website.company_id.city"
+                      ><t t-esc="website.company_id.city" />,
+                    </t>
+                    <t t-if="website.company_id.state_id"
+                      ><t t-esc="website.company_id.state_id.name" />,
+                    </t>
+                    <t t-if="website.company_id.zip"
+                      ><t t-esc="website.company_id.zip" /><br
+                    /></t>
+                    <t t-if="website.company_id.country_id"
+                      ><t t-esc="website.company_id.country_id.name"
+                    /></t>
+                  </address>
+                </div>
+                <div class="mb64">
+                  <div class="d-flex align-items-center gap-2 mb16">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4 10.666L14.5208 17.6799C15.4165 18.277 16.5835 18.277 17.4792 17.6799L28 10.666M6.66667 25.3327H25.3333C26.8061 25.3327 28 24.1388 28 22.666V9.33268C28 7.85992 26.8061 6.66602 25.3333 6.66602H6.66667C5.19391 6.66602 4 7.85992 4 9.33268V22.666C4 24.1388 5.19391 25.3327 6.66667 25.3327Z"
+                        stroke="#09294F"
+                        stroke-width="2.66667"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <h5 class="m-0">Email address</h5>
+                  </div>
+                  <a
+                    t-if="website.company_id.email"
+                    t-att-href="'mailto:%s' % website.company_id.email"
+                  >
+                    <span t-field="website.company_id.email" />
+                  </a>
+                </div>
+                <div>
+                  <div class="d-flex align-items-center gap-2 mb16">
+                    <svg
+                      width="32"
+                      height="32"
+                      viewBox="0 0 32 32"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M4 6.66667C4 5.19391 5.19391 4 6.66667 4H11.039C11.6129 4 12.1224 4.36724 12.3039 4.9117L14.301 10.9029C14.5108 11.5324 14.2258 12.2204 13.6324 12.5172L10.6227 14.022C12.0923 17.2816 14.7184 19.9077 17.978 21.3773L19.4828 18.3676C19.7796 17.7742 20.4676 17.4892 21.0971 17.699L27.0883 19.6961C27.6328 19.8776 28 20.3871 28 20.961V25.3333C28 26.8061 26.8061 28 25.3333 28H24C12.9543 28 4 19.0457 4 8V6.66667Z"
+                        stroke="#09294F"
+                        stroke-width="2.66667"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    <h5 class="m-0">Phone Number</h5>
+                  </div>
+                  <div class="d-flex flex-column mb-2 fw-normal">
+                    <p>Office Number</p>
+                    <a
+                      t-if="website.company_id.phone"
+                      t-att-href="'tel: %s' %website.company_id.phone"
+                    >
+                      <span t-field="website.company_id.phone" />
+                    </a>
+                  </div>
+                  <div class="d-flex flex-column fw-normal mb32">
+                    <p>Mobile Number</p>
+                    <a
+                      t-if="website.company_id.mobile"
+                      t-att-href="'tel: %s' %website.company_id.mobile"
+                    >
+                      <span t-field="website.company_id.mobile" />
+                    </a>
+                  </div>
+                </div>
+              </t>
+            </div>
+            <div class="col-lg-7" style="min-height: 400px">
+              <section
+                class="s_map h-100"
+                data-map-type="m"
+                data-map-zoom="12"
+                data-snippet="s_map"
+                data-map-address="250 Executive Park Blvd, Suite 3400 San Francisco California (US) United States"
+                data-name="Map"
+              >
+                <div class="map_container o_not_editable">
+                  <div class="css_non_editable_mode_hidden">
+                    <div
+                      class="missing_option_warning alert alert-info rounded-0 fade show d-none d-print-none o_default_snippet_text"
+                    >
+                      An address must be specified for a map to be embedded
+                    </div>
+                  </div>
+                  <iframe
+                    class="s_map_embedded o_not_editable rounded-lg"
+                    width="100%"
+                    height="100%"
+                    frameborder="0"
+                    scrolling="no"
+                    marginheight="0"
+                    marginwidth="0"
+                    aria-label="Map"
+                    src="https://maps.google.com/maps?q=250%20Executive%20Park%20Blvd%2C%20Suite%203400%20San%20Francisco%20California%20(US)%20United%20States&amp;t=m&amp;z=12&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+                  />
+                  <div class="s_map_color_filter" />
+                </div>
+              </section>
+            </div>
+          </div>
+        </div>
+        <div class="bullets__shape">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="bullets__shape at_bottom">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>

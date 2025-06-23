@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+  <data>
+    <template
+      name="Contact Us Template"
+      id="avrasya_contactus_page"
+      inherit_id="website.contactus"
+      active="True"
+    >
+      <xpath expr="//div[@id='wrap']" position="replace">
+        <div role="main" id="wrap" class="oe_structure oe_empty">
+          <div class="main__content__area contactus">
+            <section class="pt80 pb120 hero">
+              <div class="container">
+                <div class="text-center mx-auto" style="max-width: 920px">
+                  <h1 class="text-white h2">
+                    Make Your Business Sustainable with Avrasya!
+                  </h1>
+                  <p class="mt24 text-white">
+                    We’re always excited to connect with you! If you want to
+                    inquire about our services, or have any feedback you'd like
+                    to share with us, feel free to contact us now through the
+                    following channels:
+                  </p>
+                </div>
+              </div>
+            </section>
+            <section class="contact__form bg-white pt80 pb80">
+              <div class="container">
+                <t t-call="theme_avrasya.avrasya_custom_contact_form" />
+              </div>
+            </section>
+            <t t-call="theme_avrasya.avrasya_custom_info_map" />
+          </div>
+        </div>
+      </xpath>
+    </template>
+  </data>
+</odoo>

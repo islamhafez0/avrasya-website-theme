@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template id="avrasya_testimonials_snippet" name="Avrasya Testimonials">
+    <section
+      class="pt120 pb120 bg-semi-transparent-white js_snippet_component"
+      aria-label="What did our Partners Say?"
+    >
+      <div class="container">
+        <h3 class="h4 text-center">What did our Partners Say?</h3>
+        <div class="css_non_editable_mode_hidden mt-4">
+          <div class="alert alert-danger" role="alert">
+            A Dynamic content can't be edited from here!
+          </div>
+        </div>
+        <t t-ignore="True">
+          <owl-component name="theme_avrasya.testimonials" />
+        </t>
+      </div>
+    </section> </template
+></odoo>

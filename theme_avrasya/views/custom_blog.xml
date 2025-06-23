@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <template
+    id="custom_blog_post"
+    inherit_id="website_blog.blog_post_short"
+    name="Custom Blog Post"
+  >
+    <xpath expr="//div[@id='o_wblog_blog_top']" position="replace">
+      <section class="blog__hero pt96 pb96">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-lg-5">
+              <h1 class="mb-4 mb-md-5 h2">Check Our Blog</h1>
+              <p class="m-0 pe-md-4">
+                Our blog provides a variety of articles and in-depth analyses
+                focusing on the latest trends in international trade and
+                logistics services to help you enhance your strategic decisions
+                and expand your business horizons.
+              </p>
+              <a href="" class="btn btn-secondary px-5 py-3 mt-4 mt-md-5">
+                Discover More
+              </a>
+            </div>
+            <div class="col-lg-6 mt-4 mt-lg-0">
+              <img
+                src="/theme_avrasya//static/src/images/global/blog_hero.png"
+                alt="Check Our Blog"
+                loading="eager"
+                decoding="async"
+                fetchpriority="high"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </xpath>
+
+    <xpath expr="//t[@t-call='website_blog.blogs_nav']" position="replace">
+      <div class="container">
+        <h2 class="h4">Recent Blogs</h2>
+        <p class="mb-o mt24" style="max-width: 890px">
+          Discover the latest articles and trending topics on international
+          trade and logistics.We provide you with valuable information to help
+          you make strategic decisions to improve your business operations and
+          expand into global markets.
+        </p>
+      </div>
+    </xpath>
+
+    <xpath expr="//div[@id='o_wblog_posts_loop_container']" position="after">
+      <t t-call="theme_avrasya.avrasya_custom_newsletter_form" />
+    </xpath>
+    <xpath expr="//section[@id='o_wblog_index_content']" position="after">
+      <t t-call="theme_avrasya.avrasya_custom_info_map" />
+    </xpath>
+  </template>
+
+  <template id="custom_posts_loop" inherit_id="website_blog.posts_loop">
+    <xpath
+      expr="//t[@t-foreach='posts' and @t-as='blog_post']"
+      position="replace"
+    >
+      <t t-foreach="posts" t-as="post">
+        <div class="col-md-6 col-lg-4 col-xl-3">
+          <article
+            t-att-class="'opacity-75 rounded-md card__shadow overflow-hidden position-relative h-100' if not post.website_published else 'rounded-md card__shadow overflow-hidden position-relative h-100'"
+          >
+            <div
+              style="max-height: 218px; min-height: 218px"
+              class="mb-4 mb-md-0 overflow-hidden"
+            >
+              <t t-call="website.record_cover">
+                <t t-set="_record" t-value="post" />
+                <t
+                  t-set="additionnal_classes"
+                  t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"
+                />
+              </t>
+            </div>
+            <div class="p-4">
+              <div
+                class="text-muted d-flex flex-column justify-content-between h-100"
+              >
+                <div>
+                  <h3 class="h6 mb12" style="min-height: calc(2 * 28.8px)">
+                    <t t-esc="post.name" />
+                  </h3>
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <time
+                      t-field="post.post_date"
+                      class="text-nowrap"
+                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'MMMM d, yyyy'}"
+                    />
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="mx-3 flex-shrink-0"
+                    >
+                      <rect
+                        y="0.5"
+                        width="4"
+                        height="4"
+                        rx="2"
+                        fill="#3D3E3F"
+                      />
+                    </svg>
+                    <span class="text-truncate" style="max-width: 100%">
+                      <t t-esc="post.author_name" />
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  <a
+                    t-att-href="post.website_url"
+                    class="btn text-primary d-flex align-items-center fw-bold p-0 mt-4 d-block w-fit gap-3"
+                  >
+                    More
+                    <svg
+                      width="7"
+                      height="29"
+                      viewBox="0 0 7 29"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 9L5.26762 14.3182L1 19.6364"
+                        stroke="#09294F"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <span
+              t-if="not post.website_published"
+              class="bg-danger text-white small py-1 px-2 position-absolute o_not_editable"
+              style="top: 0; right: 0"
+              >unpublished</span
+            >
+          </article>
+        </div>
+      </t>
+    </xpath>
+  </template>
+</odoo>

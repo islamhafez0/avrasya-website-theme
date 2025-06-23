@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+  <template
+    id="custom__blogpost_single"
+    inherit_id="website_blog.blog_post_complete"
+  >
+    <xpath
+      expr="//section[@id='o_wblog_post_top']//h1[contains(@id, 'o_wblog_post_name')]"
+      position="attributes"
+    >
+      <attribute
+        name="class"
+        add="fs-2 fw-bold text-start text-white"
+        separator=" "
+      />
+    </xpath>
+
+    <xpath
+      expr="//section[@id='o_wblog_post_top']//div[contains(@id, 'o_wblog_post_subtitle')]"
+      position="replace"
+    >
+      <div class="d-flex align-items-center">
+        <div
+          class="text-muted small text-start text-white"
+          t-if="blog_post.author_name"
+        >
+          <span class="mt-2">
+            <i class="fa fa-user me-1"></i>
+            <t t-esc="blog_post.author_name" />
+          </span>
+        </div>
+        <svg
+          class="mx-2"
+          width="4"
+          height="5"
+          viewBox="0 0 4 5"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect y="0.5" width="4" height="4" rx="2" fill="white" />
+        </svg>
+        <time
+          t-field="blog_post.post_date"
+          class="text-nowrap"
+          t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'MMMM d, yyyy'}"
+        />
+      </div>
+    </xpath>
+
+    <xpath
+      expr="//section[@id='o_wblog_post_top']//a[contains(@id, 'o_wblog_post_content_jump')]"
+      position="replace"
+    />
+
+    <xpath
+      expr="//section[@id='o_wblog_post_main']/div[contains(@t-attf-class, 'o_container_small')]"
+      position="attributes"
+    >
+      <attribute name="class" add="container" separator=" " />
+    </xpath>
+
+    <xpath expr="//section[@id='o_wblog_post_main']" position="after">
+      <section class="pt80 pb80">
+        <div class="container">
+          <h4 class="text-center h4 mb56">Related Blogs</h4>
+          <div class="row">
+            <t t-foreach="alternative_posts" t-as="post">
+              <div class="col-md-6 col-lg-4 col-xl-3">
+                <article
+                  t-att-class="'opacity-75 rounded-md card__shadow overflow-hidden position-relative h-100 mb16' if not post.website_published else 'rounded-md card__shadow overflow-hidden position-relative h-100 mb16'"
+                >
+                  <div
+                    style="max-height: 218px; min-height: 218px"
+                    class="mb-4 mb-md-0 overflow-hidden"
+                  >
+                    <t t-call="website.record_cover">
+                      <t t-set="_record" t-value="post" />
+                      <t
+                        t-set="additionnal_classes"
+                        t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"
+                      />
+                    </t>
+                  </div>
+                  <div class="p-4">
+                    <div
+                      class="text-muted d-flex flex-column justify-content-between h-100"
+                    >
+                      <div>
+                        <h3
+                          class="h6 mb12"
+                          style="min-height: calc(2 * 28.8px)"
+                        >
+                          <t t-esc="post.name" />
+                        </h3>
+                        <div
+                          class="d-flex align-items-center justify-content-between"
+                        >
+                          <time
+                            t-field="post.post_date"
+                            class="text-nowrap"
+                            t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'MMMM d, yyyy'}"
+                          />
+                          <svg
+                            width="4"
+                            height="5"
+                            viewBox="0 0 4 5"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                            class="mx-3 flex-shrink-0"
+                          >
+                            <rect
+                              y="0.5"
+                              width="4"
+                              height="4"
+                              rx="2"
+                              fill="#3D3E3F"
+                            />
+                          </svg>
+                          <span class="text-truncate" style="max-width: 100%">
+                            <t t-esc="post.author_name" />
+                          </span>
+                        </div>
+                      </div>
+                      <div>
+                        <a
+                          t-att-href="post.website_url"
+                          class="btn text-primary d-flex align-items-center fw-bold p-0 mt-4 d-block w-fit gap-3"
+                        >
+                          More
+                          <svg
+                            width="7"
+                            height="29"
+                            viewBox="0 0 7 29"
+                            fill="none"
+                            xmlns="http://www.w3.org/2000/svg"
+                          >
+                            <path
+                              d="M1 9L5.26762 14.3182L1 19.6364"
+                              stroke="#09294F"
+                              stroke-width="2"
+                              stroke-linecap="round"
+                              stroke-linejoin="round"
+                            />
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                  <span
+                    t-if="not post.website_published"
+                    class="bg-danger text-white small py-1 px-2 position-absolute o_not_editable"
+                    style="top: 0; right: 0"
+                    >unpublished</span
+                  >
+                </article>
+              </div>
+            </t>
+          </div>
+        </div>
+      </section>
+    </xpath>
+  </template>
+
+  <template
+    id="custom_sidebar_content"
+    name="Side Bar Customize"
+    inherit_id="website_blog.blog_post_sidebar"
+  >
+    <xpath expr="//div[@id='o_wblog_post_sidebar']" position="inside">
+      <section
+        class="s_newsletter_block s_newsletter_list o_colored_level justify-content-start"
+        data-list-id="1"
+        data-snippet="s_newsletter_block"
+        data-name="Newsletter Block"
+      >
+        <div class="container-fluid">
+          <h4 class="h5">
+            Subscribe to our newsletter and get a selection of great articles
+            every week.
+          </h4>
+          <div
+            class="s_newsletter_subscribe_form s_newsletter_list js_subscribe mt24"
+            data-vxml="001"
+            data-list-id="0"
+            data-name="Newsletter Form"
+            data-snippet="s_newsletter_subscribe_form"
+          >
+            <div class="input-group d-flex flex-column">
+              <input
+                type="email"
+                name="email"
+                class="js_subscribe_value form-control w-100 !rounded-md py-3"
+                placeholder="Enter your email address"
+              />
+              <a
+                role="button"
+                href="#"
+                class="btn btn-primary js_subscribe_btn o_submit o_default_snippet_text rounded-md mt-3 !rounded-md py-3"
+                data-bs-original-title=""
+                title=""
+                >Subscribe</a
+              >
+              <a
+                role="button"
+                href="#"
+                class="btn btn-success js_subscribed_btn d-none o_submit o_default_snippet_text rounded-md mt-3 !rounded-md py-3"
+                disabled="disabled"
+                >Thanks</a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+    </xpath>
+
+    <xpath
+      expr="//div[@id='o_wblog_post_sidebar']//div[contains(@class, 'o_wblog_sidebar_block')]//h6"
+      position="replace"
+    >
+      <h6 class="h5 mb16">Follow Us</h6>
+    </xpath>
+
+    <xpath expr="//div[@id='o_wblog_post_sidebar']" position="inside">
+      <t
+        t-set="recent_posts"
+        t-value="request.env['blog.post'].search([('id', '!=', blog_post.id)], order='create_date desc', limit=2)"
+      />
+      <section class="mt64">
+        <h4 class="mb32">Recent Blogs</h4>
+        <t t-foreach="recent_posts" t-as="post">
+          <article
+            t-att-class="'opacity-75 rounded-md card__shadow overflow-hidden position-relative h-100 mb16' if not post.website_published else 'rounded-md card__shadow overflow-hidden position-relative h-100 mb16'"
+          >
+            <div
+              style="max-height: 218px; min-height: 218px"
+              class="mb-4 mb-md-0 overflow-hidden"
+            >
+              <t t-call="website.record_cover">
+                <t t-set="_record" t-value="post" />
+                <t
+                  t-set="additionnal_classes"
+                  t-valuef="o_not_editable taqat-blog-cover overflow-hidden shadow mb-3"
+                />
+              </t>
+            </div>
+            <div class="p-4">
+              <div
+                class="text-muted d-flex flex-column justify-content-between h-100"
+              >
+                <div>
+                  <h3 class="h6 mb12" style="min-height: calc(2 * 28.8px)">
+                    <t t-esc="post.name" />
+                  </h3>
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <time
+                      t-field="post.post_date"
+                      class="text-nowrap"
+                      t-options="{'widget': 'datetime', 'date_only': 'true', 'format': 'MMMM d, yyyy'}"
+                    />
+                    <svg
+                      width="4"
+                      height="5"
+                      viewBox="0 0 4 5"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      class="mx-3 flex-shrink-0"
+                    >
+                      <rect
+                        y="0.5"
+                        width="4"
+                        height="4"
+                        rx="2"
+                        fill="#3D3E3F"
+                      />
+                    </svg>
+                    <span class="text-truncate" style="max-width: 100%">
+                      <t t-esc="post.author_name" />
+                    </span>
+                  </div>
+                </div>
+                <div>
+                  <a
+                    t-att-href="post.website_url"
+                    class="btn text-primary d-flex align-items-center fw-bold p-0 mt-4 d-block w-fit gap-3"
+                  >
+                    More
+                    <svg
+                      width="7"
+                      height="29"
+                      viewBox="0 0 7 29"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M1 9L5.26762 14.3182L1 19.6364"
+                        stroke="#09294F"
+                        stroke-width="2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <span
+              t-if="not post.website_published"
+              class="bg-danger text-white small py-1 px-2 position-absolute o_not_editable"
+              style="top: 0; right: 0"
+              >unpublished</span
+            >
+          </article>
+        </t>
+      </section>
+    </xpath>
+  </template>
+</odoo>

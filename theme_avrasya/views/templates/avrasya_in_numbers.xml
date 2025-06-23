@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <template id="template_avrasya_in_numbers">
+      <section
+        t-attf-class="pt80 pb80 avrasya_in_numbers #{'is_has_bg' if has_bg else ''}"
+        aria-label="Avrasya in Numbers"
+      >
+        <div class="container">
+          <div class="text-center mb32">
+            <h3 class="h4 mb16">Avrasya in Numbers</h3>
+            <p class="m-0 mx-auto" style="max-width: 870px">
+              Thanks to our experience and innovative strategies, we have
+              successfully entered a variety of global markets, reinforcing our
+              position as a reliable business partner.
+            </p>
+          </div>
+          <div class="mb32">
+            <picture>
+              <source
+                media="(max-width: 767px)"
+                srcset="
+                  /theme_avrasya/static/src/images/home/avrasya__in__numbers-mobile.png
+                "
+              />
+              <img
+                src="/theme_avrasya/static/src/images/home/avrasya__in__numbers.png"
+                alt="Avrasya in Numbers"
+                class="mx-auto w-100"
+              />
+            </picture>
+          </div>
+          <div class="row justify-content-center row-gap-56">
+            <div class="col-lg-4">
+              <div class="h-100 d-flex">
+                <span class="h1 pe-3 m-0 avrasya__in__numbers-percentage">
+                  26+
+                </span>
+                <div class="has__secondry_border_before position-relative ps-3">
+                  <p class="h6">Number of markets</p>
+                  <p class="m-0">
+                    we have reached in the Middle East, Asia, and Africa.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="h-100 d-flex">
+                <span class="h1 pe-3 m-0 avrasya__in__numbers-percentage">
+                  25%
+                </span>
+                <div class="has__secondry_border_before position-relative ps-3">
+                  <p class="h6">increase in export efficiency</p>
+                  <p class="m-0">for businesses that used our services.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="h-100 d-flex">
+                <span class="h1 pe-3 m-0 avrasya__in__numbers-percentage"
+                  >36+
+                </span>
+                <div class="has__secondry_border_before position-relative ps-3">
+                  <p class="h6">Number of strategic partnerships</p>
+                  <p class="m-0">
+                    we’ve established with global companies to enhance
+                    operational efficiency.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="h-100 d-flex">
+                <span class="h1 pe-3 m-0 avrasya__in__numbers-percentage"
+                  >76+
+                </span>
+                <div class="has__secondry_border_before position-relative ps-3">
+                  <p class="h6">Number of international clients</p>
+                  <p class="m-0">to whom we provide services.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div class="h-100 d-flex">
+                <span class="h1 pe-3 m-0 avrasya__in__numbers-percentage"
+                  >100+
+                </span>
+                <div class="has__secondry_border_before position-relative ps-3">
+                  <p class="h6">Number of logistics centres</p>
+                  <p class="m-0">we own in strategic locations worldwide.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </template>
+  </data>
+</odoo>

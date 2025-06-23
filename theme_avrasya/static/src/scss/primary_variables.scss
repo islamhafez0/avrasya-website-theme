@@ -1,0 +1,140 @@
+
+//------------------------------------------------------------------------------
+// Fonts
+//------------------------------------------------------------------------------
+
+
+$o-theme-h1-font-size-multiplier: (72 / 16);
+$o-theme-h2-font-size-multiplier: (60 / 16);
+$o-theme-h3-font-size-multiplier: (40 / 16);
+$o-theme-h4-font-size-multiplier: (32 / 16);
+$o-theme-h5-font-size-multiplier: (24 / 16);
+$o-theme-h6-font-size-multiplier: (20 / 16);
+
+$headings-font-weight: 700;
+$o-theme-headings-font-weight: 700;
+
+$o-base-color-palette: map-merge($o-base-color-palette, (
+    'copyright': 5,
+    'preheader': 5,
+    'preheader-custom': null,
+    'tp-header-box-color': 1,
+    'tp-header-box-color-custom': null,
+));
+
+$o-color-palettes: map-merge($o-color-palettes,
+    (
+        'avrasya_colors': (
+            'o-color-1': #09294F,
+            'o-color-2': #FFA807,
+            'o-color-3': #F6F4F0,
+            'o-color-4': #FFF7E766,
+            'o-color-5': #1B212C,
+
+            'o-cc1-text': 'o-color-1',
+            'o-cc1-headings': 'o-color-1',
+            'o-cc1-btn-secondary': 'o-color-2',
+
+            'o-cc2-text': #4d5b7c,
+            'o-cc2-link': 'o-color-1',
+            'o-cc2-headings': 'o-color-1',
+
+            'o-cc3-text': 'o-color-4',
+            'o-cc3-link': 'o-color-1',
+            'o-cc3-headings': 'o-color-4',
+
+            'o-cc4-text': 'o-color-3',
+            'o-cc4-link': 'o-color-3',
+            'o-cc4-headings': 'o-color-4',
+
+            'o-cc5-text': 'o-color-3',
+            'o-cc5-link': 'o-color-3',
+            'o-cc5-headings': 'o-color-4',
+
+            'preheader': 5,
+            'tp-header-box-color': 1,
+            'menu': 1,
+            'footer': 5,
+            'copyright': 5,
+        ),
+    )
+);
+
+$o-selected-color-palettes-names: append($o-selected-color-palettes-names, 'avrasya_colors');
+
+$o-website-values-palettes: (
+    (
+            'color-palettes-name': 'avrasya_colors',
+            'link-underline': 'never',
+            'line-height-base': '1.5',
+            'btn-font-weight': 400,
+            'btn-padding-y': 12px,
+            'btn-padding-x': 24px,
+            'btn-border-radius': 50px,
+            'btn-padding-y-sm': 12px,
+            'btn-padding-x-sm': 24px,
+            'btn-border-radius-sm': 50px,
+            'btn-padding-y-lg': 12px,
+            'btn-padding-x-lg': 24px,
+            'btn-border-radius-lg': 50px,
+            'input-padding-y': 10px,
+            'input-padding-x': 16px,
+            'input-border-radius': 4px,
+            'input-padding-y-sm': 10px,
+            'input-padding-x-sm': 16px,
+            'input-border-radius-sm': 4px,
+            'input-padding-y-lg': 10px,
+            'input-padding-x-lg': 16px,
+            'input-border-radius-lg': 4px,
+            'display-1-font-size': 40px,
+            'display-2-font-size': 32px,
+            'display-3-font-size': 24px,
+            'display-4-font-size': 20px,
+            'display-5-font-size': 16px,
+            'display-6-font-size': 14px,
+    ),
+);
+
+$o-theme-font-configs: map-merge((
+        'Ubuntu': (
+                'family': ('Ubuntu', sans-serif),
+                'url': 'Ubuntu:200,300,400,500,600,700',
+        ),
+        'Readex Pro': (
+                'family': ('Readex Pro', sans-serif),
+                'url': 'Readex Pro:200,300,400,500,600,700',
+        ),
+        'Almarai': (
+                'family': ('Almarai', sans-serif),
+                'url': 'Almarai:300,400,700,900',
+        ),
+        'Cairo': (
+                'family': ('Cairo', sans-serif),
+                'url': 'Cairo:200,300,400,500,600,700,800,900,1000',
+        )
+), $o-theme-font-configs);
+
+$o-theme-font-configs: map-merge($o-theme-font-configs, (
+        'Ubuntu': (
+                'family': ('Ubuntu', sans-serif),
+                'url': 'Ubuntu:200,300,400,500,600,700',
+        ),
+        'Readex Pro': (
+                'family': ('Readex Pro', sans-serif),
+                'url': 'Readex Pro:200,300,400,500,600,700',
+        ),
+        'Almarai': (
+                'family': ('Almarai', sans-serif),
+                'url': 'Almarai:300,400,700,900',
+        ),
+        'Cairo': (
+                'family': ('Cairo', sans-serif),
+                'url': 'Cairo:200,300,400,500,600,700,800,900,1000',
+        )
+));
+
+
+// Custom Headers
+$custom-header-list: ('prime_style_1', 'prime_style_2', 'prime_style_3', 'prime_style_4', 'prime_style_5', 'prime_style_6', 'prime_style_7', 'prime_style_8');
+$custom-header-list-support-box: ('prime_style_2', 'prime_style_3', 'prime_style_4');
+$custom-header-list-navbar-only: ('prime_style_1', 'prime_style_5', 'prime_style_8');
