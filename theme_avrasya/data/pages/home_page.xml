@@ -733,7 +733,7 @@
                           <a href="" class="fw-bold d-block">
                             See Full Details
                             <svg
-                              class="ms-4"
+                              class="ms-4 rotate_rtl"
                               width="7"
                               height="13"
                               viewBox="0 0 7 13"

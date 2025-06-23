@@ -229,3 +229,12 @@
     padding-right: 18px;
   }
 }
+
+.o_rtl {
+  .owl-carousel {
+    direction: rtl;
+  }
+  .rotate_rtl {
+    transform: rotate(-180deg);
+  }
+}
