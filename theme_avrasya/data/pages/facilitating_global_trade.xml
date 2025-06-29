@@ -1,489 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <data>
-    <record id="facilitating_global_trade_service_page" model="website.page">
-      <field name="name">Facilitating Global Trade</field>
-      <field name="is_published">True</field>
-      <field name="url">/facilitating-global-trade</field>
-      <field name="track">False</field>
-      <field name="type">qweb</field>
-      <field name="key"
-        >theme_avrasya.facilitating_global_trade_service_page</field
-      >
-      <field name="is_homepage">False</field>
-      <field name="arch" type="xml">
-        <t name="Facilitating Global Trade Service Page" priority="21">
-          <t t-call="website.layout">
-            <div id="wrap" class="oe_structure">
-              <div class="main__content__area service_area">
-                <section class="pt80 pb80 service_area-hero">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-lg-6">
-                        <h1 class="h2 mb24">
-                          Facilitating International Trade
-                        </h1>
-                        <p class="mb32">
-                          We simplify international trade and streamline
-                          cross-border trade to help you reduce complications
-                          you may face, improve operational efficiency, and
-                          ensure your business runs on time and within budget.
+    <template
+      id="facilitating_global_trade_template"
+      name="Facilitating Global Trade Page"
+    >
+      <t t-set="additional_title" t-value="'Facilitating Global Trade'" />
+      <t name="Facilitating Global Trade Service Page" priority="21">
+        <t t-call="website.layout">
+          <div id="wrap" class="oe_structure">
+            <div class="main__content__area service_area">
+              <section class="pt80 pb80 service_area-hero">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                      <h1 class="h2 mb24">Facilitating International Trade</h1>
+                      <p class="mb32">
+                        We simplify international trade and streamline
+                        cross-border trade to help you reduce complications you
+                        may face, improve operational efficiency, and ensure
+                        your business runs on time and within budget.
+                      </p>
+                      <div class="d-flex flex-column flex-md-row gap-4">
+                        <a href="/contactus" class="btn btn-secondary py-3 px-5"
+                          >Request a consultation</a
+                        >
+                        <a
+                          href="#discover_our_services"
+                          class="btn btn-outline-primary py-3 px-5"
+                          >Discover Our Services</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-center gap-2 mt32">
+                        <svg
+                          width="48"
+                          height="49"
+                          viewBox="0 0 48 49"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M21.63 4.20183C21.7948 5.01369 21.2703 5.80546 20.4585 5.9703C11.9238 7.70316 5.5 15.2517 5.5 24.2983C5.5 34.6279 13.8724 43.0003 24.202 43.0003C33.2486 43.0003 40.7971 36.5765 42.53 28.0418C42.6948 27.23 43.4866 26.7055 44.2985 26.8703C45.1103 27.0351 45.6348 27.8269 45.47 28.6388C43.4589 38.5441 34.7034 46.0003 24.202 46.0003C12.2156 46.0003 2.5 36.2847 2.5 24.2983C2.5 13.7969 9.95623 5.04143 19.8615 3.03029C20.6734 2.86545 21.4652 3.38997 21.63 4.20183Z"
+                            fill="#09294F"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M29.8179 12.318C30.6618 11.4741 31.8064 11 32.9999 11C34.1933 11 35.3379 11.4741 36.1818 12.318C37.0257 13.1619 37.4999 14.3065 37.4999 15.5C37.4999 16.6935 37.0257 17.8381 36.1818 18.682C35.3379 19.5259 34.1933 20 32.9999 20C31.8064 20 30.6618 19.5259 29.8179 18.682C28.974 17.8381 28.4999 16.6935 28.4999 15.5C28.4999 14.3065 28.974 13.1619 29.8179 12.318ZM32.9999 14C32.602 14 32.2205 14.158 31.9392 14.4393C31.6579 14.7206 31.4999 15.1022 31.4999 15.5C31.4999 15.8978 31.6579 16.2794 31.9392 16.5607C32.2205 16.842 32.602 17 32.9999 17C33.3977 17 33.7792 16.842 34.0605 16.5607C34.3418 16.2794 34.4999 15.8978 34.4999 15.5C34.4999 15.1022 34.3418 14.7206 34.0605 14.4393C33.7792 14.158 33.3977 14 32.9999 14ZM11.4089 26.3355C11.4997 25.5121 12.2409 24.9182 13.0643 25.009C14.3503 25.1509 15.7505 25.515 17.2929 26.1631C18.0566 26.484 18.4156 27.3633 18.0947 28.127C17.7738 28.8908 16.8946 29.2498 16.1308 28.9289C14.8172 28.377 13.6974 28.0971 12.7354 27.991C11.9119 27.9001 11.3181 27.1589 11.4089 26.3355ZM9.52124 26.6157C9.82519 27.3863 9.44685 28.2574 8.6762 28.5614C8.10136 28.7881 7.58967 29.0407 7.05424 29.3051C6.92374 29.3695 6.79182 29.4347 6.65724 29.5003C5.91261 29.8633 5.01464 29.554 4.65158 28.8094C4.28851 28.0648 4.59783 27.1668 5.34246 26.8037C5.45081 26.7509 5.5648 26.6945 5.68388 26.6357C6.22562 26.3678 6.87291 26.0477 7.57551 25.7706C8.34616 25.4667 9.2173 25.845 9.52124 26.6157ZM20.4823 29.534C20.9583 28.856 21.8939 28.6923 22.5718 29.1684C22.9878 29.4605 23.4149 29.7785 23.8259 30.0847L23.878 30.1234C24.3121 30.4467 24.73 30.7571 25.1381 31.0418C25.8175 31.5158 25.9841 32.4509 25.51 33.1303C25.036 33.8097 24.101 33.9762 23.4216 33.5022C22.9697 33.1869 22.5156 32.8493 22.0862 32.5296L22.0481 32.5012C21.6258 32.1867 21.2288 31.8911 20.8479 31.6236C20.1699 31.1475 20.0062 30.212 20.4823 29.534ZM28.0007 34.5828C28.3317 33.8233 29.2156 33.4759 29.9751 33.8069C31.0969 34.2957 32.1539 34.6508 33.1477 34.8805C33.9548 35.0671 34.4579 35.8727 34.2713 36.6798C34.0848 37.487 33.2792 37.99 32.472 37.8035C31.2738 37.5265 30.0415 37.1083 28.7766 36.5571C28.0172 36.2262 27.6698 35.3422 28.0007 34.5828ZM41.3108 34.977C41.7134 35.7011 41.4528 36.6144 40.7288 37.017C39.9334 37.4593 39.0761 37.7797 38.1856 37.9677C37.375 38.1387 36.5793 37.6203 36.4082 36.8098C36.2371 35.9992 36.7555 35.2034 37.5661 35.0323C38.163 34.9063 38.7377 34.6915 39.2709 34.395C39.9949 33.9924 40.9082 34.253 41.3108 34.977Z"
+                            fill="#09294F"
+                          />
+                          <path
+                            fill-rule="evenodd"
+                            clip-rule="evenodd"
+                            d="M33.0002 6C29.2213 6 25.6732 8.20489 24.2133 11.5552C22.8845 14.6049 23.5337 17.1354 25.1654 19.5568C26.5942 21.6771 28.6767 23.5711 30.7933 25.4963C31.2082 25.8736 31.6244 26.2521 32.0372 26.6337C32.2995 26.8707 32.6409 27.0014 32.9945 27L33.0059 27V27C33.3601 27.0014 33.7019 26.8703 33.9644 26.6326C34.3541 26.2742 34.7467 25.9182 35.1384 25.5632C37.2805 23.6211 39.3939 21.7051 40.8362 19.5602C42.4663 17.136 43.113 14.6016 41.7852 11.5554L41.7849 11.5549C40.3269 8.20665 36.7788 6 33.0002 6ZM21.4631 10.3568C23.4352 5.83111 28.119 3 33.0002 3C37.8816 3 42.5655 5.83335 44.5354 10.3571C46.3772 14.5827 45.364 18.2031 43.3257 21.2343C41.6594 23.7122 39.2221 25.9167 37.0905 27.8447C36.7126 28.1865 36.3443 28.5196 35.9917 28.844L35.9856 28.8496L35.9856 28.8496C35.169 29.5924 34.104 30.0028 33.0002 30C32.9983 30 32.9964 30 32.9945 30L33.0002 28.5L33.0059 30C33.004 30 33.0021 30 33.0002 30C31.8964 30.0028 30.8314 29.5924 30.0148 28.8496L30.0058 28.8414L30.0059 28.8414C29.6359 28.4993 29.2484 28.1477 28.8503 27.7865C26.7378 25.8696 24.3288 23.6838 22.6775 21.2332C20.6367 18.2046 19.6198 14.5872 21.4631 10.3568L21.4631 10.3568Z"
+                            fill="#09294F"
+                          />
+                        </svg>
+                        <p class="_flex_1 m-0">
+                          We help you simplify your international trade and
+                          eliminate any complexities to enable you to achieve
+                          the sustainable growth you aspire to.
                         </p>
-                        <div class="d-flex flex-column flex-md-row gap-4">
-                          <a
-                            href="/contactus"
-                            class="btn btn-secondary py-3 px-5"
-                            >Request a consultation</a
-                          >
-                          <a
-                            href="#discover_our_services"
-                            class="btn btn-outline-primary py-3 px-5"
-                            >Discover Our Services</a
-                          >
-                        </div>
-                        <div class="d-flex align-items-center gap-2 mt32">
-                          <svg
-                            width="48"
-                            height="49"
-                            viewBox="0 0 48 49"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M21.63 4.20183C21.7948 5.01369 21.2703 5.80546 20.4585 5.9703C11.9238 7.70316 5.5 15.2517 5.5 24.2983C5.5 34.6279 13.8724 43.0003 24.202 43.0003C33.2486 43.0003 40.7971 36.5765 42.53 28.0418C42.6948 27.23 43.4866 26.7055 44.2985 26.8703C45.1103 27.0351 45.6348 27.8269 45.47 28.6388C43.4589 38.5441 34.7034 46.0003 24.202 46.0003C12.2156 46.0003 2.5 36.2847 2.5 24.2983C2.5 13.7969 9.95623 5.04143 19.8615 3.03029C20.6734 2.86545 21.4652 3.38997 21.63 4.20183Z"
-                              fill="#09294F"
-                            />
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M29.8179 12.318C30.6618 11.4741 31.8064 11 32.9999 11C34.1933 11 35.3379 11.4741 36.1818 12.318C37.0257 13.1619 37.4999 14.3065 37.4999 15.5C37.4999 16.6935 37.0257 17.8381 36.1818 18.682C35.3379 19.5259 34.1933 20 32.9999 20C31.8064 20 30.6618 19.5259 29.8179 18.682C28.974 17.8381 28.4999 16.6935 28.4999 15.5C28.4999 14.3065 28.974 13.1619 29.8179 12.318ZM32.9999 14C32.602 14 32.2205 14.158 31.9392 14.4393C31.6579 14.7206 31.4999 15.1022 31.4999 15.5C31.4999 15.8978 31.6579 16.2794 31.9392 16.5607C32.2205 16.842 32.602 17 32.9999 17C33.3977 17 33.7792 16.842 34.0605 16.5607C34.3418 16.2794 34.4999 15.8978 34.4999 15.5C34.4999 15.1022 34.3418 14.7206 34.0605 14.4393C33.7792 14.158 33.3977 14 32.9999 14ZM11.4089 26.3355C11.4997 25.5121 12.2409 24.9182 13.0643 25.009C14.3503 25.1509 15.7505 25.515 17.2929 26.1631C18.0566 26.484 18.4156 27.3633 18.0947 28.127C17.7738 28.8908 16.8946 29.2498 16.1308 28.9289C14.8172 28.377 13.6974 28.0971 12.7354 27.991C11.9119 27.9001 11.3181 27.1589 11.4089 26.3355ZM9.52124 26.6157C9.82519 27.3863 9.44685 28.2574 8.6762 28.5614C8.10136 28.7881 7.58967 29.0407 7.05424 29.3051C6.92374 29.3695 6.79182 29.4347 6.65724 29.5003C5.91261 29.8633 5.01464 29.554 4.65158 28.8094C4.28851 28.0648 4.59783 27.1668 5.34246 26.8037C5.45081 26.7509 5.5648 26.6945 5.68388 26.6357C6.22562 26.3678 6.87291 26.0477 7.57551 25.7706C8.34616 25.4667 9.2173 25.845 9.52124 26.6157ZM20.4823 29.534C20.9583 28.856 21.8939 28.6923 22.5718 29.1684C22.9878 29.4605 23.4149 29.7785 23.8259 30.0847L23.878 30.1234C24.3121 30.4467 24.73 30.7571 25.1381 31.0418C25.8175 31.5158 25.9841 32.4509 25.51 33.1303C25.036 33.8097 24.101 33.9762 23.4216 33.5022C22.9697 33.1869 22.5156 32.8493 22.0862 32.5296L22.0481 32.5012C21.6258 32.1867 21.2288 31.8911 20.8479 31.6236C20.1699 31.1475 20.0062 30.212 20.4823 29.534ZM28.0007 34.5828C28.3317 33.8233 29.2156 33.4759 29.9751 33.8069C31.0969 34.2957 32.1539 34.6508 33.1477 34.8805C33.9548 35.0671 34.4579 35.8727 34.2713 36.6798C34.0848 37.487 33.2792 37.99 32.472 37.8035C31.2738 37.5265 30.0415 37.1083 28.7766 36.5571C28.0172 36.2262 27.6698 35.3422 28.0007 34.5828ZM41.3108 34.977C41.7134 35.7011 41.4528 36.6144 40.7288 37.017C39.9334 37.4593 39.0761 37.7797 38.1856 37.9677C37.375 38.1387 36.5793 37.6203 36.4082 36.8098C36.2371 35.9992 36.7555 35.2034 37.5661 35.0323C38.163 34.9063 38.7377 34.6915 39.2709 34.395C39.9949 33.9924 40.9082 34.253 41.3108 34.977Z"
-                              fill="#09294F"
-                            />
-                            <path
-                              fill-rule="evenodd"
-                              clip-rule="evenodd"
-                              d="M33.0002 6C29.2213 6 25.6732 8.20489 24.2133 11.5552C22.8845 14.6049 23.5337 17.1354 25.1654 19.5568C26.5942 21.6771 28.6767 23.5711 30.7933 25.4963C31.2082 25.8736 31.6244 26.2521 32.0372 26.6337C32.2995 26.8707 32.6409 27.0014 32.9945 27L33.0059 27V27C33.3601 27.0014 33.7019 26.8703 33.9644 26.6326C34.3541 26.2742 34.7467 25.9182 35.1384 25.5632C37.2805 23.6211 39.3939 21.7051 40.8362 19.5602C42.4663 17.136 43.113 14.6016 41.7852 11.5554L41.7849 11.5549C40.3269 8.20665 36.7788 6 33.0002 6ZM21.4631 10.3568C23.4352 5.83111 28.119 3 33.0002 3C37.8816 3 42.5655 5.83335 44.5354 10.3571C46.3772 14.5827 45.364 18.2031 43.3257 21.2343C41.6594 23.7122 39.2221 25.9167 37.0905 27.8447C36.7126 28.1865 36.3443 28.5196 35.9917 28.844L35.9856 28.8496L35.9856 28.8496C35.169 29.5924 34.104 30.0028 33.0002 30C32.9983 30 32.9964 30 32.9945 30L33.0002 28.5L33.0059 30C33.004 30 33.0021 30 33.0002 30C31.8964 30.0028 30.8314 29.5924 30.0148 28.8496L30.0058 28.8414L30.0059 28.8414C29.6359 28.4993 29.2484 28.1477 28.8503 27.7865C26.7378 25.8696 24.3288 23.6838 22.6775 21.2332C20.6367 18.2046 19.6198 14.5872 21.4631 10.3568L21.4631 10.3568Z"
-                              fill="#09294F"
-                            />
-                          </svg>
-                          <p class="_flex_1 m-0">
-                            We help you simplify your international trade and
-                            eliminate any complexities to enable you to achieve
-                            the sustainable growth you aspire to.
-                          </p>
-                        </div>
                       </div>
-                      <div class="col-lg-5 mt-4 mt-lg-0 ms-lg-4">
-                        <img
-                          src="/theme_avrasya/static/src/images/facilitating-global-trade/hero__img.png"
-                          alt="Facilitating International Trade"
-                          loading="eager"
-                          decoding="async"
-                          fetchpriority="high"
-                        />
-                      </div>
+                    </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0 ms-lg-4">
+                      <img
+                        src="/theme_avrasya/static/src/images/facilitating-global-trade/hero__img.png"
+                        alt="Facilitating International Trade"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section
-                  class="pt80 pb80 section__service-highlight"
-                  id="discover_our_services"
-                >
-                  <div class="container">
-                    <div>
-                      <h2 class="mb16 h4">
-                        Why should you care about facilitating international
-                        trade operations?
-                      </h2>
-                      <p class="m-0">
-                        With the remarkable growth of today’s business world,
-                        facilitating international trade has become a critical
-                        factor in enhancing your project's efficiency, reducing
-                        risks, and enabling you to streamline operations while
-                        cutting costs comprehensively to help you achieve the
-                        desired returns you are seeking.
-                      </p>
-                    </div>
-                    <div class="row mt32">
-                      <div class="col-lg-7">
-                        <h3 class="h5 mb16">
-                          What are the Key challenges of international trade
-                          operations?
-                        </h3>
-                        <ul class="m-0 p-0 d-flex flex-wrap gap-3">
-                          <li>
-                            <div class="d-flex align-items-center gap-2 mb-2">
-                              <svg
-                                width="17"
-                                height="17"
-                                viewBox="0 0 17 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <g clip-path="url(#clip0_16_3125)">
-                                  <path
-                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                    fill="#FFA807"
-                                  />
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_16_3125">
-                                    <rect width="17" height="17" fill="white" />
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Customs and regulatory complexities
-                              </p>
-                            </div>
+              <section
+                class="pt80 pb80 section__service-highlight"
+                id="discover_our_services"
+              >
+                <div class="container">
+                  <div>
+                    <h2 class="mb16 h4">
+                      Why should you care about facilitating international trade
+                      operations?
+                    </h2>
+                    <p class="m-0">
+                      With the remarkable growth of today’s business world,
+                      facilitating international trade has become a critical
+                      factor in enhancing your project's efficiency, reducing
+                      risks, and enabling you to streamline operations while
+                      cutting costs comprehensively to help you achieve the
+                      desired returns you are seeking.
+                    </p>
+                  </div>
+                  <div class="row mt32">
+                    <div class="col-lg-7">
+                      <h3 class="h5 mb16">
+                        What are the Key challenges of international trade
+                        operations?
+                      </h3>
+                      <ul class="m-0 p-0 d-flex flex-wrap gap-3">
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Customs and regulatory complexities
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Logistical risks
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Local and international competition
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Local marketing challenges
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Supplier relationship management
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="pe-lg-5">
+                        <h4 class="h5 mb16 mt32">
+                          How does Avrasya help you tackle these challenges?
+                        </h4>
+                        <ul class="m-0 p-0 bullted__list">
+                          <li class="font-medium">
+                            We provides integrated consulting and effective
+                            solutions that enable you to comply with local and
+                            international customs and regulatory regulations in
+                            an integrated manner.
                           </li>
-                          <li>
-                            <div class="d-flex align-items-center gap-2 mb-2">
-                              <svg
-                                width="17"
-                                height="17"
-                                viewBox="0 0 17 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <g clip-path="url(#clip0_16_3125)">
-                                  <path
-                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                    fill="#FFA807"
-                                  />
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_16_3125">
-                                    <rect width="17" height="17" fill="white" />
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Logistical risks
-                              </p>
-                            </div>
+                          <li class="font-medium">
+                            We ensure that your products and services comply
+                            with local and international standards to minimize
+                            legal and operational risks.
                           </li>
-                          <li>
-                            <div class="d-flex align-items-center gap-2 mb-2">
-                              <svg
-                                width="17"
-                                height="17"
-                                viewBox="0 0 17 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <g clip-path="url(#clip0_16_3125)">
-                                  <path
-                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                    fill="#FFA807"
-                                  />
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_16_3125">
-                                    <rect width="17" height="17" fill="white" />
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Local and international competition
-                              </p>
-                            </div>
+                          <li class="font-medium">
+                            We provide in-depth market research and marketing
+                            strategies that adapt to local cultures, to help
+                            organizations stand out and increase market share.
                           </li>
-                          <li>
-                            <div class="d-flex align-items-center gap-2 mb-2">
-                              <svg
-                                width="17"
-                                height="17"
-                                viewBox="0 0 17 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <g clip-path="url(#clip0_16_3125)">
-                                  <path
-                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                    fill="#FFA807"
-                                  />
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_16_3125">
-                                    <rect width="17" height="17" fill="white" />
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Local marketing challenges
-                              </p>
-                            </div>
+                          <li class="font-medium">
+                            We design innovative logistics solutions, including
+                            customs clearance, warehousing solutions, shipping
+                            and distribution, to ensure you can achieve fast and
+                            safe delivery of your products in international
+                            markets.
                           </li>
-                          <li>
-                            <div class="d-flex align-items-center gap-2 mb-2">
-                              <svg
-                                width="17"
-                                height="17"
-                                viewBox="0 0 17 17"
-                                fill="none"
-                                xmlns="http://www.w3.org/2000/svg"
-                              >
-                                <g clip-path="url(#clip0_16_3125)">
-                                  <path
-                                    d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                    fill="#FFA807"
-                                  />
-                                </g>
-                                <defs>
-                                  <clipPath id="clip0_16_3125">
-                                    <rect width="17" height="17" fill="white" />
-                                  </clipPath>
-                                </defs>
-                              </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Supplier relationship management
-                              </p>
-                            </div>
+                          <li class="font-medium">
+                            We effectively manages your relationships with
+                            suppliers, optimizing your communication and
+                            negotiation with them, to ensure that you can
+                            optimize your import and export operations in an
+                            integrated manner.
                           </li>
                         </ul>
-                        <div class="pe-lg-5">
-                          <h4 class="h5 mb16 mt32">
-                            How does Avrasya help you tackle these challenges?
-                          </h4>
-                          <ul class="m-0 p-0 bullted__list">
-                            <li class="font-medium">
-                              We provides integrated consulting and effective
-                              solutions that enable you to comply with local and
-                              international customs and regulatory regulations
-                              in an integrated manner.
-                            </li>
-                            <li class="font-medium">
-                              We ensure that your products and services comply
-                              with local and international standards to minimize
-                              legal and operational risks.
-                            </li>
-                            <li class="font-medium">
-                              We provide in-depth market research and marketing
-                              strategies that adapt to local cultures, to help
-                              organizations stand out and increase market share.
-                            </li>
-                            <li class="font-medium">
-                              We design innovative logistics solutions,
-                              including customs clearance, warehousing
-                              solutions, shipping and distribution, to ensure
-                              you can achieve fast and safe delivery of your
-                              products in international markets.
-                            </li>
-                            <li class="font-medium">
-                              We effectively manages your relationships with
-                              suppliers, optimizing your communication and
-                              negotiation with them, to ensure that you can
-                              optimize your import and export operations in an
-                              integrated manner.
-                            </li>
-                          </ul>
-                        </div>
                       </div>
-                      <div class="col-lg-5 mt-4 mt-lg-0 service_img_wrapper">
-                        <img
-                          src="/theme_avrasya/static/src/images/facilitating-global-trade/service_highlight_img.png"
-                          alt="What are the Key challenges of international trade operations?"
-                        />
+                    </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0 service_img_wrapper">
+                      <img
+                        src="/theme_avrasya/static/src/images/facilitating-global-trade/service_highlight_img.png"
+                        alt="What are the Key challenges of international trade operations?"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="pt80 pb80 services__shape-bg">
+                <div class="container">
+                  <div class="text-center">
+                    <h4 class="mb32">
+                      Our Various Services in Facilitating International Trade
+                    </h4>
+                    <div
+                      class="row justify-content-center"
+                      style="row-gap: 48px"
+                    >
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Analyze international markets
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We identify the best opportunities in international
+                            markets.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We forecast future growth and demand in various
+                            industries.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We provide effective strategic recommendations for
+                            successful expansion.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Logistics and supply chain management
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We organize shipping and distribution efficiently.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We optimize the flow of resources across borders.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We reduce costs and improve the quality of your
+                            logistics operations.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Customs clearance services
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We simplify customs clearance processes.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We ensure your compliance with local and
+                            international regulations.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We speed up your import and export processes.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Trade Documentation Services
+                        </h5>
+                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We provide you with effective consultations that
+                            help you efficiently prepare your international
+                            trade documentation.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We efficiently prepare the documents required for
+                            international trade.
+                          </li>
+                          <li
+                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                          >
+                            We ensure accuracy and legal compliance.
+                          </li>
+                        </ul>
+                      </div>
+                      <div class="col-lg-6">
+                        <h5 class="text-start mb16">
+                          Trade compliance and risk management
+                        </h5>
+                        <ul
+                          class="m-0 p-0 bullted__list has_checkmark pe-lg-5 text-center align-items-lg-center"
+                        >
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
+                          >
+                            We identify potential business risks.
+                          </li>
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
+                          >
+                            We provide effective advice to minimize legal risks.
+                          </li>
+                          <li
+                            class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
+                          >
+                            We develop effective strategies for effective risk
+                            management.
+                          </li>
+                        </ul>
                       </div>
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="pt80 pb80 services__shape-bg">
-                  <div class="container">
-                    <div class="text-center">
-                      <h4 class="mb32">
-                        Our Various Services in Facilitating International Trade
-                      </h4>
-                      <div
-                        class="row justify-content-center"
-                        style="row-gap: 48px"
-                      >
-                        <div class="col-lg-6">
-                          <h5 class="text-start mb16">
-                            Analyze international markets
-                          </h5>
-                          <ul
-                            class="m-0 p-0 bullted__list has_checkmark pe-lg-5"
-                          >
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We identify the best opportunities in
-                              international markets.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We forecast future growth and demand in various
-                              industries.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We provide effective strategic recommendations for
-                              successful expansion.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6">
-                          <h5 class="text-start mb16">
-                            Logistics and supply chain management
-                          </h5>
-                          <ul
-                            class="m-0 p-0 bullted__list has_checkmark pe-lg-5"
-                          >
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We organize shipping and distribution efficiently.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We optimize the flow of resources across borders.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We reduce costs and improve the quality of your
-                              logistics operations.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6">
-                          <h5 class="text-start mb16">
-                            Customs clearance services
-                          </h5>
-                          <ul
-                            class="m-0 p-0 bullted__list has_checkmark pe-lg-5"
-                          >
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We simplify customs clearance processes.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We ensure your compliance with local and
-                              international regulations.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We speed up your import and export processes.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6">
-                          <h5 class="text-start mb16">
-                            Trade Documentation Services
-                          </h5>
-                          <ul
-                            class="m-0 p-0 bullted__list has_checkmark pe-lg-5"
-                          >
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We provide you with effective consultations that
-                              help you efficiently prepare your international
-                              trade documentation.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We efficiently prepare the documents required for
-                              international trade.
-                            </li>
-                            <li
-                              class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                            >
-                              We ensure accuracy and legal compliance.
-                            </li>
-                          </ul>
-                        </div>
-                        <div class="col-lg-6">
-                          <h5 class="text-start mb16">
-                            Trade compliance and risk management
-                          </h5>
-                          <ul
-                            class="m-0 p-0 bullted__list has_checkmark pe-lg-5 text-center align-items-lg-center"
-                          >
-                            <li
-                              class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
-                            >
-                              We identify potential business risks.
-                            </li>
-                            <li
-                              class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
-                            >
-                              We provide effective advice to minimize legal
-                              risks.
-                            </li>
-                            <li
-                              class="d-flex text-start text-lg-center h6 m-0 font-medium pe-lg-5 text-lg-nowrap"
-                            >
-                              We develop effective strategies for effective risk
-                              management.
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
+              <section class="pt80 pb80" style="background-color: #09294f05">
+                <div class="container">
+                  <h4 class="text-center mb40">Why choose our services?</h4>
+                  <div class="row" style="row-gap: 1.5rem">
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We have an efficient team of experts in international
+                        trade operations.
+                      </h5>
+                    </div>
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We provide customized solutions for each client based on
+                        their needs.
+                      </h5>
+                    </div>
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We ensure speed and flexibility in customs clearance
+                        operations.
+                      </h5>
+                    </div>
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We ensure speed and flexibility in customs clearance
+                        operations.
+                      </h5>
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="pt80 pb80" style="background-color: #09294f05">
-                  <div class="container">
-                    <h4 class="text-center mb40">Why choose our services?</h4>
-                    <div class="row" style="row-gap: 1.5rem">
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We have an efficient team of experts in international
-                          trade operations.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We provide customized solutions for each client based
-                          on their needs.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We ensure speed and flexibility in customs clearance
-                          operations.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We ensure speed and flexibility in customs clearance
-                          operations.
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                <t t-call="theme_avrasya.avrasya_custom_info_map" />
-              </div>
+              <t t-call="theme_avrasya.avrasya_custom_info_map" />
             </div>
-          </t>
+          </div>
         </t>
-      </field>
+      </t>
+    </template>
+
+    <record
+      id="facilitating_global_trade_theme_page"
+      model="theme.website.page"
+    >
+      <field
+        name="view_id"
+        ref="theme_avrasya.facilitating_global_trade_template"
+      />
+      <field name="is_published" eval="True" />
+      <field name="url">/facilitating-global-trade</field>
     </record>
   </data>
 </odoo>

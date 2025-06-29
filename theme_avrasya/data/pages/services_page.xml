@@ -304,7 +304,6 @@
                             viewBox="0 0 15 15"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
-                            class="rotate_rtl"
                           >
                             <path
                               d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
@@ -476,7 +475,6 @@
                         viewBox="0 0 15 15"
                         fill="none"
                         xmlns="http://www.w3.org/2000/svg"
-                        class="rotate_rtl"
                       >
                         <path
                           d="M4.96094 1.5L9.22856 6.8182L4.96094 12.1364"
@@ -646,7 +644,6 @@
                           <svg
                             width="15"
                             height="15"
-                            class="rotate_rtl"
                             viewBox="0 0 15 15"
                             fill="none"
                             xmlns="http://www.w3.org/2000/svg"
@@ -825,7 +822,6 @@
                       Explore more details
                       <svg
                         width="15"
-                        class="rotate_rtl"
                         height="15"
                         viewBox="0 0 15 15"
                         fill="none"

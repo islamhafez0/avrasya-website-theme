@@ -1,134 +1,267 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
   <data>
-    <record id="strategic_investments_service_page" model="website.page">
-      <field name="name">Strategic Investments</field>
-      <field name="is_published">True</field>
-      <field name="url">/strategic-investments</field>
-      <field name="track">False</field>
-      <field name="type">qweb</field>
-      <field name="key">theme_avrasya.strategic_investments_service_page</field>
-      <field name="is_homepage">False</field>
-      <field name="arch" type="xml">
-        <t name="Strategic Investments" priority="21">
-          <t t-call="website.layout">
-            <div id="wrap" class="oe_structure">
-              <div class="main__content__area service_area">
-                <section class="pt80 pb80 service_area-hero">
-                  <div class="container">
-                    <div class="row justify-content-center">
-                      <div class="col-lg-6">
-                        <h1 class="h2 mb24">
-                          Strategic Investments for Sustainable Success!
-                        </h1>
-                        <p class="mb32">
-                          We improve your strategic investment efficiency and
-                          provide continuous support to ensure you achieve the
-                          best returns through our comprehensive services and
-                          solutions, which will enable you to expand your
-                          business globally in an integrated manner.
+    <template
+      id="strategic_investments_template"
+      name="Strategic Investments Page"
+    >
+      <t t-set="additional_title" t-value="'Strategic Investments'" />
+      <t name="Strategic Investments" priority="21">
+        <t t-call="website.layout">
+          <div id="wrap" class="oe_structure">
+            <div class="main__content__area service_area">
+              <section class="pt80 pb80 service_area-hero">
+                <div class="container">
+                  <div class="row justify-content-center">
+                    <div class="col-lg-6">
+                      <h1 class="h2 mb24">
+                        Strategic Investments for Sustainable Success!
+                      </h1>
+                      <p class="mb32">
+                        We improve your strategic investment efficiency and
+                        provide continuous support to ensure you achieve the
+                        best returns through our comprehensive services and
+                        solutions, which will enable you to expand your business
+                        globally in an integrated manner.
+                      </p>
+                      <div class="d-flex flex-column flex-md-row gap-4">
+                        <a href="/contactus" class="btn btn-secondary py-3 px-5"
+                          >Request a consultation</a
+                        >
+                        <a
+                          href="#discover_our_services"
+                          class="btn btn-outline-primary py-3 px-5"
+                          >Discover Our Services</a
+                        >
+                      </div>
+                      <div class="d-flex align-items-start gap-2 mt32">
+                        <svg
+                          width="48"
+                          height="49"
+                          viewBox="0 0 48 49"
+                          fill="none"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <mask
+                            id="mask0_1_4526"
+                            style="mask-type: luminance"
+                            maskUnits="userSpaceOnUse"
+                            x="2"
+                            y="6"
+                            width="44"
+                            height="37"
+                          >
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M3.46447 7.96447C4.40215 7.02678 5.67392 6.5 7 6.5H41C42.3261 6.5 43.5979 7.02678 44.5355 7.96447C45.4732 8.90215 46 10.1739 46 11.5V20.5C46 21.6046 45.1046 22.5 44 22.5H4C2.89543 22.5 2 21.6046 2 20.5V11.5C2 10.1739 2.52678 8.90215 3.46447 7.96447ZM7 10.5C6.73478 10.5 6.48043 10.6054 6.29289 10.7929C6.10536 10.9804 6 11.2348 6 11.5V18.5H42V11.5C42 11.2348 41.8946 10.9804 41.7071 10.7929C41.5196 10.6054 41.2652 10.5 41 10.5H7Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M29.594 24.9942C30.3791 24.3079 31.5598 24.34 32.3065 25.068L36.7865 29.436C37.5774 30.2071 37.5934 31.4733 36.8223 32.2642C36.0512 33.0551 34.785 33.0711 33.9941 32.3L30.8363 29.2211L24.1846 35.0358C23.4047 35.7175 22.2334 35.691 21.4852 34.9746L16.3259 30.0349L5.53366 40.937C4.75658 41.722 3.49027 41.7284 2.70527 40.9514C1.92028 40.1743 1.91386 38.908 2.69095 38.123L14.8669 25.823C15.6349 25.0472 16.883 25.0305 17.6714 25.7854L22.9297 30.8199L29.594 24.9942Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M44 16.5C45.1046 16.5 46 17.3954 46 18.5V37.5C46 38.8261 45.4732 40.0979 44.5355 41.0355C43.5979 41.9732 42.3261 42.5 41 42.5H12C10.8954 42.5 10 41.6046 10 40.5C10 39.3954 10.8954 38.5 12 38.5H41C41.2652 38.5 41.5196 38.3946 41.7071 38.2071C41.8946 38.0196 42 37.7652 42 37.5V18.5C42 17.3954 42.8954 16.5 44 16.5Z"
+                              fill="white"
+                            />
+                            <path
+                              fill-rule="evenodd"
+                              clip-rule="evenodd"
+                              d="M4 18.5C5.10457 18.5 6 19.3954 6 20.5V29.5C6 30.6046 5.10457 31.5 4 31.5C2.89543 31.5 2 30.6046 2 29.5V20.5C2 19.3954 2.89543 18.5 4 18.5Z"
+                              fill="white"
+                            />
+                          </mask>
+                          <g mask="url(#mask0_1_4526)">
+                            <path d="M0 0.5H48V48.5H0V0.5Z" fill="#09294F" />
+                          </g>
+                        </svg>
+                        <p class="_flex_1 m-0">
+                          We optimize the efficiency of your strategic
+                          investments and continuously support you to ensure the
+                          best returns, through our comprehensive services and
+                          solutions that enable you to develop your business
+                          internationally in an integrated manner.
                         </p>
-                        <div class="d-flex flex-column flex-md-row gap-4">
-                          <a
-                            href="/contactus"
-                            class="btn btn-secondary py-3 px-5"
-                            >Request a consultation</a
-                          >
-                          <a
-                            href="#discover_our_services"
-                            class="btn btn-outline-primary py-3 px-5"
-                            >Discover Our Services</a
-                          >
-                        </div>
-                        <div class="d-flex align-items-start gap-2 mt32">
-                          <svg
-                            width="48"
-                            height="49"
-                            viewBox="0 0 48 49"
-                            fill="none"
-                            xmlns="http://www.w3.org/2000/svg"
-                          >
-                            <mask
-                              id="mask0_1_4526"
-                              style="mask-type: luminance"
-                              maskUnits="userSpaceOnUse"
-                              x="2"
-                              y="6"
-                              width="44"
-                              height="37"
-                            >
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M3.46447 7.96447C4.40215 7.02678 5.67392 6.5 7 6.5H41C42.3261 6.5 43.5979 7.02678 44.5355 7.96447C45.4732 8.90215 46 10.1739 46 11.5V20.5C46 21.6046 45.1046 22.5 44 22.5H4C2.89543 22.5 2 21.6046 2 20.5V11.5C2 10.1739 2.52678 8.90215 3.46447 7.96447ZM7 10.5C6.73478 10.5 6.48043 10.6054 6.29289 10.7929C6.10536 10.9804 6 11.2348 6 11.5V18.5H42V11.5C42 11.2348 41.8946 10.9804 41.7071 10.7929C41.5196 10.6054 41.2652 10.5 41 10.5H7Z"
-                                fill="white"
-                              />
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M29.594 24.9942C30.3791 24.3079 31.5598 24.34 32.3065 25.068L36.7865 29.436C37.5774 30.2071 37.5934 31.4733 36.8223 32.2642C36.0512 33.0551 34.785 33.0711 33.9941 32.3L30.8363 29.2211L24.1846 35.0358C23.4047 35.7175 22.2334 35.691 21.4852 34.9746L16.3259 30.0349L5.53366 40.937C4.75658 41.722 3.49027 41.7284 2.70527 40.9514C1.92028 40.1743 1.91386 38.908 2.69095 38.123L14.8669 25.823C15.6349 25.0472 16.883 25.0305 17.6714 25.7854L22.9297 30.8199L29.594 24.9942Z"
-                                fill="white"
-                              />
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M44 16.5C45.1046 16.5 46 17.3954 46 18.5V37.5C46 38.8261 45.4732 40.0979 44.5355 41.0355C43.5979 41.9732 42.3261 42.5 41 42.5H12C10.8954 42.5 10 41.6046 10 40.5C10 39.3954 10.8954 38.5 12 38.5H41C41.2652 38.5 41.5196 38.3946 41.7071 38.2071C41.8946 38.0196 42 37.7652 42 37.5V18.5C42 17.3954 42.8954 16.5 44 16.5Z"
-                                fill="white"
-                              />
-                              <path
-                                fill-rule="evenodd"
-                                clip-rule="evenodd"
-                                d="M4 18.5C5.10457 18.5 6 19.3954 6 20.5V29.5C6 30.6046 5.10457 31.5 4 31.5C2.89543 31.5 2 30.6046 2 29.5V20.5C2 19.3954 2.89543 18.5 4 18.5Z"
-                                fill="white"
-                              />
-                            </mask>
-                            <g mask="url(#mask0_1_4526)">
-                              <path d="M0 0.5H48V48.5H0V0.5Z" fill="#09294F" />
-                            </g>
-                          </svg>
-                          <p class="_flex_1 m-0">
-                            We optimize the efficiency of your strategic
-                            investments and continuously support you to ensure
-                            the best returns, through our comprehensive services
-                            and solutions that enable you to develop your
-                            business internationally in an integrated manner.
-                          </p>
-                        </div>
                       </div>
-                      <div class="col-lg-5 mt-4 mt-lg-0 ms-lg-4">
-                        <img
-                          src="/theme_avrasya/static/src/images/strategic-investments/strategic-investments-hero.png"
-                          alt="Strategic Investments for Sustainable Success!"
-                          loading="eager"
-                          decoding="async"
-                          fetchpriority="high"
-                        />
-                      </div>
+                    </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0 ms-lg-4">
+                      <img
+                        src="/theme_avrasya/static/src/images/strategic-investments/strategic-investments-hero.png"
+                        alt="Strategic Investments for Sustainable Success!"
+                        loading="eager"
+                        decoding="async"
+                        fetchpriority="high"
+                      />
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section
-                  class="pt80 pb80 section__service-highlight"
-                  id="discover_our_services"
-                >
-                  <div class="container">
-                    <div class="mb32">
-                      <h2 class="mb16 h4">
-                        Diversify Your Investments with Confidence:
-                      </h2>
-                      <p class="m-0">
-                        We help you diversify your investment portfolio and
-                        analyze opportunities to reduce risks and achieve the
-                        highest returns from your investments in a comprehensive
-                        manner.
-                      </p>
-                    </div>
-                    <div class="row mt32">
-                      <div class="col-lg-7">
-                        <h3 class="h5 mb16">
-                          What are the key challenges of strategic investment?
-                        </h3>
+              <section
+                class="pt80 pb80 section__service-highlight"
+                id="discover_our_services"
+              >
+                <div class="container">
+                  <div class="mb32">
+                    <h2 class="mb16 h4">
+                      Diversify Your Investments with Confidence:
+                    </h2>
+                    <p class="m-0">
+                      We help you diversify your investment portfolio and
+                      analyze opportunities to reduce risks and achieve the
+                      highest returns from your investments in a comprehensive
+                      manner.
+                    </p>
+                  </div>
+                  <div class="row mt32">
+                    <div class="col-lg-7">
+                      <h3 class="h5 mb16">
+                        What are the key challenges of strategic investment?
+                      </h3>
+                      <ul class="m-0 p-0 d-flex flex-column gap-3">
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Accessing suitable investment opportunities.
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Economic fluctuations that make long-term
+                              investment planning challenging.
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Effective management of returns to achieve desired
+                              investment goals.
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Constant changes in regulations and laws.
+                            </p>
+                          </div>
+                        </li>
+                        <li>
+                          <div class="d-flex align-items-center gap-2 mb-2">
+                            <svg
+                              width="17"
+                              height="17"
+                              viewBox="0 0 17 17"
+                              fill="none"
+                              xmlns="http://www.w3.org/2000/svg"
+                            >
+                              <g clip-path="url(#clip0_16_3125)">
+                                <path
+                                  d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
+                                  fill="#FFA807"
+                                />
+                              </g>
+                              <defs>
+                                <clipPath id="clip0_16_3125">
+                                  <rect width="17" height="17" fill="white" />
+                                </clipPath>
+                              </defs>
+                            </svg>
+                            <p class="h6 m-0 _flex_1 font-medium">
+                              Rapid technological updates that may lead to
+                              unexpected market shifts.
+                            </p>
+                          </div>
+                        </li>
+                      </ul>
+                      <div class="pe-lg-5">
+                        <h4 class="h5 mb16 mt32">
+                          How does Avrasya help you meet these challenges?!
+                        </h4>
                         <ul class="m-0 p-0 d-flex flex-column gap-3">
                           <li>
                             <div class="d-flex align-items-center gap-2 mb-2">
@@ -151,8 +284,10 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Accessing suitable investment opportunities.
+                              <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                We provide thorough research and analysis to
+                                guide you towards sustainable investment
+                                opportunities.
                               </p>
                             </div>
                           </li>
@@ -177,9 +312,9 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Economic fluctuations that make long-term
-                                investment planning challenging.
+                              <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                We provide customized advice to ensure you
+                                achieve the highest returns over the long term.
                               </p>
                             </div>
                           </li>
@@ -204,9 +339,9 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Effective management of returns to achieve
-                                desired investment goals.
+                              <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                We develop flexible investment risk management
+                                strategies.
                               </p>
                             </div>
                           </li>
@@ -231,8 +366,8 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Constant changes in regulations and laws.
+                              <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                We enable you to fully diversify your portfolio.
                               </p>
                             </div>
                           </li>
@@ -257,377 +392,218 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                              <p class="h6 m-0 _flex_1 font-medium">
-                                Rapid technological updates that may lead to
-                                unexpected market shifts.
+                              <p class="h6 m-0 _flex_1 font-medium leading-9">
+                                We help you identify the most important
+                                technological innovations and effectively
+                                integrate them into your strategy to ensure the
+                                sustainability of your investments efficiently.
                               </p>
                             </div>
                           </li>
                         </ul>
-                        <div class="pe-lg-5">
-                          <h4 class="h5 mb16 mt32">
-                            How does Avrasya help you meet these challenges?!
-                          </h4>
-                          <ul class="m-0 p-0 d-flex flex-column gap-3">
-                            <li>
-                              <div class="d-flex align-items-center gap-2 mb-2">
-                                <svg
-                                  width="17"
-                                  height="17"
-                                  viewBox="0 0 17 17"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_16_3125)">
-                                    <path
-                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                      fill="#FFA807"
-                                    />
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_16_3125">
-                                      <rect
-                                        width="17"
-                                        height="17"
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                                <p class="h6 m-0 _flex_1 font-medium leading-9">
-                                  We provide thorough research and analysis to
-                                  guide you towards sustainable investment
-                                  opportunities.
-                                </p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="d-flex align-items-center gap-2 mb-2">
-                                <svg
-                                  width="17"
-                                  height="17"
-                                  viewBox="0 0 17 17"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_16_3125)">
-                                    <path
-                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                      fill="#FFA807"
-                                    />
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_16_3125">
-                                      <rect
-                                        width="17"
-                                        height="17"
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                                <p class="h6 m-0 _flex_1 font-medium leading-9">
-                                  We provide customized advice to ensure you
-                                  achieve the highest returns over the long
-                                  term.
-                                </p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="d-flex align-items-center gap-2 mb-2">
-                                <svg
-                                  width="17"
-                                  height="17"
-                                  viewBox="0 0 17 17"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_16_3125)">
-                                    <path
-                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                      fill="#FFA807"
-                                    />
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_16_3125">
-                                      <rect
-                                        width="17"
-                                        height="17"
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                                <p class="h6 m-0 _flex_1 font-medium leading-9">
-                                  We develop flexible investment risk management
-                                  strategies.
-                                </p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="d-flex align-items-center gap-2 mb-2">
-                                <svg
-                                  width="17"
-                                  height="17"
-                                  viewBox="0 0 17 17"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_16_3125)">
-                                    <path
-                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                      fill="#FFA807"
-                                    />
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_16_3125">
-                                      <rect
-                                        width="17"
-                                        height="17"
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                                <p class="h6 m-0 _flex_1 font-medium leading-9">
-                                  We enable you to fully diversify your
-                                  portfolio.
-                                </p>
-                              </div>
-                            </li>
-                            <li>
-                              <div class="d-flex align-items-center gap-2 mb-2">
-                                <svg
-                                  width="17"
-                                  height="17"
-                                  viewBox="0 0 17 17"
-                                  fill="none"
-                                  xmlns="http://www.w3.org/2000/svg"
-                                >
-                                  <g clip-path="url(#clip0_16_3125)">
-                                    <path
-                                      d="M8.50008 1.41699C4.59008 1.41699 1.41675 4.59033 1.41675 8.50033C1.41675 12.4103 4.59008 15.5837 8.50008 15.5837C12.4101 15.5837 15.5834 12.4103 15.5834 8.50033C15.5834 4.59033 12.4101 1.41699 8.50008 1.41699ZM7.08342 12.042L3.54175 8.50033L4.5405 7.50158L7.08342 10.0374L12.4597 4.66116L13.4584 5.66699L7.08342 12.042Z"
-                                      fill="#FFA807"
-                                    />
-                                  </g>
-                                  <defs>
-                                    <clipPath id="clip0_16_3125">
-                                      <rect
-                                        width="17"
-                                        height="17"
-                                        fill="white"
-                                      />
-                                    </clipPath>
-                                  </defs>
-                                </svg>
-                                <p class="h6 m-0 _flex_1 font-medium leading-9">
-                                  We help you identify the most important
-                                  technological innovations and effectively
-                                  integrate them into your strategy to ensure
-                                  the sustainability of your investments
-                                  efficiently.
-                                </p>
-                              </div>
-                            </li>
-                          </ul>
-                        </div>
-                      </div>
-                      <div class="col-lg-5 mt-4 mt-lg-0 service_img_wrapper">
-                        <img
-                          src="/theme_avrasya/static/src/images/strategic-investments/service_highlight_img.png"
-                          alt="Diversify Your Investments with Confidence:"
-                        />
                       </div>
                     </div>
+                    <div class="col-lg-5 mt-4 mt-lg-0 service_img_wrapper">
+                      <img
+                        src="/theme_avrasya/static/src/images/strategic-investments/service_highlight_img.png"
+                        alt="Diversify Your Investments with Confidence:"
+                      />
+                    </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="pt80 pb80 services__shape-bg">
-                  <div class="container">
-                    <div class="text-center">
-                      <h4 class="mb32">
-                        Our various services in strategic investments
-                      </h4>
+              <section class="pt80 pb80 services__shape-bg">
+                <div class="container">
+                  <div class="text-center">
+                    <h4 class="mb32">
+                      Our various services in strategic investments
+                    </h4>
+                  </div>
+                  <div class="row justify-content-center" style="row-gap: 48px">
+                    <div class="col-lg-6">
+                      <h5 class="text-start mb16">
+                        Investment trend analysis and decision support
+                      </h5>
+                      <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We thoroughly study and analyze markets to identify
+                          the best investment opportunities.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We assess the risks and potential returns of each
+                          investment.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We provide accurate reports to support your investment
+                          decision-making process.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h5 class="text-start mb16">
+                        Developing effective investment strategies
+                      </h5>
+                      <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We design investment plans customized to your needs.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We help you find the best financing solutions.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We develop effective strategies that help companies
+                          achieve sustainable expansion and growth.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h5 class="text-start mb16">
+                        Investment risk assessment and management
+                      </h5>
+                      <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We analyze potential challenges and design effective
+                          plans to minimize investment risks.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We develop strategies to protect against sudden market
+                          fluctuations.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We provide effective advice that ensures the long-term
+                          stability of your investments.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-6">
+                      <h5 class="text-start mb16">
+                        Effective portfolio management
+                      </h5>
+                      <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We analyze the efficiency and strength of your
+                          investment assets.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We help you allocate and diversify your assets
+                          effectively.
+                        </li>
+                        <li
+                          class="d-flex text-start h6 m-0 font-medium pe-lg-5"
+                        >
+                          We provide you with the latest solutions that help you
+                          maximize the growth of your portfolio.
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="col-lg-7">
+                      <h5 class="text-start text-md-center mb16">
+                        Investment Innovation Consulting
+                      </h5>
+                      <ul
+                        class="m-0 p-0 bullted__list has_checkmark text-center align-items-lg-center"
+                      >
+                        <li
+                          class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                        >
+                          We provide comprehensive insights into emerging
+                          strategic opportunities in the markets.
+                        </li>
+                        <li
+                          class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                        >
+                          We develop investment strategies that integrate
+                          expertise and innovation.
+                        </li>
+                        <li
+                          class="d-flex text-start text-lg-center h6 m-0 font-medium"
+                        >
+                          We provide assistance on appropriate financing
+                          mechanisms for innovative projects with growing
+                          returns.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </section>
+
+              <section class="pt80 pb80" style="background-color: #09294f05">
+                <div class="container">
+                  <h4 class="text-center mb40">Why choose our services?</h4>
+                  <div class="row" style="row-gap: 1.5rem">
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We enhance the efficiency of your investments and manage
+                        them to achieve sustainable returns.
+                      </h5>
                     </div>
                     <div
-                      class="row justify-content-center"
-                      style="row-gap: 48px"
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
                     >
-                      <div class="col-lg-6">
-                        <h5 class="text-start mb16">
-                          Investment trend analysis and decision support
-                        </h5>
-                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We thoroughly study and analyze markets to identify
-                            the best investment opportunities.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We assess the risks and potential returns of each
-                            investment.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We provide accurate reports to support your
-                            investment decision-making process.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-6">
-                        <h5 class="text-start mb16">
-                          Developing effective investment strategies
-                        </h5>
-                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We design investment plans customized to your needs.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We help you find the best financing solutions.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We develop effective strategies that help companies
-                            achieve sustainable expansion and growth.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-6">
-                        <h5 class="text-start mb16">
-                          Investment risk assessment and management
-                        </h5>
-                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We analyze potential challenges and design effective
-                            plans to minimize investment risks.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We develop strategies to protect against sudden
-                            market fluctuations.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We provide effective advice that ensures the
-                            long-term stability of your investments.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-6">
-                        <h5 class="text-start mb16">
-                          Effective portfolio management
-                        </h5>
-                        <ul class="m-0 p-0 bullted__list has_checkmark pe-lg-5">
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We analyze the efficiency and strength of your
-                            investment assets.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We help you allocate and diversify your assets
-                            effectively.
-                          </li>
-                          <li
-                            class="d-flex text-start h6 m-0 font-medium pe-lg-5"
-                          >
-                            We provide you with the latest solutions that help
-                            you maximize the growth of your portfolio.
-                          </li>
-                        </ul>
-                      </div>
-                      <div class="col-lg-7">
-                        <h5 class="text-start text-md-center mb16">
-                          Investment Innovation Consulting
-                        </h5>
-                        <ul
-                          class="m-0 p-0 bullted__list has_checkmark text-center align-items-lg-center"
-                        >
-                          <li
-                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
-                          >
-                            We provide comprehensive insights into emerging
-                            strategic opportunities in the markets.
-                          </li>
-                          <li
-                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
-                          >
-                            We develop investment strategies that integrate
-                            expertise and innovation.
-                          </li>
-                          <li
-                            class="d-flex text-start text-lg-center h6 m-0 font-medium"
-                          >
-                            We provide assistance on appropriate financing
-                            mechanisms for innovative projects with growing
-                            returns.
-                          </li>
-                        </ul>
-                      </div>
+                      <h5>
+                        We provide you with practical market analysis and
+                        identify exceptional investment opportunities.
+                      </h5>
+                    </div>
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We support you continuously to achieve the best ROI.
+                      </h5>
+                    </div>
+                    <div
+                      class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
+                    >
+                      <h5>
+                        We develop integrated solutions that boost your business
+                        expansion efficiently.
+                      </h5>
                     </div>
                   </div>
-                </section>
+                </div>
+              </section>
 
-                <section class="pt80 pb80" style="background-color: #09294f05">
-                  <div class="container">
-                    <h4 class="text-center mb40">Why choose our services?</h4>
-                    <div class="row" style="row-gap: 1.5rem">
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We enhance the efficiency of your investments and
-                          manage them to achieve sustainable returns.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We provide you with practical market analysis and
-                          identify exceptional investment opportunities.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We support you continuously to achieve the best ROI.
-                        </h5>
-                      </div>
-                      <div
-                        class="col-sm-6 col-md-4 col-lg-3 pe-lg-5 text-center text-lg-start"
-                      >
-                        <h5>
-                          We develop integrated solutions that boost your
-                          business expansion efficiently.
-                        </h5>
-                      </div>
-                    </div>
-                  </div>
-                </section>
-
-                <t t-call="theme_avrasya.avrasya_custom_info_map" />
-              </div>
+              <t t-call="theme_avrasya.avrasya_custom_info_map" />
             </div>
-          </t>
+          </div>
         </t>
-      </field>
+      </t>
+    </template>
+
+    <record id="strategic_investments_theme_page" model="theme.website.page">
+      <field
+        name="view_id"
+        ref="theme_avrasya.strategic_investments_template"
+      />
+      <field name="is_published" eval="True" />
+      <field name="url">/strategic-investments</field>
     </record>
   </data>
 </odoo>

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 17.0+e-20250128\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-23 10:19+0000\n"
-"PO-Revision-Date: 2025-06-23 13:52+0300\n"
+"POT-Creation-Date: 2025-06-29 11:49+0000\n"
+"PO-Revision-Date: 2025-06-29 15:13+0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ar\n"
@@ -157,40 +157,37 @@ msgid "<span class=\"visually-hidden\">Previous</span>"
 msgstr "<span class=\"visually-hidden\">السابق</span>"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "<strong>\n"
-"                              We develop market entry strategies\n"
-"                            </strong>"
-msgstr ""
-"<strong>\n"
-"                              نطور استراتيجيات دخول الأسواق\n"
-"                            </strong>"
-
-#. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-msgid ""
-"<strong>\n"
-"                              We enhance the efficiency of strategic investments\n"
-"                            </strong>"
+"                          We enhance the efficiency of strategic investments\n"
+"                        </strong>"
 msgstr ""
 "<strong>\n"
 "                              نعزز كفاءة الاستثمارات الاستراتيجية\n"
 "                            </strong>"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "<strong>\n"
-"                              We facilitate your international trade\n"
-"                            </strong>"
+"                          We facilitate your international trade\n"
+"                        </strong>"
 msgstr ""
 "<strong>\n"
 "                              نسهل تجارتك الدولية\n"
 "                            </strong>"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+msgid "<strong> We develop market entry strategies </strong>"
+msgstr ""
+"<strong>\n"
+"                              نطور استراتيجيات دخول الأسواق\n"
+"                            </strong>"
+
+#. module: theme_avrasya
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "<strong> We improve supply chains </strong>"
 msgstr "<strong> نحسن سلاسل التوريد</strong>"
 
@@ -213,16 +210,16 @@ msgid "About Us Image"
 msgstr "نبذة عنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Accessing suitable investment opportunities."
 msgstr "صعوبة الوصول للفرص الاستثمارية المناسبة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "Achieving the desired sustainability in managing\n"
-"                                supply chains."
-msgstr "تحقيق الاستدامة المرغوبة في إدارة سلاسل التوريد."
+"                              supply chains."
+msgstr "تحقيق الاستدامة المرغوبة في إدارة سلاسل التوريد. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_custom_info_map
@@ -230,14 +227,14 @@ msgid "Address"
 msgstr "العنوان"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Advanced Marketing Strategies"
 msgstr "استراتيجيات التسويق والترويج"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Afriqat"
-msgstr "أفريقات"
+msgstr "أفريقات "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.custom_avrasya_footer
@@ -250,29 +247,29 @@ msgid "An address must be specified for a map to be embedded"
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Analyze and improve supply chain performance"
 msgstr "تحليل وتطوير أداء سلسلة التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Analyze international markets"
 msgstr "تحليل الأسواق الدولية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Analyzing customer data, buying behaviours, and\n"
-"                              results of marketing campaigns for OKSOUQ."
-msgstr "تحليل بيانات العملاء وسلوكيات ونتائج الشراء ونتائج الحملات التسويقية لـOKSOUQ."
+"                            results of marketing campaigns for OKSOUQ."
+msgstr "تحليل بيانات العملاء وسلوكيات ونتائج الشراء ونتائج الحملات التسويقية لـOKSOUQ. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Automate and streamline logistics processes"
 msgstr "أتمتة وتسهيل العمليات اللوجستية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Automation and facilitation of logistics processes"
 msgstr "أتمتة وتسهيل العمليات اللوجستية"
 
@@ -291,17 +288,17 @@ msgstr "أوراسيا"
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.d_map_snippets
 msgid "Avrasya Faqs"
-msgstr ""
+msgstr "الاسئلة الشائعة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Avrasya Services"
 msgstr "خدمات أوراسيا"
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.d_map_snippets
 msgid "Avrasya Testimonials"
-msgstr ""
+msgstr "شهادات أفراسيا"
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -317,14 +314,14 @@ msgstr ""
 "وأن نطور أفضل الحلول التي تمكن عملاءنا من التوسع بثقة ونجاح في الأسواق العالمية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Avrasya gave Emdad new ways to improve its\n"
-"                                logistics, expand its work, and better help\n"
-"                                communities in need."
+"                              logistics, expand its work, and better help\n"
+"                              communities in need."
 msgstr ""
 "قدمت أوراسيا حلولًا مبتكرة لشركة إمداد، لتساعدها في تحسين عملياتها اللوجستية وتوسيع نطاق عملها، وتعزيز قدرتها على توفير إمدادات الإغاثة "
-"اللازمة التي تساعد المجتمعات المتضررة على مواجهة الأزمات بشكل أكثر فاعلية."
+"اللازمة التي تساعد المجتمعات المتضررة على مواجهة الأزمات بشكل أكثر فاعلية.  "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.template_avrasya_in_numbers
@@ -332,45 +329,43 @@ msgid "Avrasya in Numbers"
 msgstr "إنجازاتنا في أرقام"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Avrasya provided OKSOUQ, a leading e-commerce\n"
-"                                platform, with a series of effective strategic\n"
-"                                consultations and solutions to enhance their\n"
-"                                user experience, improve the efficiency of\n"
-"                                logistics operations, design innovative\n"
-"                                marketing strategies to increase customer\n"
-"                                engagement and encourage them to use the\n"
-"                                platform effectively."
+"                              platform, with a series of effective strategic\n"
+"                              consultations and solutions to enhance their user\n"
+"                              experience, improve the efficiency of logistics\n"
+"                              operations, design innovative marketing strategies\n"
+"                              to increase customer engagement and encourage them\n"
+"                              to use the platform effectively."
 msgstr ""
 "قدمت أوراسيا لمنصة OKSOUQ، وهي منصة تجارة إلكترونية رائدة، مجموعة من الاستشارات الاستراتيجية الفعالة التي ساعدتها على تعزيز تجربة "
 "المستخدم، تطوير كفاءة العمليات اللوجستية المقدمة، بالإضافة إلى تصميم استراتيجيات تسويق مبتكرة لزيادة الوصول للعملاء، وتشجيعهم على استخدام "
-"المنصة لتحقيق تسوق مريح وآمن بأعلى جودة وأقل تكلفة."
+"المنصة لتحقيق تسوق مريح وآمن بأعلى جودة وأقل تكلفة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Avrasya provided integrated consulting to help\n"
-"                                Tawridat diversify its portfolio of solutions,\n"
-"                                enhance its ability to use the latest\n"
-"                                technologies and build effective relationships\n"
-"                                in the supply chain sector. Through our\n"
-"                                partnership with Tawridat, we enhanced its\n"
-"                                strategic relations in the Middle East, Turkey,\n"
-"                                Asia, and Africa to improve the efficiency of\n"
-"                                its services."
+"                              Tawridat diversify its portfolio of solutions,\n"
+"                              enhance its ability to use the latest technologies\n"
+"                              and build effective relationships in the supply\n"
+"                              chain sector. Through our partnership with\n"
+"                              Tawridat, we enhanced its strategic relations in\n"
+"                              the Middle East, Turkey, Asia, and Africa to\n"
+"                              improve the efficiency of its services."
 msgstr ""
 "قدمت أوراسيا لشركة توريدات استشارات متكاملة ساعدتها على تنويع محفظة حلولها، وتعزيز قدرتها على استخدام أحدث التقنيات، كما طورت قدرتها على "
 "بناء علاقات فعالة ساعدتها على تطوير علاقاتها الاستراتيجية في الشرق الأوسط، تركيا، آسيا وأفريقيا، لتطوير كفاءة الخدمات التي تقدمها "
-"لعملاءها بشكل فعال."
+"لعملاءها بشكل فعال.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Balancing supply and demand."
-msgstr "تحقيق التوازن بين العرض والطلب."
+msgstr "تحقيق التوازن بين العرض والطلب. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
 msgid "Become Our Partner Now!"
 msgstr "كُن شريكنا الآن!"
@@ -381,34 +376,34 @@ msgid "Blog"
 msgstr "المدونة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Boosting its ability to comply with local and\n"
-"                              international regulations."
-msgstr "خدمات ضمان الامتثال للوائح المحلية والدولية."
+"                            international regulations."
+msgstr "خدمات ضمان الامتثال للوائح المحلية والدولية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Boosting the efficiency of logistics operations\n"
-"                              for the platform."
+"Boosting the efficiency of logistics operations for\n"
+"                            the platform."
 msgstr "تعزيز كفاءة إدارة العمليات اللوجستية للمنصة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Building Effective Partnerships"
 msgstr "بناء الشراكات والتحالفات التجارية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Building partnerships and business alliances"
 msgstr "بناء الشراكات والتحالفات التجارية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Building strategic partnerships with local and\n"
-"                              international humanitarian organizations."
+"                            international humanitarian organizations."
 msgstr "بناء شراكات استراتيجية مع المنظمات الإنسانية المحلية والدولية."
 
 #. module: theme_avrasya
@@ -419,10 +414,10 @@ msgid ""
 msgstr "بناء شراكات استراتيجية مع المنظمات الإنسانية المحلية والدولية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Business data analysis to guide the strategic\n"
-"                              decision-making process effectively."
+"                            decision-making process effectively."
 msgstr "تحليل بيانات الأعمال لتوجيه عملية اتخاذ القرارات الاستراتيجية بـ(أفريقيات) بشكل فعال."
 
 #. module: theme_avrasya
@@ -451,7 +446,7 @@ msgid "Check Our Blog"
 msgstr "اطلع على مدونتنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Commercial document preparation services"
 msgstr "خدمات إعداد الوثائق التجارية"
 
@@ -461,10 +456,10 @@ msgid "Company logo"
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Comprehensive risk analysis and management related\n"
-"                              to providing relief to communities."
+"                            to providing relief to communities."
 msgstr "تحليل وإدارة شامل للمخاطر المرتبطة بتقديم الإغاثة في المجتمعات."
 
 #. module: theme_avrasya
@@ -475,12 +470,12 @@ msgid ""
 msgstr "تحليل وإدارة شامل للمخاطر المرتبطة بتقديم الإغاثة في المجتمعات."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Constant changes in regulations and laws."
 msgstr "تغير اللوائح والقوانين بصفة مستمرة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.custom_avrasya_footer
 msgid "Contact Us"
 msgstr "تواصل معنا"
@@ -491,21 +486,21 @@ msgid "Custom Strategies for Effective Global Growth"
 msgstr "استراتيجيات مخصصة لتحقيق نمو عالمي فعال"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Customized consultations to explore investment\n"
-"                              opportunities and achieve effective expansion in\n"
-"                              African markets."
-msgstr "استشارات متخصصة لاستكشاف فرص الاستثمار والتوسع الفعال في الأسواق الأفريقية."
+"                            opportunities and achieve effective expansion in\n"
+"                            African markets."
+msgstr "استشارات متخصصة لاستكشاف فرص الاستثمار والتوسع الفعال في الأسواق الأفريقية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Customs and regulatory complexities"
 msgstr "التعقيدات الجمركية والتنظيمية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Customs clearance services"
 msgstr "خدمات التخليص الجمركي"
 
@@ -515,59 +510,58 @@ msgid "Decorative Shape"
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Developed a smoother shopping experience."
 msgstr "تطوير سلاسة تجربة التسوق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Developed effective marketing strategies\n"
-"                                  aligned with customer preferences and actual\n"
-"                                  needs."
+"Developed effective marketing strategies aligned\n"
+"                                with customer preferences and actual needs."
 msgstr "تطوير استراتيجيات تسعير فعالة للمنتجات تعزز من القدرة التنافسية للمنصة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Developing an efficient supply chain."
 msgstr "الاختلافات في تفضيلات العملاء الجدد."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Developing and simplifying the user interface and\n"
-"                              browsing experience of the OKSOUQ platform."
+"                            browsing experience of the OKSOUQ platform."
 msgstr "تطوير وتبسيط واجهة المستخدم وتجربة التصفح على منصة OKSOUQ."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Developing customs simplification services and\n"
-"                              facilitating cross-border trade in Africa."
-msgstr "تعزيز كفاءة خدمات تبسيط الإجراءات الجمركية وتسهيل التجارة عبر الحدود في أفريقيا."
+"                            facilitating cross-border trade in Africa."
+msgstr "تعزيز كفاءة خدمات تبسيط الإجراءات الجمركية وتسهيل التجارة عبر الحدود في أفريقيا. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Developing effective investment strategies"
 msgstr "تطوير استراتيجيات الاستثمار الفعالة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Developing innovative marketing strategies which\n"
-"                              target the OKSOUQ audience effectively."
-msgstr "تطوير استراتيجيات تسويقية مبتكرة تستهدف جمهور  OKSOUQ بشكل فعال."
+"                            target the OKSOUQ audience effectively."
+msgstr "تطوير استراتيجيات تسويقية مبتكرة تستهدف جمهور  OKSOUQ بشكل فعال. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Developing logistics and distribution operations."
-msgstr "تطوير العمليات اللوجستية والتوزيع."
+msgstr "تطوير العمليات اللوجستية والتوزيع. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Differences in customer preferences."
-msgstr "عوائق الاعتماد على الشركاء المحليين."
+msgstr "عوائق الاعتماد على الشركاء المحليين. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.custom_blog_post
@@ -575,12 +569,12 @@ msgid "Discover More"
 msgstr "اكتشف المزيد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Discover Our Services"
 msgstr "اكتشف خدماتنا"
 
@@ -596,7 +590,7 @@ msgstr ""
 "لتحسين عملياتك التجارية والتوسع في الأسواق العالمية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Diversify Your Investments with Confidence:"
 msgstr "نوّع استثماراتك بثقة"
 
@@ -610,14 +604,14 @@ msgstr ""
 "في هذه الفترة، عملت الشركة على تعزيز النمو المستدام عبر تبني أحدث التقنيات، مع التركيز على تطوير حلول شاملة في مجالات اللوجستيات والتصدير."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "Economic fluctuations that make long-term\n"
-"                                investment planning challenging."
+"                              investment planning challenging."
 msgstr "التقلبات الاقتصادية التي تُصعب من عملية التخطيط الاستثماري طويل المدى"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Edamah"
 msgstr "إدامة"
 
@@ -627,29 +621,29 @@ msgid "Effective Collaboration"
 msgstr "التعاون الفعّال"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Effective consultations to increase the diversity\n"
-"                              of it’s solutions and services."
-msgstr "استشارات فعالة لزيادة تنوع الحلول والخدمات المقدمة."
+"Effective consultations to increase the diversity of\n"
+"                            it’s solutions and services."
+msgstr "استشارات فعالة لزيادة تنوع الحلول والخدمات المقدمة.   "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Effective geographic coverage to meet the\n"
-"                                  needs of more affected individuals."
+"Effective geographic coverage to meet the needs\n"
+"                                of more affected individuals."
 msgstr "تحسين التغطية الجغرافية، ما ساعد على تلبية احتياجات أكبر عدد من المتضررين."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"Effective management of returns to achieve\n"
-"                                desired investment goals."
+"Effective management of returns to achieve desired\n"
+"                              investment goals."
 msgstr "إدارة العوائد بشكل فعال لتحقيق الأهداف الاستثمارية المرغوبة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Effective portfolio management"
 msgstr "إدارة المحافظ الاستثمارية بشكل فعال"
 
@@ -659,35 +653,34 @@ msgid "Email address"
 msgstr "البريد الالكتروني"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
 msgid "Emdad"
 msgstr "إمداد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Enhanced Tawridat's ability to provide\n"
-"                                  services and products quickly across diverse\n"
-"                                  markets."
+"Enhanced Tawridat's ability to provide services\n"
+"                                and products quickly across diverse markets."
 msgstr "تعزيز قدرة شركة توريدات على تقديم خدماتها ومنتجاتها بسرعة في عدد متنوع من الأسواق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Enhanced product quality to improve supply\n"
-"                                  chain efficiency."
+"Enhanced product quality to improve supply chain\n"
+"                                efficiency."
 msgstr "تعزيز جودة المنتجات لتطوير كفاءة سلسلة الإمداد."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Enhanced the speed of product delivery to\n"
-"                                  customers."
+"                                customers."
 msgstr "تعزيز سرعة توصيل المنتجات إلى العملاء."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Enhancing the sustainability of supply chains"
 msgstr "تعزيز استدامة سلاسل التوريد"
 
@@ -697,28 +690,27 @@ msgid "Enter your email address"
 msgstr "ادخل عنوان بريدك الإلكتروني"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Expanded the scope of Tawridat’s operations\n"
-"                                  and increased their service delivery\n"
-"                                  efficiency."
+"Expanded the scope of Tawridat’s operations and\n"
+"                                increased their service delivery efficiency."
 msgstr "توسيع نطاق أعمال (توريدات) وزيادة كفاءتها في تقديم الخدمات."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "Expanding your business is an effective strategic step\n"
-"                        that boosts your global competitive position, and allows\n"
-"                        you to reach a larger client base. It also enables you\n"
-"                        to diversify and grow your revenue fully integrated and\n"
-"                        place your business in an ideal position to achieve the\n"
-"                        sustainable success you are striving for."
+"                      that boosts your global competitive position, and allows\n"
+"                      you to reach a larger client base. It also enables you to\n"
+"                      diversify and grow your revenue fully integrated and place\n"
+"                      your business in an ideal position to achieve the\n"
+"                      sustainable success you are striving for."
 msgstr ""
 "يعتبر التوسع بأعمالك خطوة استراتيجية فعالة تعزز مكانتك التنافسية عالميًا، وتتيح لك الوصول إلى قاعدة أكبر من العملاء، كما تمكنك من تنويع "
-"إيراداتك وتنميتها بشكل متكامل، لتضع أعمالك في موقع مثالي يتيح لها تحقيق النجاح المستدام الذي تتطلع له."
+"إيراداتك وتنميتها بشكل متكامل، لتضع أعمالك في موقع مثالي يتيح لها تحقيق النجاح المستدام الذي تتطلع له. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Explore more details"
 msgstr "استكشف المزيد من التفاصيل"
 
@@ -728,8 +720,8 @@ msgid "FAQs"
 msgstr "الاسئلة الشائعة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Facilitating International Trade"
 msgstr "تسهيل التجارة الدولية"
 
@@ -741,16 +733,16 @@ msgid ""
 msgstr "املأ النموذج، واجعل أعمالك مستدامة مع أوراسيا:"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Finding suitable local partners."
-msgstr "توفير سلسلة إمداد فعالة."
+msgstr "توفير سلسلة إمداد فعالة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "Finding suitable suppliers who provide high\n"
-"                                quality at reasonable costs."
-msgstr "صعوبة إيجاد الموردين المناسبين، الذين يقدمون الجودة العالية بالتكلفة المعقولة."
+"                              quality at reasonable costs."
+msgstr "صعوبة إيجاد الموردين المناسبين، الذين يقدمون الجودة العالية بالتكلفة المعقولة. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -768,14 +760,14 @@ msgid "Frequently asked questions"
 msgstr "الاسئلة الشائعة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "From its start, Avrasya has aided clients in conquering\n"
-"                        expansion hurdles, leading to better logistics and\n"
-"                        comprehensive strategic investments."
+"                      expansion hurdles, leading to better logistics and\n"
+"                      comprehensive strategic investments."
 msgstr ""
 "منذ تأسيسها، دعمت أوراسيا عملاءها في التغلب على تحديات التوسع، ومكنتهم من تحسين عملياتهم اللوجستية وبناء استثمارات استراتيجية شاملة، عبر "
-"تقديم حلول مبتكرة تسهم في تعزيز قدرتهم على  تحقيق أهدافهم التجارية بنجاح وفعالية."
+"تقديم حلول مبتكرة تسهم في تعزيز قدرتهم على  تحقيق أهدافهم التجارية بنجاح وفعالية. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -788,39 +780,38 @@ msgid "Home"
 msgstr "الصفحة الرئيسية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"How does Avrasya help you develop effective\n"
-"                            strategies to compete in new markets?"
-msgstr "كيف تساعدك أوراسيا على تطوير استراتيجيات فعالة للمنافسة في الأسواق الجديدة؟"
+"How does Avrasya help you develop effective strategies\n"
+"                          to compete in new markets?"
+msgstr "كيف تساعدك أوراسيا على تطوير استراتيجيات فعالة للمنافسة في الأسواق الجديدة؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "How does Avrasya help you improve your supply chain?"
-msgstr "كيف تساعدك أوراسيا في تحسين سلاسل التوريد؟"
+msgstr "كيف تساعدك أوراسيا في تحسين سلاسل التوريد؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "How does Avrasya help you meet these challenges?!"
-msgstr "كيف تساعدك أوراسيا في مواجهة تلك التحديات؟"
+msgstr "كيف تساعدك أوراسيا في مواجهة تلك التحديات؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "How does Avrasya help you tackle these challenges?"
 msgstr "كيف تساعدك أوراسيا على مواجهة تلك التحديات؟"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Improved speed of relief supply distribution."
 msgstr "تحسين سرعة توزيع إمدادات الإغاثة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Improved the skills of Tawridat team, and\n"
-"                                  enhanced their ability to use modern\n"
-"                                  technology and handle the needs of different\n"
-"                                  markets."
+"                                enhanced their ability to use modern technology\n"
+"                                and handle the needs of different markets."
 msgstr "تحسين مهارات فريق (توريدات) وتطوير قدرتهم على استخدام التكنولوجيا الحديثة والتعامل مع احتياجات الأسواق المختلفة."
 
 #. module: theme_avrasya
@@ -829,50 +820,50 @@ msgid "Improving Manufacturing Sustainability"
 msgstr "نطور استدامة عمليات التصنيع"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Improving Tawridat team’s capabilities and skills."
-msgstr "تطوير قدرات فريق عمل (توريدات)."
+msgstr "تطوير قدرات فريق عمل (توريدات). "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "Improving and developing supply chain efficiency plays a\n"
-"                        crucial role in enabling businesses to achieve the\n"
-"                        operational excellence they seek. When done correctly,\n"
-"                        this process significantly reduces costs, improves\n"
-"                        product flow, minimises waste, and enhances business\n"
-"                        flexibility. Additionally, it strengthens the\n"
-"                        competitiveness of businesses in the market, maximizing\n"
-"                        the use of available resources and enhancing customer\n"
-"                        satisfaction and loyalty to your brand."
+"                      crucial role in enabling businesses to achieve the\n"
+"                      operational excellence they seek. When done correctly,\n"
+"                      this process significantly reduces costs, improves product\n"
+"                      flow, minimises waste, and enhances business flexibility.\n"
+"                      Additionally, it strengthens the competitiveness of\n"
+"                      businesses in the market, maximizing the use of available\n"
+"                      resources and enhancing customer satisfaction and loyalty\n"
+"                      to your brand."
 msgstr ""
 "أصبح لتحسين وتطوير كفاءة سلاسل التوريد دور فعال في تمكين المؤسسات من تحقيق التميز التشغيلي الذي تتطلع له، خاصة وأنه إذا ما تمت تلك "
 "العملية بشكل صحيح، فإنه ستساهم بكفاءة في تقليل التكاليف، تحسين تدفق المنتجات وتقليل الفاقد، بالإضافة إلى تعزيز مرونة الأعمال، وتطوير "
-"القدرة التنافسية للمشروعات في السوق، ما يحقق أقصى استفادة من الموارد المتاحة، ويعزز من رضا العملاء وولائهم للمؤسسة."
+"القدرة التنافسية للمشروعات في السوق، ما يحقق أقصى استفادة من الموارد المتاحة، ويعزز من رضا العملاء وولائهم للمؤسسة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Improving shipment tracking mechanisms and\n"
-"                              expanding the shipping network."
-msgstr "تحسين آليات تتبع الشحنات، وتوسيع شبكة الشحن."
+"Improving shipment tracking mechanisms and expanding\n"
+"                            the shipping network."
+msgstr "تحسين آليات تتبع الشحنات، وتوسيع شبكة الشحن. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Innovative coordination with humanitarian\n"
-"                                  organizations."
+"                                organizations."
 msgstr "تعزيز التنسيق مع المنظمات الإنسانية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Innovative solutions to develop Afriqat's\n"
-"                              logistics service network."
-msgstr "حلول مبتكرة لتطوير شبكة الخدمات اللوجستية لشركة أفريقات."
+"Innovative solutions to develop Afriqat's logistics\n"
+"                            service network."
+msgstr "حلول مبتكرة لتطوير شبكة الخدمات اللوجستية لشركة أفريقات. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Integration of the latest technological solutions"
 msgstr "دمج أحدث الحلول التكنولوجية"
 
@@ -887,31 +878,29 @@ msgid "International Expansion Consulting"
 msgstr "استشارات التوسع الدولي"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Investment Innovation Consulting"
 msgstr "استشارات الابتكار في الاستثمار"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Investment innovation consulting"
 msgstr "استشارات الابتكار في الاستثمار"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Investment risk assessment and management"
 msgstr "تقييم وإدارة المخاطر الاستثمارية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Investment trend analysis and decision support"
-msgstr "Investment trend analysis and decision support:"
+msgstr "تحليل الاتجاهات الاستثمارية ودعم اتخاذ القرار"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-msgid ""
-"Investment trend analysis and decision-making\n"
-"                            support"
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+msgid "Investment trend analysis and decision-making support"
 msgstr "تحليل الاتجاهات الاستثمارية ودعم اتخاذ القرار"
 
 #. module: theme_avrasya
@@ -920,42 +909,42 @@ msgid "Latest Posts"
 msgstr "أحدث المقالات"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Legal and regulatory challenges."
 msgstr "التحديات القانونية والتنظيمية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Local and international competition"
 msgstr "إدارة العلاقات مع الموردين"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Local competition in new markets."
-msgstr "المنافسة المحلية في الأسواق الجديدة."
+msgstr "المنافسة المحلية في الأسواق الجديدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Local marketing challenges"
 msgstr "المخاطر اللوجستية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Logistical risks"
 msgstr "المنافسة المحلية والدولية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Logistics and supply chain management"
 msgstr "إدارة العمليات اللوجستية وسلاسل التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Logistics insurance services"
 msgstr "خدمات التأمين اللوجستي"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Logistics management"
 msgstr "إدارة العمليات اللوجستية"
 
@@ -968,11 +957,11 @@ msgid ""
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "Maintaining required quality levels in products\n"
-"                                and services."
-msgstr "صعوبة الحفاظ على مستويات الجودة المطلوبة في المنتجات والخدمات."
+"                              and services."
+msgstr "صعوبة الحفاظ على مستويات الجودة المطلوبة في المنتجات والخدمات. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_contactus_page
@@ -994,31 +983,31 @@ msgid "Map"
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Market Analysis"
 msgstr "تحليل الأسواق المستهدفة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Market Entry Strategies Development"
 msgstr "تطوير استراتيجيات دخول الأسواق"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Market analysis"
 msgstr "تحليل الأسواق المستهدفة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Market and investment risk analysis in African\n"
-"                              markets."
+"                            markets."
 msgstr "تحليل الأسواق والمخاطر الاستثمارية في الأسواق الأفريقية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Marketing and promotional strategies"
 msgstr "استراتيجيات التسويق والترويج"
 
@@ -1028,10 +1017,10 @@ msgid "Mastering Supply Chain Management"
 msgstr "إتقان إدارة سلاسل التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "Minimize risk and enhance the sustainability of your\n"
-"                          supply chains"
+"                        supply chains"
 msgstr "تقليل المخاطر وتعزيز استدامة سلاسل التوريد"
 
 #. module: theme_avrasya
@@ -1081,7 +1070,7 @@ msgid "Number of strategic partnerships"
 msgstr "عدد الشراكات الاستراتيجية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "OKSOUQ"
 msgstr "OKSOUQ"
 
@@ -1092,12 +1081,12 @@ msgid "Office Number"
 msgstr "رقم هاتف المكتب"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Optimize supplier management"
 msgstr "تحسين إدارة الموردين"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Optimize supply chain operations"
 msgstr "تحسين عمليات سلاسل التوريد"
 
@@ -1127,44 +1116,44 @@ msgid "Our Integrated Solutions for Various Industries"
 msgstr "حلولنا المتكاملة لمختلف الصناعات"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Our Key Clients"
 msgstr "أبرز عملائنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Our Services"
 msgstr "خدماتنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Our Services Image 1"
-msgstr ""
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Our Services Image 2"
-msgstr ""
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Our Services Image 3"
-msgstr ""
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Our Services Image 4"
-msgstr ""
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Our Success Stories"
 msgstr "قصص نجاحنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Our Various Services in Facilitating International Trade"
 msgstr "خدماتنا المتنوعة في تسهيل التجارة الدولية"
 
@@ -1174,11 +1163,11 @@ msgid "Our Vision"
 msgstr "رؤيتنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
-"Our advanced solutions help businesses achieve\n"
-"                          sustainable performance, operational efficiency, and\n"
-"                          exceptional growth."
+"Our advanced solutions help businesses achieve sustainable\n"
+"                      performance, operational efficiency, and exceptional\n"
+"                      growth."
 msgstr ""
 "نساعد الشركات على تعزيز استدامة أداء مشروعاتها، رفع كفاءة عملياتها وتعزيز نموها بشكل استثنائي، عبر استشاراتنا المتميزة، حلول أعمالنا "
 "المتقدمة، واستخدامنا لأحدث التقنيات."
@@ -1220,14 +1209,14 @@ msgid ""
 msgstr "نضع عملاءنا نصب أعيننا:"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Our various services in strategic investments"
 msgstr "خدماتنا المتنوعة في تعزيز الاستثمارات الاستراتيجية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Partnership Application Form"
-msgstr "نموذج طلب الشراكة"
+msgstr "نموذج\vطلب الشراكة"
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_custom_info_map
@@ -1240,12 +1229,12 @@ msgid "Previous"
 msgstr "السابق"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Pricing and Distribution Strategies"
 msgstr "استراتيجيات التسعير والتوزيع"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Pricing and distribution strategies"
 msgstr "استراتيجيات التسعير والتوزيع"
 
@@ -1260,10 +1249,10 @@ msgid "Quality"
 msgstr "الجودة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "Rapid technological updates that may lead to\n"
-"                                unexpected market shifts."
+"                              unexpected market shifts."
 msgstr "التغيرات التكنولوجية المتتابعة التي قد تؤدي لحدوث تغيرات غير متوقعة في الأسواق"
 
 #. module: theme_avrasya
@@ -1272,17 +1261,15 @@ msgid "Recent Blogs"
 msgstr "أحدث المقالات"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
-msgid ""
-"Reduced logistical costs for relief\n"
-"                                  operations."
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
+msgid "Reduced logistical costs for relief operations."
 msgstr "تقليص التكاليف اللوجستية الخاصة بعمليات الإغاثة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Reduced operational risks and ensured\n"
-"                                  compliance with relief supply operations."
+"Reduced operational risks and ensured compliance\n"
+"                                with relief supply operations."
 msgstr "تقليل المخاطر التشغيلية وتحقيق الامتثال لعمليات إمدادات الإغاثة."
 
 #. module: theme_avrasya
@@ -1296,26 +1283,26 @@ msgid "Reliable global experience"
 msgstr "تسهيل التجارة الدولية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Request a consultation"
 msgstr "اطلب استشارة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Results:"
 msgstr "النتائج"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Risk Evaluation and Expansion Plans"
 msgstr "تقييم المخاطر ووضع خطط التوسع"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Risk assessment and expansion planning"
 msgstr "تقييم المخاطر ووضع خطط التوسع"
 
@@ -1330,19 +1317,19 @@ msgid "Services"
 msgstr "الخدمات"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Services Provided to Afriqat:"
-msgstr "الخدمات المقدمة لشركة أفريقات"
+msgstr "الخدمات المقدمة لشركة أفريقات "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Services Provided to OKSOUQ:"
-msgstr "الخدمات المقدمة لمنصة OKSOUQ"
+msgstr "الخدمات المقدمة لمنصة OKSOUQ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Services Provided to Tawridat:"
-msgstr "الخدمات المقدمة لشركة توريدات"
+msgstr "الخدمات المقدمة لشركة توريدات "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -1350,7 +1337,7 @@ msgid "Services provided to Emdad"
 msgstr "الخدمات المقدمة لشركة (إمداد)"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Services provided to Emdad:"
 msgstr "الخدمات المقدمة لشركة (إمداد)"
 
@@ -1395,16 +1382,16 @@ msgid "Stay Updated with Our Latest News"
 msgstr "تعرف على آخر أخبارنا"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Strategic Investment Solutions"
 msgstr "حلول الاستثمارات الاستراتيجية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Strategic Investments for Sustainable Success!"
-msgstr "استثمارات استراتيجية لنجاح مستدام!"
+msgstr "استثمارات استراتيجية لنجاح مستدام! "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_custom_contact_form
@@ -1437,10 +1424,10 @@ msgid "Success Partners"
 msgstr "شركاء النجاح"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Successful strategies for faster and more\n"
-"                              effective distribution of supplies."
+"Successful strategies for faster and more effective\n"
+"                            distribution of supplies."
 msgstr "استراتيجيات ناجحة لتوزيع الإمدادات بشكل أكثر فعالية وسرعة."
 
 #. module: theme_avrasya
@@ -1451,45 +1438,45 @@ msgid ""
 msgstr "استراتيجيات ناجحة لتوزيع الإمدادات بشكل أكثر فعالية وسرعة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Supplier network optimization"
 msgstr "تحسين شبكة الموردين"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Supplier relationship management"
 msgstr "تحديات التسويق المحلي"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Supply Chain Optimization"
 msgstr "تحسين سلاسل التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "Supply chain performance analysis and development"
 msgstr "تحليل وتطوير أداء سلسلة التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "Supported by specialized expertise, we provide\n"
-"                            distinguished services that help you explore\n"
-"                            suitable expansion opportunities, and lead you to\n"
-"                            achieve the highest returns and enhance your global\n"
-"                            growth with creativity."
+"                          distinguished services that help you explore suitable\n"
+"                          expansion opportunities, and lead you to achieve the\n"
+"                          highest returns and enhance your global growth with\n"
+"                          creativity."
 msgstr ""
 "نساعدك على استكشاف فرص التوسع المناسبة، عبر خدماتنا المتميزة المدعومة بالخبرات المتخصصة، والتي تمكنك من تحقيق أعلى العوائد وتعزيز نموك "
-"عالميًا بإبداع."
+"عالميًا بإبداع. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "Supporting its international expansion into new\n"
-"                              markets in the Middle East, Asia, and Africa."
-msgstr "دعم عمليات التوسع الدولي في أسواق جديدة في الشرق الأوسط وآسيا وأفريقيا."
+"                            markets in the Middle East, Asia, and Africa."
+msgstr "دعم عمليات التوسع الدولي في أسواق جديدة في الشرق الأوسط وآسيا وأفريقيا. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -1502,16 +1489,16 @@ msgid "Taqat Trading Business Solutions"
 msgstr ""
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid "Tawridat"
-msgstr "توريدات"
+msgstr "توريدات "
 
 #. module: theme_avrasya
 #. odoo-javascript
 #: code:addons/theme_avrasya/static/src/components/testimonials/index.xml:0
 #, python-format
 msgid "Testimonial Image"
-msgstr ""
+msgstr "نبذة عنا"
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_custom_newsletter_form
@@ -1528,10 +1515,10 @@ msgid ""
 msgstr "بفضل خبرتنا واستراتيجياتنا المبتكرة، نجحنا في دخول مجموعة متنوعة من الأسواق العالمية، مما عزز مكانتنا كشريك تجاري موثوق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "The form should include enough information to\n"
-"                            understand the potential partner's needs:"
+"                          understand the potential partner's needs:"
 msgstr "يجب أن يتضمن النموذج معلومات كافية لفهم احتياجات الشريك المحتمل:"
 
 #. module: theme_avrasya
@@ -1578,11 +1565,11 @@ msgstr ""
 "الكفاءة في أداء مشاريعك بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"Through our innovative solutions, we were able to help\n"
-"                        our clients achieve their business goals successfully\n"
-"                        and effectively."
+"Through our innovative solutions, we were able to help our\n"
+"                      clients achieve their business goals successfully and\n"
+"                      effectively."
 msgstr ""
 "عبر حلولنا المٌبدعة وشبكتنا الواسعة، نقدم لك فرصًا غير محدودة تمكنك من تنمية أعمالك على الصعيد العالمي، وتساعدك على تحقيق الاستدامة وتعزيز "
 "الكفاءة في أداء مشاريعك بشكل متكامل."
@@ -1611,51 +1598,50 @@ msgstr ""
 "بشكل مثالي."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "To enhance your ability to grow effectively in the\n"
-"                              business world."
+"                          business world."
 msgstr "لتعزيز قدرتك على النمو في عالم الأعمال بشكل فعال."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
-"To help its clients achieve optimal investments\n"
-"                                in Africa, Avrasya provided Afriqat with\n"
-"                                strategic solutions to identify investment\n"
-"                                opportunities on the African continent. We also\n"
-"                                helped Afriqat enhance the efficiency of its\n"
-"                                logistics services innovatively by using the\n"
-"                                latest technologies to ensure the desired\n"
-"                                creativity in diversifying Afriqat services\n"
-"                                effectively."
+"To help its clients achieve optimal investments in\n"
+"                              Africa, Avrasya provided Afriqat with strategic\n"
+"                              solutions to identify investment opportunities on\n"
+"                              the African continent. We also helped Afriqat\n"
+"                              enhance the efficiency of its logistics services\n"
+"                              innovatively by using the latest technologies to\n"
+"                              ensure the desired creativity in diversifying\n"
+"                              Afriqat services effectively."
 msgstr ""
 "لتمكنها من مساعدة عملاؤها على تحقيق استثمار مثالي في أفريقيا، تقدّم أوراسيا لشركة أفريقات حلولًا استراتيجية لتحديد فرص الاستثمار في القارة "
 "السمراء، وتساعدها على تطوير كفاءة الخدمات اللوجستية التي تقدمها بشكل مُبتكر، وبالاعتماد على أحدث تكنولوجيا، حتى تساعدها على تحقيق الإبداع "
-"المرغوب في تنويع خدماتها بفعالية."
+"المرغوب في تنويع خدماتها بفعالية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "To lead you to explore and exploit the best\n"
-"                              opportunities smoothly."
-msgstr "لتبسيط قدرتك على استكشاف واستغلال أفضل الفرص بسلاسة."
+"                          opportunities smoothly."
+msgstr "لتبسيط قدرتك على استكشاف واستغلال أفضل الفرص بسلاسة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "To maximize the efficiency and quality of your\n"
-"                              international resource flow."
+"                          international resource flow."
 msgstr "لتعظيم كفاءة وجودة تدفق مواردك دوليًا."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Trade Documentation Services"
 msgstr "خدمات إعداد الوثائق التجارية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "Trade compliance and risk management"
 msgstr "الامتثال التجاري وإدارة المخاطر"
 
@@ -1667,17 +1653,17 @@ msgid "Try Again"
 msgstr "حاول مرة أخري"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"Utilizing the latest sustainability methodologies,\n"
-"                            we ensure your operations are compliant with the\n"
-"                            world's leading quality standards."
-msgstr "نعتمد على أحدث منهجيات الاستدامة، لنتأكد من توافق عملياتك مع أبرز معايير الجودة العالمية."
+"Utilizing the latest sustainability methodologies, we\n"
+"                          ensure your operations are compliant with the world's\n"
+"                          leading quality standards."
+msgstr "نعتمد على أحدث منهجيات الاستدامة، لنتأكد من توافق عملياتك مع أبرز معايير الجودة العالمية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Various logistical challenges."
-msgstr "التحديات اللوجستية المتنوعة."
+msgstr "التحديات اللوجستية المتنوعة. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -1688,40 +1674,39 @@ msgid ""
 msgstr "حيث نتبنى أحدث التقنيات والأساليب المبتكرة، لنساعد عملاءنا على مواكبة التطورات المتلاحقة في عالم الأعمال اليوم بشكل سريع."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We analyze customer behaviour and market trends to\n"
-"                            ensure your products and services meet their needs."
-msgstr "نحلل سلوك العملاء واتجاهات السوق، لضمان توافق منتجاتك وخدماتك مع احتياجاتهم."
+"                          ensure your products and services meet their needs."
+msgstr " نحلل سلوك العملاء واتجاهات السوق، لضمان توافق منتجاتك وخدماتك مع احتياجاتهم.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We analyze potential challenges and design effective\n"
-"                            plans to minimize investment risks."
-msgstr "نحلل التحديات المحتملة ونصمم خطط فعالة لتقليل المخاطر الاستثمارية."
+"                          plans to minimize investment risks."
+msgstr " نحلل التحديات المحتملة ونصمم خطط فعالة لتقليل المخاطر الاستثمارية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We analyze the efficiency and strength of your\n"
-"                            investment assets."
-msgstr "نحلل كفاءة وقوة أصولك الاستثمارية."
+"                          investment assets."
+msgstr "نحلل كفاءة وقوة أصولك الاستثمارية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We analyze the nature of your costs and inventory\n"
-"                            levels to improve your supply chain efficiency."
-msgstr "نحلل عن قرب طبيعة التكاليف ومستويات المخزون."
+"                          levels to improve your supply chain efficiency."
+msgstr " نحلل عن قرب طبيعة التكاليف ومستويات المخزون.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We apply artificial intelligence and data analytics\n"
-"                            to forecast demand and efficiently optimize\n"
-"                            inventory."
-msgstr "نطبق تقنيات الذكاء الاصطناعي وتحليل البيانات لتوقع الطلب وتحسين المخزون بكفاءة."
+"We apply artificial intelligence and data analytics to\n"
+"                          forecast demand and efficiently optimize inventory."
+msgstr "نطبق تقنيات الذكاء الاصطناعي وتحليل البيانات لتوقع الطلب وتحسين المخزون بكفاءة.  "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -1746,33 +1731,33 @@ msgid "We are globally present"
 msgstr "نتواجد على نطاق عالمي:"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We assess current performance and propose the best\n"
-"                            solutions to improve efficiency."
-msgstr "نقيم الأداء الحالي ونقترح أفضل الحلول لتحسين الكفاءة."
+"                          solutions to improve efficiency."
+msgstr " نقيم الأداء الحالي ونقترح أفضل الحلول لتحسين الكفاءة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We assess market size and identify competition and\n"
-"                            growth opportunities in an integrated manner."
-msgstr "نقيم حجم السوق، ونحدد فرص المنافسة والنمو فيه بشكل متكامل."
+"                          growth opportunities in an integrated manner."
+msgstr " نقيم حجم السوق، ونحدد فرص المنافسة والنمو فيه بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We assess the risks and potential returns of each\n"
-"                            investment."
+"                          investment."
 msgstr "نقيم المخاطر والعوائد المحتملة لكل استثمار.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We automate your logistics operations\n"
-"                                  efficiently to help minimize logistical risks\n"
-"                                  and ensure a smooth flow of your products."
-msgstr "نقوم بأتمتة عملياتك اللوجستية بكفاءة لنساعدك على الحد من مخاطر العمليات اللوجستية، ونضمن تحقيق تدفق سلس لمنتجاتك."
+"                                efficiently to help minimize logistical risks\n"
+"                                and ensure a smooth flow of your products."
+msgstr "نقوم بأتمتة عملياتك اللوجستية بكفاءة لنساعدك على الحد من مخاطر العمليات اللوجستية، ونضمن تحقيق تدفق سلس لمنتجاتك. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -1803,15 +1788,15 @@ msgid "We bring the highest level of innovation:"
 msgstr "نقدم الابتكار في أبهى صوره:"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"We closely analyze customer needs in new\n"
-"                                  markets and helps you develop and customize\n"
-"                                  your products and services to align with these\n"
-"                                  needs comprehensively."
+"We closely analyze customer needs in new markets\n"
+"                                and helps you develop and customize your\n"
+"                                products and services to align with these needs\n"
+"                                comprehensively."
 msgstr ""
 "تحلل أوراسيا عن قرب احتياجات العملاء في الأسواق الجديدة، وتساعدك على تطوير وتخصيص منتجاتك وخدماتك لكي تتوافق مع تلك الاحتياجات بشكل "
-"متكامل."
+"متكامل. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -1839,229 +1824,226 @@ msgid ""
 msgstr "نقدم خدماتنا بكفاءة، ونهتم بأدق التفاصيل لضمان تطوير وتنفيذ الحلول بأعلى مستوى من الاحترافية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We design diverse plans which depend on traditional\n"
-"                            and digital channels to ensure you reach new clients\n"
-"                            effectively."
-msgstr "نصمم خطط ترويجية متنوعة تعتمد على القنوات التقليدية والرقمية لضمان وصولك بشكل مثالي لعملاءك الجدد."
+"                          and digital channels to ensure you reach new clients\n"
+"                          effectively."
+msgstr "نصمم خطط ترويجية متنوعة تعتمد على القنوات التقليدية والرقمية لضمان وصولك بشكل مثالي لعملاءك الجدد.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
-"We design innovative logistics solutions,\n"
-"                              including customs clearance, warehousing\n"
-"                              solutions, shipping and distribution, to ensure\n"
-"                              you can achieve fast and safe delivery of your\n"
-"                              products in international markets."
+"We design innovative logistics solutions, including\n"
+"                            customs clearance, warehousing solutions, shipping\n"
+"                            and distribution, to ensure you can achieve fast and\n"
+"                            safe delivery of your products in international\n"
+"                            markets."
 msgstr ""
 "تقدم أوراسيا حلول لوجستية مبتكرة تشمل التخليص الجمركي، حلول التخزين، الشحن والتوزيع، لضمان تمكنك من تحقيق تسليم سريع وآمن لمنتجاتك في "
-"الأسواق الدولية."
+"الأسواق الدولية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "We design investment plans customized to your needs."
 msgstr "نصمم خطط استثمارية مخصصة لاحتياجاتك."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We develop a comprehensive review of your supply\n"
-"                            chain structure to identify strengths and\n"
-"                            weaknesses."
+"We develop a comprehensive review of your supply chain\n"
+"                          structure to identify strengths and weaknesses."
 msgstr "نطور مراجعة شاملة لهيكل سلسلة توريدك لتحديد نقاط الضعف والقوة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We develop comprehensive strategies to reduce\n"
-"                            potential challenges and ensure a smooth entry into\n"
-"                            the new market."
-msgstr "نطور لك استراتيجيات شاملة تقلل حجم التحديات المحتملة وتضمن دخولك السوق الجديد بسلاسة."
+"                          potential challenges and ensure a smooth entry into\n"
+"                          the new market."
+msgstr "نطور لك استراتيجيات شاملة تقلل حجم التحديات المحتملة وتضمن دخولك السوق الجديد بسلاسة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"We develop creative and customized marketing\n"
-"                            campaigns that align with the new market’s culture\n"
-"                            and expectations."
-msgstr "نطور حملات تسويقية مُبدعة وموجهة لتتوافق مع ثقافة وتوقعات السوق المستهدف."
+"We develop creative and customized marketing campaigns\n"
+"                          that align with the new market’s culture and\n"
+"                          expectations."
+msgstr "نطور حملات تسويقية مُبدعة وموجهة لتتوافق مع ثقافة وتوقعات السوق المستهدف. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We develop customized solutions that align with your\n"
-"                          business nature, customer needs, and competition in\n"
-"                          each market."
+"                        business nature, customer needs, and competition in each\n"
+"                        market."
 msgstr "نطور حلول مخصصة تتوافق مع طبيعة أعمالك، احتياجات العملاء والمنافسة في كل سوق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We develop customized strategies to improve efficiency\n"
-"                          and reduce costs of your supply chain operations."
-msgstr "نطور استراتيجيات مخصصة لتحسين الكفاءة وخفض التكاليف في إدارة سلاسل توريدك."
+"                        and reduce costs of your supply chain operations."
+msgstr "نطور استراتيجيات مخصصة لتحسين الكفاءة وخفض التكاليف في إدارة سلاسل توريدك.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We develop effective operational plans that optimize\n"
-"                            the flow of your products."
+"                          the flow of your products."
 msgstr "نركز على تحقيق المرونة في إدارة سلاسل التوريد، لتقليل الهدر وتعزيز الإنتاجية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We develop effective risk management plans to\n"
-"                            minimize the impact of crises on your supply chain."
+"We develop effective risk management plans to minimize\n"
+"                          the impact of crises on your supply chain."
 msgstr "نطور خطط فعالة لإدارة المخاطر وتقليل تأثر سلاسل التوريد في أعمالك بالأزمات."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We develop effective strategies for effective risk\n"
-"                              management."
-msgstr "نطور استراتيجيات فعالة لإدارة المخاطر بشكل فعال."
+"                            management."
+msgstr "نطور استراتيجيات فعالة لإدارة المخاطر بشكل فعال.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We develop effective strategies that ensure\n"
-"                                  you maintain the highest efficiency standards\n"
-"                                  throughout the supply chain lifecycle."
-msgstr "تطور لك أوراسيا استراتيجيات فعالة تضمن حفاظك على أعلى معايير الكفاءة طوال دورة حياة سلسلة التوريد."
+"We develop effective strategies that ensure you\n"
+"                                maintain the highest efficiency standards\n"
+"                                throughout the supply chain lifecycle."
+msgstr "تطور لك أوراسيا استراتيجيات فعالة تضمن حفاظك على أعلى معايير الكفاءة طوال دورة حياة سلسلة التوريد. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We develop effective strategies that help companies\n"
-"                            achieve sustainable expansion and growth."
+"                          achieve sustainable expansion and growth."
 msgstr "نطور الاستراتيجيات الفعالة التي تساعد الشركات على تحقيق التوسع والنمو المستدام."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"We develop effective studies that help you\n"
-"                            understand the dynamics of new markets efficiently."
-msgstr "نطور دراسات فعالة تساعدك على فهم ديناميكيات الأسواق المستهدفة بكفاءة."
+"We develop effective studies that help you understand\n"
+"                          the dynamics of new markets efficiently."
+msgstr " نطور دراسات فعالة تساعدك على فهم ديناميكيات الأسواق المستهدفة بكفاءة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We develop flexible investment risk management\n"
-"                                  strategies."
+"                                strategies."
 msgstr "نطور استراتيجيات مرنة لإدارة المخاطر الاستثمارية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We develop integrated distribution strategies that\n"
-"                            align with your business needs."
+"                          align with your business needs."
 msgstr "نطور استراتيجيات توزيع متكاملة تتوافق مع طبيعة أعمالك."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We develop integrated solutions that boost your\n"
-"                          business expansion efficiently."
+"We develop integrated solutions that boost your business\n"
+"                        expansion efficiently."
 msgstr "نوفر لك حلولًا متكاملة لتطوير أعمالك دوليًا بكفاءة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We develop investment strategies that integrate\n"
-"                            expertise and innovation."
-msgstr "نطور استراتيجيات استثمارية تدمج بين الخبرة والابتكار."
+"                          expertise and innovation."
+msgstr "نطور استراتيجيات استثمارية تدمج بين الخبرة والابتكار.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "We develop market entry strategies"
 msgstr "نطور استراتيجيات دخول الأسواق"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We develop strategies to protect against sudden\n"
-"                            market fluctuations."
-msgstr "نطور استراتيجيات الوقاية من تقلبات السوق المفاجئة."
+"We develop strategies to protect against sudden market\n"
+"                          fluctuations."
+msgstr " نطور استراتيجيات الوقاية من تقلبات السوق المفاجئة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "We developed Afriqat's ability to design\n"
-"                                  effective strategies and marketing campaigns\n"
-"                                  for clients."
+"                                effective strategies and marketing campaigns for\n"
+"                                clients."
 msgstr "تطوير القدرة على تصميم استراتيجيات وحملات تسويقية فعالة للعملاء."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "We developed Afriqat's ability to identify the\n"
-"                                  most sustainable areas in Africa."
+"                                most sustainable areas in Africa."
 msgstr "تطوير قدرة أفريقات على تحديد المجالات الأكثر استدامة في أفريقيا."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We effectively manages your relationships with\n"
-"                              suppliers, optimizing your communication and\n"
-"                              negotiation with them, to ensure that you can\n"
-"                              optimize your import and export operations in an\n"
-"                              integrated manner."
+"                            suppliers, optimizing your communication and\n"
+"                            negotiation with them, to ensure that you can\n"
+"                            optimize your import and export operations in an\n"
+"                            integrated manner."
 msgstr ""
 "تدير أوراسيا علاقاتك مع الموردين بشكل فعال، عبر تحسين تواصلك وتفاوضك معهم، لضمان تمكنك من تعزيز كفاءة عمليات الاستيراد والتصدير بشكل "
 "متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We efficiently prepare the documents required for\n"
-"                              international trade."
-msgstr "نجهز الوثائق المطلوبة للتجارة الدولية بكفاءة."
+"                            international trade."
+msgstr "نجهز الوثائق المطلوبة للتجارة الدولية بكفاءة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We empower you to identify and assess suitable\n"
-"                                  local partners and boost your ability to\n"
-"                                  manage relationships with them effectively."
-msgstr "تمكنك أوراسيا من تحديد وتقييم الشركاء المحليين المناسبين، وتطور قدرتك على إدارة علاقاتك معهم بشكل فعال."
+"                                local partners and boost your ability to manage\n"
+"                                relationships with them effectively."
+msgstr "تمكنك أوراسيا من تحديد وتقييم الشركاء المحليين المناسبين، وتطور قدرتك على إدارة علاقاتك معهم بشكل فعال. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We enable you to achieve the desired legal and\n"
-"                            regulatory compliance for effective expansion into\n"
-"                            new markets."
-msgstr "نمكنك من تحقيق الامتثال القانوني والتنظيمي المرغوب لتحقيق التوسع الفعال في الأسواق الجديدة."
+"                          regulatory compliance for effective expansion into new\n"
+"                          markets."
+msgstr " نمكنك من تحقيق الامتثال القانوني والتنظيمي المرغوب لتحقيق التوسع الفعال في الأسواق الجديدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
-msgid ""
-"We enable you to fully diversify your\n"
-"                                  portfolio."
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
+msgid "We enable you to fully diversify your portfolio."
 msgstr "نمكنك من تنويع محفظتك الاستثمارية بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We enable you to manage contract negotiations and\n"
-"                            compliance, to ensure your business is protected."
+"                          compliance, to ensure your business is protected."
 msgstr "نمكنك من إدارة عمليات التفاوض والامتثال للعقود، لضمان حماية أعمالك."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We enable you to negotiate effectively on contracts\n"
-"                            and commercial agreements to maximize benefits."
-msgstr "نمكنك من التفاوض بشكل فعال على العقود والاتفاقيات التجارية لكي تحقق أعلى فائدة."
+"                          and commercial agreements to maximize benefits."
+msgstr " نمكنك من التفاوض بشكل فعال على العقود والاتفاقيات التجارية لكي تحقق أعلى فائدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We enable you to select the best suppliers that\n"
-"                            support the sustainability of your supply chain."
-msgstr "نمكنك من اختيار أفضل الموردين الذين يدعمون استدامة سلسلة توريدك."
+"                          support the sustainability of your supply chain."
+msgstr "نمكنك من اختيار أفضل الموردين الذين يدعمون استدامة سلسلة توريدك.  "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page
@@ -2074,35 +2056,24 @@ msgid "We enhance the ability to make effective decisions:"
 msgstr "نعزز القدرة على اتخاذ قرارات فعالة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "We enhance the efficiency of strategic investments"
 msgstr "نعزز كفاءة الاستثمارات الاستراتيجية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We enhance the efficiency of your investments and\n"
-"                          manage them to achieve sustainable returns."
-msgstr "نحسن كفاءة استثماراتك ونوجهها لتحقيق العوائد المستدامة."
+"We enhance the efficiency of your investments and manage\n"
+"                        them to achieve sustainable returns."
+msgstr "نحسن كفاءة استثماراتك ونوجهها لتحقيق العوائد المستدامة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We enhance your ability to manage relationships with\n"
-"                            local suppliers comprehensively to ensure achieving\n"
-"                            the desired growth."
-msgstr "نعزز قدرتك على إدارة علاقاتك مع الموردين المحليين بشكل متكامل، لنضمن استدامة أعمالك في الأسواق الجديدة."
-
-#. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
-msgid ""
-"We enhance your supply chain through our integrated\n"
-"                          solutions that help simplify your operations, reduce\n"
-"                          costs, and achieve the highest level of efficiency to\n"
-"                          ensure you gain a competitive edge in the market."
-msgstr ""
-"نعمل على تنمية سلسلة توريدك، عبر حلولنا المتكاملة التي تساعدك على تبسيط عملياتك، تقليل تكاليفك مع تحقيق أعلى مستوى من الكفاءة التي تضمن "
-"لك تحقيق التفوق المرغوب في السوق."
+"                          local suppliers comprehensively to ensure achieving\n"
+"                          the desired growth."
+msgstr " نعزز قدرتك على إدارة علاقاتك مع الموردين المحليين بشكل متكامل، لنضمن استدامة أعمالك في الأسواق الجديدة. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2116,7 +2087,7 @@ msgstr ""
 "لك تحقيق التفوق المرغوب في السوق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We enhance your supply chain through our integrated\n"
 "                        solutions that help simplify your operations, reduce\n"
@@ -2127,23 +2098,34 @@ msgstr ""
 "لك تحقيق التفوق المرغوب في السوق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_case_study_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+msgid ""
+"We enhance your supply chain through our integrated\n"
+"                    solutions that help simplify your operations, reduce costs,\n"
+"                    and achieve the highest level of efficiency to ensure you\n"
+"                    gain a competitive edge in the market."
+msgstr ""
+"نعمل على تنمية سلسلة توريدك، عبر حلولنا المتكاملة التي تساعدك على تبسيط عملياتك، تقليل تكاليفك مع تحقيق أعلى مستوى من الكفاءة التي تضمن "
+"لك تحقيق التفوق المرغوب في السوق."
+
+#. module: theme_avrasya
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_case_study_template
 msgid ""
 "We enhanced the smooth flow of goods and\n"
-"                                  services across Africa and improved logistics\n"
-"                                  services efficiently."
+"                                services across Africa and improved logistics\n"
+"                                services efficiently."
 msgstr "تعزيز سلاسة تدفق البضائع والخدمات عبر القارة، وتطوير كفاءة الخدمات اللوجستية بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We ensure accuracy and legal compliance."
-msgstr "نضمن الدقة والامتثال القانوني."
+msgstr " نضمن الدقة والامتثال القانوني. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We ensure speed and flexibility in customs clearance\n"
-"                          operations."
+"                        operations."
 msgstr "سرعة ومرونة في تنفيذ عمليات التخليص الجمركي."
 
 #. module: theme_avrasya
@@ -2157,32 +2139,31 @@ msgstr ""
 "نحرص على تقديم حلول عالية الجودة، ونلتزم بأعلى المعايير لضمان تقديم أفضل الخدمات التي تلبي احتياجات عملائنا وتحقق لهم النجاح المستدام."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We ensure that your products and services comply\n"
-"                              with local and international standards to minimize\n"
-"                              legal and operational risks."
-msgstr "تساعد أوراسيا في التأكد من أن منتجاتك وخدماتك تتوافق مع المعايير المحلية والدولية، مما يقلل من المخاطر القانونية والتشغيلية."
+"                            with local and international standards to minimize\n"
+"                            legal and operational risks."
+msgstr "تساعد أوراسيا في التأكد من أن منتجاتك وخدماتك تتوافق مع المعايير المحلية والدولية، مما يقلل من المخاطر القانونية والتشغيلية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We ensure your compliance with local and\n"
-"                              international regulations."
-msgstr "نضمن امتثالك للوائح المحلية والدولية."
+"                            international regulations."
+msgstr "نضمن امتثالك للوائح المحلية والدولية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "We facilitate your international trade"
 msgstr "نسهل تجارتك الدولية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We focus on achieving flexibility in supply chain\n"
-"                            management, to minimize waste and boost\n"
-"                            productivity."
-msgstr "نركز على تحقيق المرونة في إدارة سلاسل التوريد، لتقليل الهدر وتعزيز الإنتاجية."
+"                          management, to minimize waste and boost productivity."
+msgstr "نركز على تحقيق المرونة في إدارة سلاسل التوريد، لتقليل الهدر وتعزيز الإنتاجية.  "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2190,18 +2171,18 @@ msgid "We follow the best standards:"
 msgstr "نتبع أفضل المعايير"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We forecast future growth and demand in various\n"
-"                              industries."
-msgstr "نستشرف طبيعة النمو والطلب المستقبلي في مختلف المجالات."
+"                            industries."
+msgstr " نستشرف طبيعة النمو والطلب المستقبلي في مختلف المجالات."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We have an efficient team of experts in international\n"
-"                          trade operations."
-msgstr "فريق من الخبراء في عمليات التجارة الدولية."
+"                        trade operations."
+msgstr "فريق من الخبراء في عمليات التجارة الدولية.  "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2240,28 +2221,27 @@ msgid ""
 msgstr "لكي نساعد عملاءنا على تطوير أعمالهم محليًا ودوليًا بشكل متكامل يتوافق مع أبرز معايير الاستدامة العالمية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
 "We help strengthen your investments through our\n"
-"                            well-thought-out market entry strategies. Our\n"
-"                            integrated solutions and expert team help you find\n"
-"                            and capitalize on global opportunities for maximum\n"
-"                            investment returns."
+"                        well-thought-out market entry strategies. Our integrated\n"
+"                        solutions and expert team help you find and capitalize\n"
+"                        on global opportunities for maximum investment returns."
 msgstr ""
 "نمكنك من تعزيز استثماراتك من خلال استراتيجياتنا المدروسة لدخول الأسواق الجديدة، حيث نستخدم حلولنا المتكاملة ونستعين بأكفأ الخبراء، لنمكنك "
 "من استكشاف الفرص الواعدة عالميًا، ونساعدك على تحقيق أقصى عائد من استثماراتك."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help strengthen your investments through our\n"
-"                          well-thought-out market entry strategies. Through our\n"
-"                          integrated solutions and experienced experts, we\n"
-"                          enable you to explore promising global opportunities\n"
-"                          and achieve maximum returns on your investments."
+"                        well-thought-out market entry strategies. Through our\n"
+"                        integrated solutions and experienced experts, we enable\n"
+"                        you to explore promising global opportunities and\n"
+"                        achieve maximum returns on your investments."
 msgstr ""
 "نمكنك من تعزيز استثماراتك من خلال استراتيجياتنا المدروسة لدخول الأسواق الجديدة، حيث نستخدم حلولنا المتكاملة ونستعين بأكفأ الخبراء، لنمكنك "
-"من استكشاف الفرص الواعدة عالميًا، ونساعدك على تحقيق أقصى عائد من استثماراتك."
+"من استكشاف الفرص الواعدة عالميًا، ونساعدك على تحقيق أقصى عائد من استثماراتك. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2276,19 +2256,18 @@ msgstr ""
 "من استكشاف الفرص الواعدة عالميًا، ونساعدك على تحقيق أقصى عائد من استثماراتك."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We help you allocate and diversify your assets\n"
-"                            effectively."
-msgstr "نساعدك على توزيع وتنويع أصولك بشكل فعال."
+"                          effectively."
+msgstr "نساعدك على توزيع وتنويع أصولك بشكل فعال. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help you build an effective brand identity that\n"
-"                            strengthens your competitive position in new\n"
-"                            markets."
-msgstr "نمكنك من بناء هوية تجارية فعالة تعزز من قوتك التنافسية في الأسواق الجديدة."
+"                          strengthens your competitive position in new markets."
+msgstr " نمكنك من بناء هوية تجارية فعالة تعزز من قوتك التنافسية في الأسواق الجديدة."
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2302,84 +2281,83 @@ msgstr ""
 "مخصصة تتناسب مع خصائص الأسواق المستهدفة، لكي نعزز فرص دخولك للأسواق الجديدة بسلاسة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help you determine the optimal pricing model for\n"
-"                            each market based on an integrated analysis of costs\n"
-"                            and competition."
-msgstr "نساعدك على تحديد نموذج التسعير الأمثل لكل سوق بناءً على تحليل متكامل للتكاليف وطبيعة المنافسة."
+"                          each market based on an integrated analysis of costs\n"
+"                          and competition."
+msgstr "نساعدك على تحديد نموذج التسعير الأمثل لكل سوق بناءً على تحليل متكامل للتكاليف وطبيعة المنافسة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We help you develop long-term relationships with\n"
-"                            suppliers to optimize your supply efficiency."
-msgstr "نساعدك على تطوير علاقات طويلة الأمد مع الموردين لتعزيز كفاءة إمدادك."
+"                          suppliers to optimize your supply efficiency."
+msgstr " نساعدك على تطوير علاقات طويلة الأمد مع الموردين لتعزيز كفاءة إمدادك. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We help you diversify your investment portfolio and\n"
-"                        analyze opportunities to reduce risks and achieve the\n"
-"                        highest returns from your investments in a comprehensive\n"
-"                        manner."
+"                      analyze opportunities to reduce risks and achieve the\n"
+"                      highest returns from your investments in a comprehensive\n"
+"                      manner."
 msgstr "نساعدك على تنويع محفظتك الاستثمارية وتحليل الفرص المتاحة بكفاءة لتقليل المخاطر وتحقيق أعلى عوائد ممكنة من استثماراتك بشكل فعال."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"We help you effectively study and analyze\n"
-"                                  local competitors in new markets to develop\n"
-"                                  effective competitive advantages that help you\n"
-"                                  overcome them."
+"We help you effectively study and analyze local\n"
+"                                competitors in new markets to develop effective\n"
+"                                competitive advantages that help you overcome\n"
+"                                them."
 msgstr ""
-"تساعدك أوراسيا في دراسة وتحليل المنافسين المحليين في الأسواق الجديدة بشكل فعال، وتمكنك من تطوير المميزات التنافسية الفعالة للتغلب عليهم."
+"تساعدك أوراسيا في دراسة وتحليل المنافسين المحليين في الأسواق الجديدة بشكل فعال، وتمكنك من تطوير المميزات التنافسية الفعالة للتغلب عليهم.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help you find reliable local partners and\n"
-"                            distributors to strengthen your ability to grow in\n"
-"                            new markets."
-msgstr "نساعدك على إيجاد الشركاء المحليين والموزعين الموثوقين، لتعزيز قدرتك على النمو في الأسواق الجديدة."
+"                          distributors to strengthen your ability to grow in new\n"
+"                          markets."
+msgstr " نساعدك على إيجاد الشركاء المحليين والموزعين الموثوقين، لتعزيز قدرتك على النمو في الأسواق الجديدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "We help you find the best financing solutions."
-msgstr "نساعدك على الوصول لأفضل الحلول التمويلية."
+msgstr "نساعدك على الوصول لأفضل الحلول التمويلية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We help you find the best suppliers who are\n"
-"                                  providing the highest quality at the lowest\n"
-"                                  cost."
-msgstr "تساعدك أوراسيا على الوصول لأفضل الموردين الذين يقدمون أعلى جودة بأقل تكلفة."
+"                                providing the highest quality at the lowest\n"
+"                                cost."
+msgstr "تساعدك أوراسيا على الوصول لأفضل الموردين الذين يقدمون أعلى جودة بأقل تكلفة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help you identify operational, financial, and\n"
-"                            commercial risks in new markets."
-msgstr "نساعدك على تحديد المخاطر التشغيلية، المالية والتجارية للأسواق الجديدة."
+"                          commercial risks in new markets."
+msgstr "نساعدك على تحديد المخاطر التشغيلية، المالية والتجارية للأسواق الجديدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We help you identify the most important\n"
-"                                  technological innovations and effectively\n"
-"                                  integrate them into your strategy to ensure\n"
-"                                  the sustainability of your investments\n"
-"                                  efficiently."
+"                                technological innovations and effectively\n"
+"                                integrate them into your strategy to ensure the\n"
+"                                sustainability of your investments efficiently."
 msgstr "نساعدك على تحديد أبرز الابتكارات التكنولوجية، ودمجها بشكل فعال في استراتيجيتك لضمان استدامة استثماراتك بكفاءة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We help you optimize your logistics operations\n"
-"                                  in new markets, to enhance your growth\n"
-"                                  efficiently."
-msgstr "تساعدك أوراسيا على تحسين عملياتك اللوجستية داخل الأسواق الجديدة لتمكينك من تعزيز نموك بكفاءة."
+"                                in new markets, to enhance your growth\n"
+"                                efficiently."
+msgstr "تساعدك أوراسيا على تحسين عملياتك اللوجستية داخل الأسواق الجديدة لتمكينك من تعزيز نموك بكفاءة. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2393,53 +2371,41 @@ msgstr ""
 "تدفق منتجاتك وخدماتك، وتطوير كفاءة عملياتك اللوجستية بشكل فعال."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We help you simplify your international trade and\n"
-"                            eliminate any complexities to enable you to achieve\n"
-"                            the sustainable growth you aspire to."
+"                          eliminate any complexities to enable you to achieve\n"
+"                          the sustainable growth you aspire to."
 msgstr "نساعدك في تبسيط تجارتك الدولية والقضاء على مختلف التعقيدات التي تواجهك، لتحقيق النمو المستدام الذي تتطلع له."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We identify potential business risks."
-msgstr "نحدد المخاطر التجارية المحتملة."
+msgstr " نحدد المخاطر التجارية المحتملة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
-"We identify the best opportunities in\n"
-"                              international markets."
+"We identify the best opportunities in international\n"
+"                            markets."
 msgstr "نحدد أفضل الفرص في الأسواق الدولية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We improve every aspect of your operations to ensure\n"
-"                            you achieve the highest level of performance\n"
-"                            efficiency and help you stand out in the market and\n"
-"                            achieve the desired growth that guarantees the best\n"
-"                            results."
+"                          you achieve the highest level of performance\n"
+"                          efficiency and help you stand out in the market and\n"
+"                          achieve the desired growth that guarantees the best\n"
+"                          results."
 msgstr ""
 "نعمل على تحسين كل جانب من جوانب عملياتك لضمان تحقيقك أعلى مستوى من الكفاءة في الأداء، ما يساعدك على التميز في السوق وتحقيق الكفاءة "
-"التشغيلية المرغوبة التي تضمن لك تحقيق أفضل النتائج."
+"التشغيلية المرغوبة التي تضمن لك تحقيق أفضل النتائج. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid "We improve supply chains"
 msgstr "نحسن سلاسل التوريد"
-
-#. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
-msgid ""
-"We improve your strategic investment efficiency and\n"
-"                          provide continuous support to ensure you achieve the\n"
-"                          best returns through our comprehensive services and\n"
-"                          solutions, which will enable you to expand your\n"
-"                          business globally in an integrated manner."
-msgstr ""
-"نحسن كفاءة استثماراتك الاستراتيجية، وندعمك بصفة مستمرة لضمان تحقيقك أفضل العوائد، عبر خدماتنا وحلولنا الشاملة، والتي تمكنك من تطوير "
-"أعمالك دوليًا بشكل متكامل."
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2454,7 +2420,7 @@ msgstr ""
 "أعمالك دوليًا بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We improve your strategic investment efficiency and\n"
 "                        provide continuous support to ensure you achieve the\n"
@@ -2466,99 +2432,109 @@ msgstr ""
 "أعمالك دوليًا بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
+msgid ""
+"We improve your strategic investment efficiency and provide\n"
+"                    continuous support to ensure you achieve the best returns\n"
+"                    through our comprehensive services and solutions, which will\n"
+"                    enable you to expand your business globally in an integrated\n"
+"                    manner."
+msgstr ""
+"نحسن كفاءة استثماراتك الاستراتيجية، وندعمك بصفة مستمرة لضمان تحقيقك أفضل العوائد، عبر خدماتنا وحلولنا الشاملة، والتي تمكنك من تطوير "
+"أعمالك دوليًا بشكل متكامل."
+
+#. module: theme_avrasya
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We innovate the latest solutions to enhance your\n"
-"                          logistics operations performance."
-msgstr "نوفر أحدث الحلول التي تضمن تعزيز أداء عملياتك اللوجستية."
+"                        logistics operations performance."
+msgstr "نوفر أحدث الحلول التي تضمن تعزيز أداء عملياتك اللوجستية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We optimize operational resilience to ensure your\n"
-"                            logistics business can continue in all\n"
-"                            circumstances."
-msgstr "نحسن المرونة التشغيلية لنضمن استمرارية أعمالك اللوجستية في جميع الظروف."
+"                          logistics business can continue in all circumstances."
+msgstr "نحسن المرونة التشغيلية لنضمن استمرارية أعمالك اللوجستية في جميع الظروف. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We optimize the efficiency of your strategic\n"
-"                            investments and continuously support you to ensure\n"
-"                            the best returns, through our comprehensive services\n"
-"                            and solutions that enable you to develop your\n"
-"                            business internationally in an integrated manner."
+"                          investments and continuously support you to ensure the\n"
+"                          best returns, through our comprehensive services and\n"
+"                          solutions that enable you to develop your business\n"
+"                          internationally in an integrated manner."
 msgstr ""
 "نعزز كفاءة استثماراتك الاستراتيجية، ونوفر لك الدعم الفعال الذي يمكنك من تحقيق أفضل العوائد عبر خدماتنا وحلولنا المتكاملة التي تساعدك على "
 "تطوير أعمالك عالميًا بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We optimize the flow of resources across borders."
 msgstr "نحسين تدفق الموارد عبر الحدود."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We optimize warehousing and transportation processes\n"
-"                            to ensure your products arrive on time."
-msgstr "نطور عمليات التخزين والنقل لضمان وصول منتجاتك في الوقت المناسب."
+"                          to ensure your products arrive on time."
+msgstr "نطور عمليات التخزين والنقل لضمان وصول منتجاتك في الوقت المناسب.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We optimize your operational performance to ensure\n"
-"                          sustainable growth for your business."
-msgstr "نحسن الأداء التشغيلي لعملياتك لنضمن تحقيق نمو مستدام لأعمالك."
+"                        sustainable growth for your business."
+msgstr "نحسن الأداء التشغيلي لعملياتك لنضمن تحقيق نمو مستدام لأعمالك.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We organize shipping and distribution efficiently."
-msgstr "ننظم عمليات الشحن والتوزيع بكفاءة."
+msgstr " ننظم عمليات الشحن والتوزيع بكفاءة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We provide a range of innovative solutions\n"
-"                                  that enhance the sustainability of your supply\n"
-"                                  chain in an ideal way."
-msgstr "نقدم لك مجموعة من الحلول المُبتكرة التي تسهم في تعزيز استدامة سلاسل توريدك بشكل مثالي."
+"We provide a range of innovative solutions that\n"
+"                                enhance the sustainability of your supply chain\n"
+"                                in an ideal way."
+msgstr "نقدم لك مجموعة من الحلول المُبتكرة التي تسهم في تعزيز استدامة سلاسل توريدك بشكل مثالي.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We provide accurate reports to support your\n"
-"                            investment decision-making process."
+"We provide accurate reports to support your investment\n"
+"                          decision-making process."
 msgstr " نقدم تقارير دقيقة تدعم عملية اتخاذ القرار الاستثماري. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We provide assistance on appropriate financing\n"
-"                            mechanisms for innovative projects with growing\n"
-"                            returns."
+"                          mechanisms for innovative projects with growing\n"
+"                          returns."
 msgstr "نقدم المعونة حول آليات التمويل المناسبة للمشاريع المبتكرة ذات العوائد المتنامية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We provide comprehensive insights into emerging\n"
-"                            strategic opportunities in the markets."
-msgstr "نوفر رؤى شاملة حول الفرص الاستراتيجية المستحدثة في الأسواق."
+"                          strategic opportunities in the markets."
+msgstr " نوفر رؤى شاملة حول الفرص الاستراتيجية المستحدثة في الأسواق."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We provide comprehensive support to help you manage\n"
-"                          your supplier relationships effectively."
-msgstr "نقدم لك دعم متكامل يساعدك على إدارة علاقاتك مع الموردين بشكل فعال."
+"We provide comprehensive support to help you manage your\n"
+"                        supplier relationships effectively."
+msgstr "نقدم لك دعم متكامل يساعدك على إدارة علاقاتك مع الموردين بشكل فعال.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We provide customized advice to ensure you\n"
-"                                  achieve the highest returns over the long\n"
-"                                  term."
+"                                achieve the highest returns over the long term."
 msgstr "نقدم استشارات مخصصة لضمان تحقيقك أعلى العوائد على المدى البعيد."
 
 #. module: theme_avrasya
@@ -2573,57 +2549,55 @@ msgstr ""
 "لتحقيق التوسع العالمي بالشكل الناجح الذي تتطلع له."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
-"We provide customized solutions for each client based\n"
-"                          on their needs."
-msgstr "حلول مخصصة لكل عميل وفقًا لاحتياجاته."
+"We provide customized solutions for each client based on\n"
+"                        their needs."
+msgstr "حلول مخصصة لكل عميل وفقًا لاحتياجاته.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We provide effective advice that ensures the\n"
-"                            long-term stability of your investments."
-msgstr "نوفر استشارات فعالة تضمن استقرار استثماراتك على المدى البعيد."
+"We provide effective advice that ensures the long-term\n"
+"                          stability of your investments."
+msgstr "نوفر استشارات فعالة تضمن استقرار استثماراتك على المدى البعيد. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
-msgid ""
-"We provide effective advice to minimize legal\n"
-"                              risks."
-msgstr "نقدم استشارات فعالة لتقليل المخاطر القانونية."
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
+msgid "We provide effective advice to minimize legal risks."
+msgstr " نقدم استشارات فعالة لتقليل المخاطر القانونية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We provide effective strategic recommendations for\n"
-"                              successful expansion."
-msgstr "نقدم توصيات استراتيجية فعالة تمكنك من تحقيق توسع ناجح."
+"                            successful expansion."
+msgstr " نقدم توصيات استراتيجية فعالة تمكنك من تحقيق توسع ناجح."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We provide in-depth market research and marketing\n"
-"                              strategies that adapt to local cultures, to help\n"
-"                              organizations stand out and increase market share."
-msgstr "توفر أوراسيا دراسات سوق متعمقة واستراتيجيات تسويقية تتوافق مع الثقافات المحلية، ما يساعد الشركات على التميز وزيادة حصتها في السوق."
+"                            strategies that adapt to local cultures, to help\n"
+"                            organizations stand out and increase market share."
+msgstr "توفر أوراسيا دراسات سوق متعمقة واستراتيجيات تسويقية تتوافق مع الثقافات المحلية، ما يساعد الشركات على التميز وزيادة حصتها في السوق. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We provide integrated support through all stages, from\n"
-"                          planning to execution, to ensure effective and\n"
-"                          sustainable expansion."
-msgstr "نوفر لك دعم متكامل في جميع المراحل، بداية من التخطيط وحتى التنفيذ، لنضمن توسعك بشكل مستدام."
+"                        planning to execution, to ensure effective and\n"
+"                        sustainable expansion."
+msgstr "نوفر لك دعم متكامل في جميع المراحل، بداية من التخطيط وحتى التنفيذ، لنضمن توسعك بشكل مستدام.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We provide legal and regulatory consulting to\n"
-"                                  help you understand new markets' legal\n"
-"                                  requirements and risks and ensure your\n"
-"                                  compliance effectively."
-msgstr "تقدم لك أوراسيا استشارات قانونية وتنظيمية تساعدك على فهم المتطلبات والمخاطر القانونية في الأسواق الجديدة، لضمان امتثالك بشكل فعال."
+"                                help you understand new markets' legal\n"
+"                                requirements and risks and ensure your\n"
+"                                compliance effectively."
+msgstr "تقدم لك أوراسيا استشارات قانونية وتنظيمية تساعدك على فهم المتطلبات والمخاطر القانونية في الأسواق الجديدة، لضمان امتثالك بشكل فعال. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_aboutus_page model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2636,87 +2610,76 @@ msgstr ""
 "حيث نقدم خدماتنا في 26 دولة، ما مكننا من امتلاك الخبرة المطلوبة التي مكنت عملاؤنا من تطوير استثماراتهم واستكشاف فرص النجاح الدولية بكفاءة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We provide precise analysis and develop effective\n"
-"                          strategies to maximize your success in new markets."
-msgstr "نقدم تحليلات دقيقة ونطور استراتيجيات فعالة تعظم إمكانات نجاحك في الأسواق الجديدة."
+"                        strategies to maximize your success in new markets."
+msgstr "نقدم تحليلات دقيقة ونطور استراتيجيات فعالة تعظم إمكانات نجاحك في الأسواق الجديدة.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"We provide shipment tracking solutions to optimize\n"
-"                            the performance of your logistics operations."
-msgstr "نوفر حلول تتبع الشحنات لتحسين أداء عملياتك اللوجستية."
+"We provide shipment tracking solutions to optimize the\n"
+"                          performance of your logistics operations."
+msgstr " نوفر حلول تتبع الشحنات لتحسين أداء عملياتك اللوجستية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We provide thorough research and analysis to\n"
-"                                  guide you towards sustainable investment\n"
-"                                  opportunities."
+"                                guide you towards sustainable investment\n"
+"                                opportunities."
 msgstr "نقدم دراسات دقيقة وتحليل شامل لتوجيهك نحو الفرص الاستثمارية المستدامة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We provide you with effective consultations that\n"
-"                              help you efficiently prepare your international\n"
-"                              trade documentation."
-msgstr "نقدم لك استشارات فعالة تساعدك على إعداد وثائق عمليات تجارتك الدولية بكفاءة."
+"                            help you efficiently prepare your international\n"
+"                            trade documentation."
+msgstr "نقدم لك استشارات فعالة تساعدك على إعداد وثائق عمليات تجارتك الدولية بكفاءة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We provide you with practical market analysis and\n"
-"                          identify exceptional investment opportunities."
-msgstr "نقدم لك تحليل فعال للأسواق، ونحدد لك الفرص الاستثمارية الاستثنائية."
+"                        identify exceptional investment opportunities."
+msgstr "نقدم لك تحليل فعال للأسواق، ونحدد لك الفرص الاستثمارية الاستثنائية.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
-"We provide you with the latest solutions that help\n"
-"                            you maximize the growth of your portfolio."
+"We provide you with the latest solutions that help you\n"
+"                          maximize the growth of your portfolio."
 msgstr "نزودك بأحدث الحلول التي تساعدك على تعزيز نمو محفظتك بشكل مستدام."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We provides integrated consulting and effective\n"
-"                              solutions that enable you to comply with local and\n"
-"                              international customs and regulatory regulations\n"
-"                              in an integrated manner."
+"                            solutions that enable you to comply with local and\n"
+"                            international customs and regulatory regulations in\n"
+"                            an integrated manner."
 msgstr "تقدم أوراسيا استشارات متكاملة وحلولًا فعالة تمكنك من الامتثال للوائح الجمركية والتنظيمية المحلية والدولية بشكل متكامل."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "We reduce costs and improve the quality of your\n"
-"                              logistics operations."
-msgstr "نقلل التكاليف ونطور جودة عملياتك اللوجستية."
+"                            logistics operations."
+msgstr " نقلل التكاليف ونطور جودة عملياتك اللوجستية."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
-"We reduce risks and ensure comprehensive compliance\n"
-"                          with local regulations in new markets."
-msgstr "نقلل المخاطر ونضمن امتثالك بشكل متكامل للوائح المحلية في الأسواق الجديدة."
+"We reduce risks and ensure comprehensive compliance with\n"
+"                        local regulations in new markets."
+msgstr "نقلل المخاطر ونضمن امتثالك بشكل متكامل للوائح المحلية في الأسواق الجديدة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We simplify customs clearance processes."
 msgstr "نبسط عمليات التخليص الجمركي."
-
-#. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.avrasya_services_page_ir_ui_view
-msgid ""
-"We simplify international operations and streamline\n"
-"                          cross-border trade to help you reduce complications\n"
-"                          you may face, improve operational efficiency, and\n"
-"                          ensure your business runs on time and within budget."
-msgstr ""
-"نعمل على تسهيل العمليات الدولية وتبسيط التجارة عبر الحدود، لنساعدك على تقليل التعقيدات التي قد تواجهك، تعزيز كفاءة عملياتك، وضمان سير "
-"أعمالك وفقًا للوقت والميزانية المحددة."
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2730,20 +2693,31 @@ msgstr ""
 "أعمالك وفقًا للوقت والميزانية المحددة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_services_template
 msgid ""
-"We simplify international trade and streamline\n"
-"                          cross-border trade to help you reduce complications\n"
-"                          you may face, improve operational efficiency, and\n"
-"                          ensure your business runs on time and within budget."
+"We simplify international operations and streamline\n"
+"                      cross-border trade to help you reduce complications you\n"
+"                      may face, improve operational efficiency, and ensure your\n"
+"                      business runs on time and within budget."
 msgstr ""
 "نعمل على تسهيل العمليات الدولية وتبسيط التجارة عبر الحدود، لنساعدك على تقليل التعقيدات التي قد تواجهك، تعزيز كفاءة عملياتك، وضمان سير "
 "أعمالك وفقًا للوقت والميزانية المحددة."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
+msgid ""
+"We simplify international trade and streamline\n"
+"                        cross-border trade to help you reduce complications you\n"
+"                        may face, improve operational efficiency, and ensure\n"
+"                        your business runs on time and within budget."
+msgstr ""
+"نعمل على تسهيل العمليات الدولية وتبسيط التجارة عبر الحدود، لنساعدك على تقليل التعقيدات التي قد تواجهك، تعزيز كفاءة عملياتك، وضمان سير "
+"أعمالك وفقًا للوقت والميزانية المحددة."
+
+#. module: theme_avrasya
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "We speed up your import and export processes."
-msgstr "نسرع عمليات الاستيراد والتصدير."
+msgstr " نسرع عمليات الاستيراد والتصدير. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_home_page
@@ -2755,40 +2729,40 @@ msgid ""
 msgstr "ندعم الشركات ونضمن وصولها لأفضل المواد الخام وأحدث المعدات لضمان كفاءة واستدامة عمليات التصنيع."
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "We support you continuously to achieve the best ROI."
-msgstr "ندعمك بشكل مستمر لتحقيق أفضل العوائد على استثماراتك."
+msgstr "ندعمك بشكل مستمر لتحقيق أفضل العوائد على استثماراتك. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "We support your logistics operations and improve\n"
-"                            efficiency to ensure your products and services are\n"
-"                            effectively available in new markets."
-msgstr "ندعم عملياتك اللوجستية ونطور كفاءتها لنضمن توفر منتجاتك وخدماتك بشكل فعال في الأسواق الجديدة."
+"                          efficiency to ensure your products and services are\n"
+"                          effectively available in new markets."
+msgstr " ندعم عملياتك اللوجستية ونطور كفاءتها لنضمن توفر منتجاتك وخدماتك بشكل فعال في الأسواق الجديدة. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid ""
 "We thoroughly study and analyze markets to identify\n"
-"                            the best investment opportunities."
+"                          the best investment opportunities."
 msgstr "ندرس ونحلل الأسواق بشكل دقيق لتحديد أفضل الفرص الاستثمارية. "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We use state-of-the-art supply chain management\n"
-"                            systems to optimize operations."
-msgstr "نستخدم أحدث أنظمة إدارة سلسلة التوريد لتحسين العمليات."
+"                          systems to optimize operations."
+msgstr " نستخدم أحدث أنظمة إدارة سلسلة التوريد لتحسين العمليات.  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
 "We use various advanced tools and analysis\n"
-"                                  solutions to help you manage your inventory\n"
-"                                  accurately and minimize issues of surplus or\n"
-"                                  shortage."
-msgstr "تستخدم أوراسيا مجموعة من الحلول وأدوات التحليل المتقدمة، التي تهدف لتمكينك من ضبط مخزونك بدقة، ما يحد من مشكلات الفائض أو النقص."
+"                                solutions to help you manage your inventory\n"
+"                                accurately and minimize issues of surplus or\n"
+"                                shortage."
+msgstr "تستخدم أوراسيا مجموعة من الحلول وأدوات التحليل المتقدمة، التي تهدف لتمكينك من ضبط مخزونك بدقة، ما يحد من مشكلات الفائض أو النقص. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_custom_info_map
@@ -2817,35 +2791,35 @@ msgid "What Makes Avrasya Standout"
 msgstr "ما الذي يميز أوراسيا؟!"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "What are the Key challenges of international trade\n"
-"                          operations?"
-msgstr "ما هي أبرز تحديات عمليات التجارة الدولية؟"
+"                        operations?"
+msgstr "ما هي أبرز تحديات عمليات التجارة الدولية؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid "What are the Key challenges of international trade operations?"
-msgstr "ما هي أبرز تحديات عمليات التجارة الدولية؟"
+msgstr "ما هي أبرز تحديات عمليات التجارة الدولية؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid ""
-"What are the key challenges businesses face in\n"
-"                          improving supply chains?"
-msgstr "ما هي أبرز التحديات التي تواجه الأعمال في تحسين سلاسل التوريد؟"
+"What are the key challenges businesses face in improving\n"
+"                        supply chains?"
+msgstr "ما هي أبرز التحديات التي تواجه الأعمال في تحسين سلاسل التوريد؟  "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "What are the key challenges of strategic investment?"
-msgstr "ما هي أبرز تحديات الاستثمار الاستراتيجي؟"
+msgstr "ما هي أبرز تحديات الاستثمار الاستراتيجي؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid ""
 "What are the key challenges you might face when\n"
-"                          expanding into new markets?"
-msgstr "ما هي التحديات التي قد تواجهك أثناء التوسع لأسواق جديدة؟"
+"                        expanding into new markets?"
+msgstr "ما هي التحديات التي قد تواجهك أثناء التوسع لأسواق جديدة؟ "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.avrasya_testimonials_snippet
@@ -2870,46 +2844,46 @@ msgid "Why Avrasya?"
 msgstr "لماذا أوراسيا؟!"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Why Choose Our Services?"
-msgstr "لماذا تختار خدماتنا؟"
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.strategic_investments_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.strategic_investments_template
 msgid "Why choose our services?"
-msgstr "لماذا تختار خدماتنا؟"
+msgstr "لماذا تختار خدماتنا؟ "
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
-"Why should you care about facilitating international\n"
-"                        trade operations?"
+"Why should you care about facilitating international trade\n"
+"                      operations?"
 msgstr "انطلق نحو النمو المستدام بتسهيل عمليات التجارة الدولية"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.market_entry_strategies_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.market_entry_strategies_template
 msgid "Why should you expand your business into new markets?"
 msgstr "وسّع قاعدة عملائك ونمّي إيراداتك من خلال التوسع إلى أسواق جديدة"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.supply_chain_optimization_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.supply_chain_optimization_template
 msgid "Why should you improve your supply chain?"
 msgstr "ارتقِ بأداء مؤسستك من خلال تحسين سلسلة التوريد"
 
 #. module: theme_avrasya
-#: model_terms:ir.ui.view,arch_db:theme_avrasya.facilitating_global_trade_service_page_ir_ui_view
+#: model_terms:theme.ir.ui.view,arch:theme_avrasya.facilitating_global_trade_template
 msgid ""
 "With the remarkable growth of today’s business world,\n"
-"                        facilitating international trade has become a critical\n"
-"                        factor in enhancing your project's efficiency, reducing\n"
-"                        risks, and enabling you to streamline operations while\n"
-"                        cutting costs comprehensively to help you achieve the\n"
-"                        desired returns you are seeking."
+"                      facilitating international trade has become a critical\n"
+"                      factor in enhancing your project's efficiency, reducing\n"
+"                      risks, and enabling you to streamline operations while\n"
+"                      cutting costs comprehensively to help you achieve the\n"
+"                      desired returns you are seeking."
 msgstr ""
 "مع النمو المذهل الذي يشهده عالم الأعمال اليوم، أصبح تسهيل عمليات التجارة الدولية عاملًا جوهريًا لتعزيز كفاءة مشروعاتك، التقليل من مخاطرها، "
-"وتمكينك من تعزيز سلاستها وتقليل تكاليفها بشكل متكامل، لكي تدعم نموك بشكل مستدام وتحقق العوائد المرجوة التي تتطلع لها."
+"وتمكينك من تعزيز سلاستها وتقليل تكاليفها بشكل متكامل، لكي تدعم نموك بشكل مستدام وتحقق العوائد المرجوة التي تتطلع لها. "
 
 #. module: theme_avrasya
 #: model_terms:theme.ir.ui.view,arch:theme_avrasya.template_avrasya_in_numbers
